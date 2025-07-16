@@ -64,7 +64,6 @@ public class SignUp_Test {
         logger.info(currentUrl);
         System.out.println(currentUrl);
         test.pass("After clicked on sign up the URL of current Page " + currentUrl);
-
         Assert.assertNotNull(currentUrl);
         Assert.assertTrue(currentUrl.contains("/signup"), "Sign Up page was not opened!");
     }
@@ -185,7 +184,7 @@ public class SignUp_Test {
         test.info("Extracted OTP: " + otpCode);
 
         driver.switchTo().defaultContent();
-        driver.switchTo().window(tabs.get(0)); // Switch back to original tab
+        driver.switchTo().window(tabs.get(0));
 
         driver.findElement(By.xpath("//input[@placeholder='Please enter verification code']")).sendKeys(otpCode);
         driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
@@ -195,15 +194,14 @@ public class SignUp_Test {
 
     }
 
-    /*
-        @Test(priority = 1)
-        public void login() throws IOException, InterruptedException {
-            driver.findElement(By.xpath("//input[@placeholder='Email address']")).sendKeys("pnkj@yopmail.com");
-            driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Admine51%%!");
-            driver.findElement(By.xpath("//button[normalize-space()='Sign in']")).click();
-            Thread.sleep(3000);
-        }
-    */
+    /*@Test(priority = 1)
+    public void login() throws IOException, InterruptedException {
+        driver.findElement(By.xpath("//input[@placeholder='Email address']")).sendKeys("pnkj@yopmail.com");
+        driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Admine51%%!");
+        driver.findElement(By.xpath("//button[normalize-space()='Sign in']")).click();
+        Thread.sleep(5000);
+    }*/
+
     @Test(priority = 6)
     public void Fill_company_details() throws IOException, InterruptedException {
         logger.info("*****Started Fill_company_details*****");
@@ -390,21 +388,112 @@ public class SignUp_Test {
     public void Purchase_Plan() throws IOException, InterruptedException {
         logger.info("*****Starting Purchase_Plan*****");
         test.info("Purchase_Plan started");
+        System.out.println("Starting Purchase_Plan");
 
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
+        Thread.sleep(3000);
+        logger.info("Waiting for 'Get Started' button");
+        test.info("Waiting for 'Get Started' button");
+
+        WebElement clickongetstarted = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body//div//div[@component='layout']//div//div//div//div//div//div[1]//div[1]//div[3]//button[1]")));
+        clickongetstarted.click();
+        logger.info("'Get Started' button clicked");
+        test.pass("'Get Started' button clicked");
+        System.out.println("'Get Started' button clicked");
+
+        WebElement clickonpaynow = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='flex gap-2 items-center']//button[1]")));
+        clickonpaynow.click();
+        logger.info("'Pay Now' button clicked");
+        test.pass("'Pay Now' button clicked");
+        System.out.println("'Pay Now' button clicked");
+
+        WebElement clickonstripe = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h2[@class='text-[#2b2b2b] text-lg font-semibold mb-1']")));
+        clickonstripe.click();
+        logger.info("'Stripe' payment option selected");
+        test.pass("'Stripe' payment option selected");
+        System.out.println("'Stripe' payment option selected");
+
+        WebElement entercardnumber = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='cardNumber']")));
+        entercardnumber.sendKeys("4242424242424242");
+        logger.info("Card number entered");
+        test.info("Card number entered");
+        System.out.println("Card number entered");
+
+        WebElement entercardexpiry = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='cardExpiry']")));
+        entercardexpiry.sendKeys("0229");
+        logger.info("Card expiry entered");
+        test.info("Card expiry entered");
+        System.out.println("Card expiry entered");
+
+        WebElement entercvv = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='cardCvc']")));
+        entercvv.sendKeys("123");
+        logger.info("Card CVV entered");
+        test.info("Card CVV entered");
+        System.out.println("Card CVV entered");
+
+        WebElement Entername = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='billingName']")));
+        Entername.sendKeys("Pankaj Sharma");
+        logger.info("Billing name entered");
+        test.info("Billing name entered");
+        System.out.println("Billing name entered");
+
+        logger.info("Scrolling to submit button");
+        test.info("Scrolling to submit button");
+        System.out.println("Scrolling to submit button");
+
+        WebElement element = driver.findElement(By.xpath("//div[@class='SubmitButton-IconContainer']"));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+        Thread.sleep(1000);
+
+        logger.info("Clicking submit button");
+        test.info("Clicking submit button");
+        WebElement clicksubmit = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='SubmitButton-IconContainer']")));
+        clicksubmit.click();
+
+        String currentURL = driver.getCurrentUrl();
+        System.out.println("URL after purchase: " + currentURL);
+        logger.info("URL after plan purchase: " + currentURL);
+        test.pass("URL after plan purchase: " + currentURL);
+
+        String expectedSubstring = "purchase_plan=true";
+        Assert.assertTrue(currentURL.contains(expectedSubstring), "Current URL does not contain expected text: " + expectedSubstring);
+        logger.info("URL assertion passed");
+        test.pass("URL contains expected substring: " + expectedSubstring);
+        System.out.println("Assertion passed: URL contains '" + expectedSubstring + "'");
+        logger.info("*****Plan Purchased*****");
+        test.info("Plan Purchased");
     }
-
 
     @AfterTest
     public void QuitBrowser() throws IOException, InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
+        logger.info("Loaded data in Extent report");
+        test.info("Loaded data in Extent report");
+        System.out.println("Loaded data in Extent report...");
         extent.flush();
         if (driver != null) {
+            logger.info("Closing the browser");
+            test.info("Closing the browser");
+            System.out.println("Closing the browser...");
             driver.quit();
-
+        } else {
+            logger.warn("Driver was null, browser not closed");
+            test.warning("Driver was null, browser not closed");
+            System.out.println("Driver is null — nothing to quit.");
         }
+
+        logger.info("Browser quit process completed");
+        test.pass("Browser quit process completed");
+        System.out.println("Browser quit process completed.");
     }
+
+
 }
+
+
+
 
 
 
