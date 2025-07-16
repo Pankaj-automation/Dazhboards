@@ -114,8 +114,6 @@ public class SignUp_Test {
         test.pass("Navigated to Terms of Use page: " + currentUrl);
         driver.close();
         driver.switchTo().window(mainWindow);
-
-
         String mainWindow1 = driver.getWindowHandle();
         driver.findElement(By.xpath("//a[contains(@class,'')][normalize-space()='Privacy Policy']")).click();
         WebElement privacyLink = driver.findElement(By.xpath("//a[contains(@class,'')][normalize-space()='Privacy Policy']"));
