@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.Extentreportmanager;
@@ -200,14 +200,14 @@ public class SignUp_Test {
         test.info("Started Fill_company_details");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         logger.info("Entering company name");
         test.info("Entering company name");
         WebElement companyInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@spellcheck='false']")));
         companyInput.sendKeys(lastName);
         Thread.sleep(1000);
-        System.out.println("✔ Company name entered successfully");
+        System.out.println("Company name entered successfully");
         test.pass("Company name entered successfully");
 
         logger.info("Selecting product category");
@@ -221,7 +221,7 @@ public class SignUp_Test {
         updatedDropdown.sendKeys(Keys.ARROW_DOWN);
         updatedDropdown.sendKeys(Keys.ENTER);
         Thread.sleep(1000);
-        System.out.println("✔ Product category selected");
+        System.out.println("Product category selected");
         test.pass("Product category selected");
 
         logger.info("Entering Business Number");
@@ -230,7 +230,7 @@ public class SignUp_Test {
         Thread.sleep(1000);
         Business_Number.sendKeys(phoneNumber);
         Thread.sleep(1000);
-        System.out.println("✔ Business number entered");
+        System.out.println("Business number entered");
         test.pass("Business number entered");
 
         logger.info("Entering location address");
@@ -373,6 +373,10 @@ public class SignUp_Test {
         driver.switchTo().defaultContent();
         System.out.println("✔ Overlay Popup closed");
         test.pass(" Overlay Popup closed");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
+        Thread.sleep(2000);
+
 
     }
 
@@ -383,12 +387,16 @@ public class SignUp_Test {
         System.out.println("Starting Purchase_Plan");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
         Thread.sleep(3000);
+        WebElement ele = driver.findElement(By.xpath("//div[13]//div[1]//div[3]//button[1]"));
+        JavascriptExecutor js2 = (JavascriptExecutor) driver;
+        js2.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", ele);
+
+        Thread.sleep(5000);
         logger.info("Waiting for 'Get Started' button");
         test.info("Waiting for 'Get Started' button");
 
-        WebElement clickongetstarted = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body//div//div[@component='layout']//div//div//div//div//div//div[1]//div[1]//div[3]//button[1]")));
+        WebElement clickongetstarted = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[13]//div[1]//div[3]//button[1]")));
         clickongetstarted.click();
         logger.info("'Get Started' button clicked");
         test.pass("'Get Started' button clicked");
@@ -458,7 +466,7 @@ public class SignUp_Test {
         test.info("Plan Purchased");
     }
 
-    @AfterTest
+    @AfterClass
     public void QuitBrowser() throws IOException, InterruptedException {
         Thread.sleep(3000);
         logger.info("Loaded data in Extent report");
