@@ -48,13 +48,14 @@ public class SignUp_Test {
         extent = Extentreportmanager.getExtentReports();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        test = extent.createTest("SignUp_Test");
-        test.info("*Started SignUp_Test*");
-        logger.info("*SignUp_Test Initialized*");
+
     }
 
     @Test(priority = 1)
     public void Click_on_SignUp_Link() throws IOException, InterruptedException {
+        test = extent.createTest("SignUp_Test");
+        test.info("*Started SignUp_Test*");
+        logger.info("*SignUp_Test Initialized*");
         logger.info("*****Opening Browser*****");
         logger.info("*****Started SignUp*****");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -192,13 +193,6 @@ public class SignUp_Test {
 
     }
 
-    /*@Test(priority = 1)
-    public void login() throws IOException, InterruptedException {
-        driver.findElement(By.xpath("//input[@placeholder='Email address']")).sendKeys("pnkj@yopmail.com");
-        driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Admine51%%!");
-        driver.findElement(By.xpath("//button[normalize-space()='Sign in']")).click();
-        Thread.sleep(5000);
-    }*/
 
     @Test(priority = 6)
     public void Fill_company_details() throws IOException, InterruptedException {
