@@ -62,3 +62,285 @@
 11:09:03.388 [main] INFO  Login.Login_Test - Loaded data in Extent report
 11:09:03.743 [main] INFO  Login.Login_Test - Closing the browser
 11:09:03.855 [main] INFO  Login.Login_Test - Browser quit process completed
+11:11:50.414 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:11:50.914 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:11:54.052 [main] INFO  Login.Login_Test - Starting login process...
+11:11:54.352 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:11:57.373 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:11:57.376 [main] INFO  Login.Login_Test - URL validation passed.
+11:12:00.380 [main] INFO  Login.Login_Test - Loaded data in Extent report
+11:12:00.626 [main] INFO  Login.Login_Test - Closing the browser
+11:12:00.739 [main] INFO  Login.Login_Test - Browser quit process completed
+11:33:04.658 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:33:05.272 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:34:26.953 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:34:27.625 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:34:37.753 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:34:57.185 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:34:57.904 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:35:10.297 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:35:19.068 [main] INFO  Login.Login_Test - Starting login process...
+11:35:22.080 [main] INFO  Login.Login_Test - Loaded data in Extent report
+11:35:22.357 [main] INFO  Login.Login_Test - Closing the browser
+11:35:22.367 [main] INFO  Login.Login_Test - Browser quit process completed
+12:25:38.857 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:25:39.503 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:25:50.965 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:26:04.045 [main] INFO  Login.Login_Test - Starting login process...
+12:28:27.336 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:28:27.921 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:28:39.090 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:28:43.213 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:28:46.219 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:28:46.637 [main] INFO  Login.Login_Test - Closing the browser
+12:28:46.739 [main] INFO  Login.Login_Test - Browser quit process completed
+12:30:45.783 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:30:46.432 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:30:54.609 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:30:58.742 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:31:07.019 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:31:07.044 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:31:07.068 [main] INFO  Login.Login_Test - Starting login process...
+12:31:07.406 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:31:12.412 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:31:15.425 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:31:15.713 [main] INFO  Login.Login_Test - Closing the browser
+12:31:15.839 [main] INFO  Login.Login_Test - Browser quit process completed
+12:32:46.266 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:32:46.829 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:32:50.988 [main] INFO  Login.Login_Test - Starting login process...
+12:32:54.348 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:32:59.354 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:33:02.362 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:33:14.035 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:33:14.585 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:33:18.293 [main] INFO  Login.Login_Test - Starting login process...
+12:33:21.639 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:33:26.645 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:33:29.654 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:34:04.356 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:34:04.982 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:34:13.046 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:34:17.162 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:34:25.534 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:34:25.553 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:34:25.563 [main] INFO  Login.Login_Test - Starting login process...
+12:34:28.834 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:34:33.842 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:34:36.853 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:34:37.125 [main] INFO  Login.Login_Test - Closing the browser
+12:34:37.232 [main] INFO  Login.Login_Test - Browser quit process completed
+12:36:28.351 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:36:28.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:36:45.338 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:36:49.476 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:36:57.814 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:36:57.831 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:36:57.842 [main] INFO  Login.Login_Test - Starting login process...
+12:37:01.112 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:37:06.119 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:37:10.131 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:37:10.473 [main] INFO  Login.Login_Test - Closing the browser
+12:37:10.560 [main] INFO  Login.Login_Test - Browser quit process completed
+12:37:34.233 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:37:35.087 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:37:43.347 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:37:47.464 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:37:55.835 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:37:55.851 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:37:55.860 [main] INFO  Login.Login_Test - Starting login process...
+12:37:59.137 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:38:04.144 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:38:08.158 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:38:08.566 [main] INFO  Login.Login_Test - Closing the browser
+12:38:08.704 [main] INFO  Login.Login_Test - Browser quit process completed
+12:39:18.904 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:39:19.464 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:39:30.341 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:39:34.476 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:39:42.791 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:39:42.809 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:39:42.820 [main] INFO  Login.Login_Test - Starting login process...
+12:39:46.087 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:39:51.095 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:39:55.107 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:39:55.406 [main] INFO  Login.Login_Test - Closing the browser
+12:39:55.452 [main] INFO  Login.Login_Test - Browser quit process completed
+12:40:44.610 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:40:45.190 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:40:59.063 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:41:03.184 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:41:11.481 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:41:11.498 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:41:11.508 [main] INFO  Login.Login_Test - Starting login process...
+12:41:14.773 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:41:19.779 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:41:23.792 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:41:24.156 [main] INFO  Login.Login_Test - Closing the browser
+12:41:24.191 [main] INFO  Login.Login_Test - Browser quit process completed
+12:44:31.399 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:44:31.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:44:44.165 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:44:48.273 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:44:56.558 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:44:56.574 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:44:56.584 [main] INFO  Login.Login_Test - Starting login process...
+12:44:59.847 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:45:04.854 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:45:08.865 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:45:09.126 [main] INFO  Login.Login_Test - Closing the browser
+12:45:09.227 [main] INFO  Login.Login_Test - Browser quit process completed
+12:46:31.344 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:46:31.856 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:46:39.804 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:46:43.910 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:46:52.264 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:46:52.281 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:46:52.291 [main] INFO  Login.Login_Test - Starting login process...
+12:46:54.538 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:46:59.544 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:47:03.556 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:47:03.833 [main] INFO  Login.Login_Test - Closing the browser
+12:47:03.933 [main] INFO  Login.Login_Test - Browser quit process completed
+12:47:34.345 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:47:34.943 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:47:44.126 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:47:48.248 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:47:58.587 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:47:58.603 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:47:58.614 [main] INFO  Login.Login_Test - Starting login process...
+12:48:00.859 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:48:05.866 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:48:09.877 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:48:10.157 [main] INFO  Login.Login_Test - Closing the browser
+12:48:10.268 [main] INFO  Login.Login_Test - Browser quit process completed
+12:49:48.412 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:49:49.023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:49:57.042 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:50:01.160 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:50:09.504 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:50:09.521 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:50:09.531 [main] INFO  Login.Login_Test - Starting login process...
+12:50:12.791 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:50:20.810 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:50:21.165 [main] INFO  Login.Login_Test - Closing the browser
+12:50:21.200 [main] INFO  Login.Login_Test - Browser quit process completed
+12:50:57.193 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:50:57.749 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:51:05.734 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:51:09.854 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:51:18.198 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:51:18.215 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:51:18.225 [main] INFO  Login.Login_Test - Starting login process...
+12:51:21.486 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:51:26.492 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:51:30.504 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:51:30.802 [main] INFO  Login.Login_Test - Closing the browser
+12:51:30.896 [main] INFO  Login.Login_Test - Browser quit process completed
+12:52:16.010 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:52:16.547 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:52:24.463 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:52:28.575 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:52:36.893 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:52:36.910 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:52:36.920 [main] INFO  Login.Login_Test - Starting login process...
+12:52:40.187 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:52:45.193 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:52:49.205 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:52:49.501 [main] INFO  Login.Login_Test - Closing the browser
+12:52:49.598 [main] INFO  Login.Login_Test - Browser quit process completed
+12:54:13.301 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:54:13.850 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:54:19.837 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+12:54:22.947 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+12:54:27.277 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+12:54:27.294 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+12:54:27.305 [main] INFO  Login.Login_Test - Starting login process...
+12:54:30.592 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:54:35.599 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/login
+12:54:37.611 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:54:37.891 [main] INFO  Login.Login_Test - Closing the browser
+12:54:38.020 [main] INFO  Login.Login_Test - Browser quit process completed
+12:59:54.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:59:55.034 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:00:04.210 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+13:00:07.331 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+13:00:11.654 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+13:00:11.675 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+13:00:11.685 [main] INFO  Login.Login_Test - Starting login process...
+13:00:14.952 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:00:19.973 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:00:20.974 [main] INFO  Login.Login_Test - URL validation passed.
+13:00:21.976 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:00:22.275 [main] INFO  Login.Login_Test - Closing the browser
+13:00:22.413 [main] INFO  Login.Login_Test - Browser quit process completed
+13:04:32.624 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:04:33.261 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:04:37.243 [main] INFO  Login.Login_Test - Test started: Email_field_alert
+13:04:37.520 [main] INFO  Login.Login_Test - Clicked on Sign in button without entering email
+13:04:39.547 [main] INFO  Login.Login_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+13:04:40.637 [main] INFO  Login.Login_Test - Entered invalid email: thred
+13:04:42.657 [main] INFO  Login.Login_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+13:04:43.709 [main] INFO  Login.Login_Test - Cleared email field
+13:04:43.885 [main] INFO  Login.Login_Test - Entered email and incorrect password
+13:04:43.954 [main] INFO  Login.Login_Test - Clicked on Sign in with wrong password
+13:04:45.986 [main] INFO  Login.Login_Test - Assertion passed: Invalid credentials message displayed
+13:04:46.996 [main] INFO  Login.Login_Test - If password is not matched: Invalid credentials.
+13:04:47.014 [main] INFO  Login.Login_Test - Verification code field alert: Invalid credentials.
+13:04:47.026 [main] INFO  Login.Login_Test - Starting login process...
+13:04:48.061 [main] INFO  Login.Login_Test - Cleared email field
+13:04:49.135 [main] INFO  Login.Login_Test - Entered valid email
+13:04:50.173 [main] INFO  Login.Login_Test - Cleared password field
+13:04:50.234 [main] INFO  Login.Login_Test - Entered valid password
+13:04:50.297 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:04:55.319 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:04:56.319 [main] INFO  Login.Login_Test - URL validation passed.
+13:04:57.321 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:04:57.711 [main] INFO  Login.Login_Test - Closing the browser
+13:04:57.825 [main] INFO  Login.Login_Test - Browser quit process completed
