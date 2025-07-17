@@ -40,15 +40,13 @@ public class SignUp_Test {
 
     @BeforeClass
     public void setup() throws InterruptedException {
-        reuse = new Reuseable(); // Create instance of Reuseable
-        driver = reuse.Reuseable1(); // Initialize driver
+        reuse = new Reuseable();
+        driver = reuse.Reuseable1();
         Thread.sleep(1000);
         driver.manage().window().maximize();
         logger = LogManager.getLogger(this.getClass());
         extent = Extentreportmanager.getExtentReports();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-
     }
 
     @Test(priority = 1)
@@ -59,14 +57,26 @@ public class SignUp_Test {
         logger.info("*****Opening Browser*****");
         logger.info("*****Started SignUp*****");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//a[@href='/signup']")).click();
+        try {
+            ((JavascriptExecutor) driver).executeScript(
+                    "let iframe = document.getElementById('produktly-checklist-beacon-iframe505');" +
+                            "if(iframe) iframe.style.display='none';"
+            );
+            logger.info("Produktly iframe hidden successfully");
+            test.info("Produktly iframe hidden successfully");
+        } catch (Exception e) {
+            logger.warn("Could not hide iframe: " + e.getMessage());
+            test.warning("Could not hide iframe: " + e.getMessage());
+        }
+        WebElement signUpLink = driver.findElement(By.xpath("//a[@href='/signup']"));
+        signUpLink.click();
         String currentUrl = driver.getCurrentUrl();
-        logger.info(currentUrl);
-        System.out.println(currentUrl);
-        test.pass("After clicked on sign up the URL of current Page " + currentUrl);
-        Assert.assertNotNull(currentUrl);
+        logger.info("Current URL: " + currentUrl);
+        System.out.println("Current URL: " + currentUrl);
+        test.pass("After clicked on sign up, current URL is: " + currentUrl);
+        Assert.assertNotNull(currentUrl, "Current URL should not be null");
         Assert.assertTrue(currentUrl.contains("/signup"), "Sign Up page was not opened!");
+
     }
 
     @Test(priority = 2)

@@ -44,9 +44,6 @@ public class FP_Required_Field_Alerts_Test extends StartupCode {
 
         logger.info("If user try to enter invalid email format: " + validationMessage1);
         test.pass("If user try to enter invalid email format: " + validationMessage1);
-        String message = "If user try to enter invalid email format: " + validationMessage1;
-        logger.info(message);
-        test.pass(message);
 
     }
 

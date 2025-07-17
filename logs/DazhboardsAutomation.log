@@ -1536,3 +1536,477 @@
 15:56:56.155 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 15:56:56.438 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 15:56:56.556 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:01:01.421 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
+16:01:01.931 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.935 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:01:01.937 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.937 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.942 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+16:01:01.958 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+16:01:01.960 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.960 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.960 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.961 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.962 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.962 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.963 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.963 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.966 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.967 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.978 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.981 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.981 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.981 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.982 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.982 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.982 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.983 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.993 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.993 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.994 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.994 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.995 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.995 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.996 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.996 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.996 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.996 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.998 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.998 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.998 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:01.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:01.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.000 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.008 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.008 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.010 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.012 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.012 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.013 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.026 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.026 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.028 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.028 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.028 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.028 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.029 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.030 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.031 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.031 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.032 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.032 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.033 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.033 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.033 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.034 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.034 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.034 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.038 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.038 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.043 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+16:01:02.051 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+16:01:02.053 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+16:01:02.056 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+16:01:02.058 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.058 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.059 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:01:02.059 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:01:02.064 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/Music/Automation/Dazhboards/testng.xml
+
+16:01:19.699 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+16:01:20.544 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:01:22.708 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+16:01:22.708 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+16:01:22.711 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+16:01:23.001 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+16:01:23.105 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+16:01:26.597 [main] INFO  ForgotPassword.Forgot_Password - *****Started clicking on Reset Password button*****
+16:01:35.075 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password button
+16:01:47.115 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:01:47.134 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:01:47.233 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:01:47.237 [main] INFO  Login.Login - Starting login process...
+16:01:47.394 [main] INFO  Login.Login - Entered valid email
+16:01:47.477 [main] INFO  Login.Login - Entered valid password
+16:01:47.558 [main] INFO  Login.Login - Credentials entered and login button clicked.
+16:01:49.586 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
+16:01:49.586 [main] INFO  Login.Login - URL validation passed.
+16:01:49.587 [main] INFO  Login.Login - Loaded data in Extent report
+16:01:49.597 [main] INFO  Login.Login - Closing the browser
+16:01:49.696 [main] INFO  Login.Login - Browser quit process completed
+16:01:49.697 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
+16:01:49.799 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
+16:01:49.830 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:01:49.919 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered invalid email: thred
+16:01:49.924 [main] INFO  Login.Login_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+16:01:49.987 [main] INFO  Login.Login_Required_Field_Alerts_Test - Cleared email field
+16:01:50.111 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered email and incorrect password
+16:01:50.173 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in with wrong password
+16:01:50.973 [main] INFO  Login.Login_Required_Field_Alerts_Test - Assertion passed: Invalid credentials message displayed
+16:01:50.974 [main] INFO  Login.Login_Required_Field_Alerts_Test - If password is not matched: Invalid credentials.
+16:01:50.974 [main] INFO  Login.Login_Required_Field_Alerts_Test - Loaded data in Extent report
+16:01:50.985 [main] INFO  Login.Login_Required_Field_Alerts_Test - Closing the browser
+16:01:51.065 [main] INFO  Login.Login_Required_Field_Alerts_Test - Browser quit process completed
+16:01:53.760 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+16:01:53.760 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+16:01:53.760 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+16:01:55.868 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+16:02:05.904 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+16:02:15.968 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+16:02:26.036 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+16:02:33.924 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+16:02:43.960 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+16:02:48.961 [main] INFO  SignUp.SignUp_Test - Entering company name
+16:02:59.023 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+16:03:15.088 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+16:03:15.102 [main] INFO  SignUp.SignUp_Test - Closing the browser
+16:03:15.191 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+16:03:15.196 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@46290193: 0 ms
+16:23:29.404 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:23:29.894 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:23:36.907 [main] INFO  ForgotPassword.Forgot_Password - *****Started clicking on Reset Password button*****
+16:23:45.151 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password button
+16:25:54.941 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:25:55.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:26:15.665 [main] INFO  ForgotPassword.Forgot_Password - *****Started clicking on Reset Password button*****
+16:26:23.957 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password button
+16:26:45.517 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:26:46.049 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:26:56.024 [main] INFO  ForgotPassword.Forgot_Password - *****Started clicking on Reset Password button*****
+16:27:04.188 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password button
+16:27:16.274 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:27:16.722 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:27:16.878 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:28:56.124 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:28:56.679 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:29:06.885 [main] INFO  ForgotPassword.Forgot_Password - *****Started clicking on Reset Password button*****
+16:29:15.274 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password button
+16:29:27.310 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:29:27.587 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:29:27.702 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:32:50.882 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:32:51.424 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:32:54.895 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:32:54.979 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:32:55.110 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:32:55.184 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:32:56.306 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:32:56.372 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:32:56.376 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:32:58.582 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:32:59.384 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:32:59.630 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:32:59.633 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:33:09.672 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:33:09.936 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:33:10.059 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:34:48.669 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:34:49.170 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:34:55.340 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:34:55.425 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:34:55.557 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:34:55.630 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:34:56.243 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:34:56.765 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:34:56.770 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:34:58.895 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:34:59.679 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:34:59.921 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:34:59.925 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:35:10.566 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:35:10.840 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:35:10.987 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:37:08.407 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:37:08.911 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:37:12.735 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:37:12.820 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:37:12.961 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:37:13.036 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:37:14.291 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:37:14.354 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:37:14.358 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:37:16.717 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:37:16.816 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:37:17.759 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:37:17.762 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:37:28.482 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:37:38.762 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:40:19.075 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:40:19.580 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:40:23.218 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:40:23.302 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:40:23.431 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:40:23.499 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:40:24.642 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:40:24.969 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:40:24.975 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:40:27.611 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:40:28.408 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:40:28.680 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:40:28.685 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:40:39.378 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:40:49.637 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:40:49.766 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:42:38.913 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:42:39.466 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:42:46.767 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:42:46.850 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:42:46.994 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:42:47.067 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:42:48.230 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:42:48.294 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:42:48.299 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:42:50.924 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:42:51.022 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:42:52.091 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:42:52.095 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:42:53.523 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+16:42:53.592 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+16:42:53.678 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+16:42:53.680 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:43:03.976 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:43:04.095 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:48:55.604 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:48:56.144 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:48:59.989 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:49:00.079 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:49:00.205 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:49:00.274 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:49:01.010 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:49:02.139 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:49:04.384 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:49:05.228 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:49:05.447 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:49:05.453 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:49:07.821 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+16:49:07.894 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+16:49:07.984 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+16:49:07.986 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+16:49:08.022 [main] INFO  ForgotPassword.Forgot_Password - Min Length Alert Text: Min Length must be 8 characters long
+16:49:08.056 [main] INFO  ForgotPassword.Forgot_Password - Confirm Password Mismatch Alert: Confirm Password is not matched with New Password
+16:49:08.057 [main] INFO  ForgotPassword.Forgot_Password - Completed validation for password alerts
+16:49:08.059 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:49:18.319 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:49:18.445 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:50:27.234 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:50:27.796 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:50:31.002 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:50:33.081 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:50:33.265 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:50:33.353 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:50:34.462 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:50:35.570 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:50:37.928 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:50:38.760 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:50:38.999 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:50:39.001 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:50:40.509 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+16:50:40.610 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+16:50:40.700 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+16:50:40.702 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+16:50:40.746 [main] INFO  ForgotPassword.Forgot_Password - Min Length Alert Text: Min Length must be 8 characters long
+16:50:40.796 [main] INFO  ForgotPassword.Forgot_Password - Confirm Password Mismatch Alert: Confirm Password is not matched with New Password
+16:50:40.796 [main] INFO  ForgotPassword.Forgot_Password - Completed validation for password alerts
+16:50:40.797 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:50:51.053 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:50:51.168 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:53:11.830 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:53:12.338 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:53:15.596 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+16:53:17.676 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+16:53:17.808 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+16:53:17.883 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+16:53:18.582 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+16:53:18.613 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+16:53:18.618 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+16:53:21.025 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+16:53:21.796 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+16:53:22.023 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+16:53:22.026 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+16:53:23.707 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+16:53:23.780 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+16:53:23.873 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+16:53:23.875 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+16:53:23.915 [main] INFO  ForgotPassword.Forgot_Password - Min Length Alert Text: Min Length must be 8 characters long
+16:53:23.951 [main] INFO  ForgotPassword.Forgot_Password - Confirm Password Mismatch Alert: Confirm Password is not matched with New Password
+16:53:23.952 [main] INFO  ForgotPassword.Forgot_Password - Completed validation for password alerts
+16:53:23.955 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+16:53:34.215 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+16:53:34.341 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+16:54:04.975 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:54:05.510 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:54:08.907 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:54:11.003 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+16:54:11.004 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+16:54:11.006 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+16:54:11.319 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+16:54:11.434 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+16:54:51.005 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:54:51.496 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:54:54.727 [main] INFO  Login.Login - Starting login process...
+16:54:54.869 [main] INFO  Login.Login - Entered valid email
+16:54:54.953 [main] INFO  Login.Login - Entered valid password
+16:54:55.039 [main] INFO  Login.Login - Credentials entered and login button clicked.
+16:54:57.585 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
+16:54:57.587 [main] INFO  Login.Login - URL validation passed.
+16:54:57.591 [main] INFO  Login.Login - Loaded data in Extent report
+16:54:57.959 [main] INFO  Login.Login - Closing the browser
+16:54:58.059 [main] INFO  Login.Login - Browser quit process completed
+16:55:51.245 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:55:51.849 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:55:55.083 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
+16:55:55.208 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
+16:55:55.250 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:55:55.326 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered invalid email: thred
+16:55:55.335 [main] INFO  Login.Login_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+16:55:55.403 [main] INFO  Login.Login_Required_Field_Alerts_Test - Cleared email field
+16:55:55.775 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered email and incorrect password
+16:55:55.837 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in with wrong password
+16:55:56.530 [main] INFO  Login.Login_Required_Field_Alerts_Test - Assertion passed: Invalid credentials message displayed
+16:55:56.530 [main] INFO  Login.Login_Required_Field_Alerts_Test - If password is not matched: Invalid credentials.
+16:55:56.532 [main] INFO  Login.Login_Required_Field_Alerts_Test - Loaded data in Extent report
+16:55:56.836 [main] INFO  Login.Login_Required_Field_Alerts_Test - Closing the browser
+16:55:56.937 [main] INFO  Login.Login_Required_Field_Alerts_Test - Browser quit process completed
+16:56:30.704 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:56:31.237 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:56:34.518 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+16:56:34.519 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+16:56:34.519 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+16:56:36.626 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+16:56:46.658 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+16:56:56.723 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+16:58:03.290 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+16:58:03.778 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+16:58:06.998 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+16:58:06.998 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+16:58:06.998 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+16:58:09.100 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+16:58:19.137 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+16:58:29.160 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+16:58:39.200 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+16:58:47.489 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+16:58:57.547 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+16:59:02.551 [main] INFO  SignUp.SignUp_Test - Entering company name
+16:59:12.627 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+16:59:28.672 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+16:59:28.982 [main] INFO  SignUp.SignUp_Test - Closing the browser
+16:59:29.116 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+17:00:12.821 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:00:13.326 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:00:16.409 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:00:16.409 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:00:16.409 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:00:16.419 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:00:16.516 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:00:16.523 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:00:17.859 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:00:18.861 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:00:18.939 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:00:19.051 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:00:27.909 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:00:28.669 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:00:31.982 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:00:31.983 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:00:31.983 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:00:31.994 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:00:32.090 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:00:32.095 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:00:32.434 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:00:33.436 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:00:33.515 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:00:33.675 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:00:39.674 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:00:39.886 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:00:41.848 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:00:41.906 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:00:44.987 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:00:44.989 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:00:53.498 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 296923
+17:00:53.627 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:00:53.629 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:00:58.633 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:00:59.715 [main] INFO  SignUp.SignUp_Test - Selecting product category
+17:01:02.954 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+17:01:05.125 [main] INFO  SignUp.SignUp_Test - Entering location address
+17:01:10.262 [main] INFO  SignUp.SignUp_Test - Entering website address
+17:01:11.438 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+17:01:13.625 [main] INFO  SignUp.SignUp_Test - Scrolling 
+17:01:15.751 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:01:31.800 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+17:01:32.048 [main] INFO  SignUp.SignUp_Test - Closing the browser
+17:01:32.162 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
