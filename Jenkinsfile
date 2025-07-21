@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'mvn'     // Make sure this matches what's configured in Jenkins
+        maven 'mvn'
         jdk 'jdk'
     }
 
