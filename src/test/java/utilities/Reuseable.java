@@ -18,7 +18,7 @@ public class Reuseable {
 
         // logger = LogManager.getLogger(this.getClass());
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless=new");
+        options.addArguments("--headless=new");
         // Enable notification of the browser
         HashMap allow = new HashMap<>();
         allow.put("profile.default_content_setting_values.notifications", 1); // 1 = allow

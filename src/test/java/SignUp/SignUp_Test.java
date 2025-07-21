@@ -58,10 +58,7 @@ public class SignUp_Test {
         logger.info("*****Started SignUp*****");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         try {
-            ((JavascriptExecutor) driver).executeScript(
-                    "let iframe = document.getElementById('produktly-checklist-beacon-iframe505');" +
-                            "if(iframe) iframe.style.display='none';"
-            );
+            ((JavascriptExecutor) driver).executeScript("let iframe = document.getElementById('produktly-checklist-beacon-iframe505');" + "if(iframe) iframe.style.display='none';");
             logger.info("Produktly iframe hidden successfully");
             test.info("Produktly iframe hidden successfully");
         } catch (Exception e) {
@@ -172,9 +169,9 @@ public class SignUp_Test {
         driver.switchTo().window(tabs.get(1));
 
         driver.findElement(By.xpath("//input[@id='login']")).sendKeys(email);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//i[@class='material-icons-outlined f36']")).click();
-        Thread.sleep(3000);
+        Thread.sleep(10000);
         // driver.findElement(By.xpath("//button[@id='refresh']")).click(); // Click refresh
         // Thread.sleep(3000);
 
@@ -373,19 +370,20 @@ public class SignUp_Test {
         uploadInput.sendKeys("/home/jc-raj/Music/Automation/Dazhboards/test-output/pexels-18393328-6470943.jpg");
         System.out.println("✔ Logo uploaded");
         test.pass("Logo uploaded successfully");
-
-        logger.info("Closing  overlay popup");
-        test.info("Closing  overlay popup");
-        WebElement iframe = driver.findElement(By.xpath("//*[contains(@id,'produktly-checklist-beacon-iframe')]"));
+        logger.info("Closing overlay popup");
+        test.info("Closing overlay popup");
+        WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(@id,'produktly-checklist-beacon-iframe')]")));
         driver.switchTo().frame(iframe);
-        WebElement closeBtn = driver.findElement(By.xpath("//button[@aria-label='Close checklist beacon']//*[name()='svg']"));
+        WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@aria-label='Close checklist beacon']//*[name()='svg']")));
         closeBtn.click();
         driver.switchTo().defaultContent();
         System.out.println("✔ Overlay Popup closed");
-        test.pass(" Overlay Popup closed");
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[normalize-space()='Save']")).click();
-        Thread.sleep(2000);
+        logger.info("Overlay popup closed successfully");
+        test.pass("Overlay popup closed successfully");
+        WebElement saveBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Save']")));
+        saveBtn.click();
+        logger.info("Clicked on Save button");
+        test.pass("Clicked on Save button");
 
 
     }

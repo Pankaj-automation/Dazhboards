@@ -2010,3 +2010,796 @@
 17:01:31.800 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
 17:01:32.048 [main] INFO  SignUp.SignUp_Test - Closing the browser
 17:01:32.162 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+17:09:15.944 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
+17:09:16.481 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.484 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:09:16.486 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.486 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.490 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+17:09:16.504 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+17:09:16.505 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.505 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.506 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.506 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.507 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.508 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.508 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.509 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.509 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.509 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.511 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.512 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.512 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.513 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.526 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.526 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.526 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.527 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.528 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.529 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.529 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.530 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.530 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.530 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.531 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.532 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.533 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.533 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.533 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.533 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.534 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.534 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.535 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.535 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.544 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.544 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.546 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.547 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.548 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.549 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.551 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.551 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.552 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.552 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.553 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.553 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.555 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.555 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.555 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.556 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.566 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.569 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.569 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.570 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.570 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.570 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.572 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.573 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.585 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.585 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.586 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.586 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.586 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.586 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.587 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.587 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.587 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.588 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.589 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.589 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.590 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.590 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.590 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.590 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.591 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.591 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.591 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.591 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.595 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.596 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.600 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+17:09:16.606 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+17:09:16.608 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+17:09:16.611 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+17:09:16.613 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.614 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.614 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:16.614 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:16.619 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/Music/Automation/Dazhboards/testng.xml
+
+17:09:21.587 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+17:09:21.648 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@23ec2bdc: 0 ms
+17:09:56.086 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
+17:09:56.674 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.677 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:09:56.679 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.680 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.684 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+17:09:56.697 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+17:09:56.698 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.699 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.699 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.699 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.702 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.702 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.704 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.704 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.705 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.726 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.727 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.727 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.728 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.728 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.728 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.729 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.732 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.732 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.733 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.733 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.734 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.734 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.744 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.745 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.745 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.745 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.746 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.748 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:09:56.748 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.750 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.751 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.752 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.752 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.752 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.753 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.754 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.754 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.754 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.755 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.765 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.766 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.767 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.767 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.768 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.769 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.770 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.770 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.771 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.771 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.772 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.773 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.774 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.774 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.774 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.774 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.775 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.775 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.776 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.776 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.790 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.790 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.790 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.791 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.791 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.791 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.792 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.792 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.793 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.794 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.795 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.795 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.796 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.796 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.797 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.797 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.797 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.797 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.798 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.798 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.801 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.801 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+17:09:56.817 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+17:09:56.819 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+17:09:56.822 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+17:09:56.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:09:56.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:09:56.828 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/Music/Automation/Dazhboards/testng.xml
+
+17:10:13.221 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+17:10:13.550 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+17:10:15.746 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+17:10:15.751 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+17:10:16.131 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+17:10:16.272 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+17:10:16.277 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+17:10:18.356 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+17:10:18.512 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+17:10:18.583 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+17:10:19.344 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+17:10:19.383 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+17:10:19.385 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+17:10:21.749 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+17:10:22.577 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+17:10:22.809 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+17:10:22.811 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+17:10:24.663 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+17:10:24.755 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+17:10:24.839 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+17:10:24.841 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+17:10:24.890 [main] INFO  ForgotPassword.Forgot_Password - Min Length Alert Text: Min Length must be 8 characters long
+17:10:24.921 [main] INFO  ForgotPassword.Forgot_Password - Confirm Password Mismatch Alert: Confirm Password is not matched with New Password
+17:10:24.921 [main] INFO  ForgotPassword.Forgot_Password - Completed validation for password alerts
+17:10:24.922 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+17:10:24.942 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+17:10:25.028 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+17:10:25.029 [main] INFO  Login.Login - Starting login process...
+17:10:25.148 [main] INFO  Login.Login - Entered valid email
+17:10:25.228 [main] INFO  Login.Login - Entered valid password
+17:10:25.311 [main] INFO  Login.Login - Credentials entered and login button clicked.
+17:10:27.862 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
+17:10:27.863 [main] INFO  Login.Login - URL validation passed.
+17:10:27.866 [main] INFO  Login.Login - Loaded data in Extent report
+17:10:27.875 [main] INFO  Login.Login - Closing the browser
+17:10:27.982 [main] INFO  Login.Login - Browser quit process completed
+17:10:27.983 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
+17:10:28.087 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
+17:10:28.129 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+17:10:28.200 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered invalid email: thred
+17:10:28.206 [main] INFO  Login.Login_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+17:10:28.278 [main] INFO  Login.Login_Required_Field_Alerts_Test - Cleared email field
+17:10:28.475 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered email and incorrect password
+17:10:28.547 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in with wrong password
+17:10:29.242 [main] INFO  Login.Login_Required_Field_Alerts_Test - Assertion passed: Invalid credentials message displayed
+17:10:29.242 [main] INFO  Login.Login_Required_Field_Alerts_Test - If password is not matched: Invalid credentials.
+17:10:29.243 [main] INFO  Login.Login_Required_Field_Alerts_Test - Loaded data in Extent report
+17:10:29.256 [main] INFO  Login.Login_Required_Field_Alerts_Test - Closing the browser
+17:10:29.339 [main] INFO  Login.Login_Required_Field_Alerts_Test - Browser quit process completed
+17:10:34.994 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:10:34.994 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:10:34.994 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:10:35.002 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:10:35.085 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:10:35.086 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:10:35.408 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:10:36.410 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:10:36.486 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:10:36.588 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:10:42.294 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:10:42.464 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:10:46.010 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:10:46.068 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:10:49.148 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:10:49.149 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:10:57.750 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 964553
+17:10:57.881 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:10:57.883 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:11:02.883 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:11:03.969 [main] INFO  SignUp.SignUp_Test - Selecting product category
+17:11:07.230 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+17:11:09.397 [main] INFO  SignUp.SignUp_Test - Entering location address
+17:11:14.534 [main] INFO  SignUp.SignUp_Test - Entering website address
+17:11:15.700 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+17:11:17.883 [main] INFO  SignUp.SignUp_Test - Scrolling 
+17:11:20.007 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:11:36.053 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+17:11:36.067 [main] INFO  SignUp.SignUp_Test - Closing the browser
+17:11:36.166 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+17:11:36.171 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@14ee143a: 0 ms
+17:17:33.328 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:17:33.860 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:17:37.737 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:17:37.737 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:17:37.737 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:17:37.748 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:17:37.872 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:17:37.878 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:17:38.370 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:17:39.372 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:17:39.687 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:17:39.828 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:17:51.293 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:17:51.737 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:17:55.296 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:17:55.360 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:17:58.469 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:17:58.470 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:18:07.146 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+17:18:07.544 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:18:07.546 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:18:12.551 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:18:12.570 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:18:16.257 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:18:16.958 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:18:20.630 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:18:20.630 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:18:20.630 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:18:20.641 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:18:20.749 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:18:20.755 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:18:21.062 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:18:22.064 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:18:22.144 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:18:22.263 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:18:28.331 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:18:28.611 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:18:30.567 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:18:30.638 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:18:33.932 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:18:33.936 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:18:42.079 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+17:18:42.422 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:18:42.424 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:18:47.427 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:18:49.939 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:18:55.947 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+17:18:56.219 [main] INFO  SignUp.SignUp_Test - Closing the browser
+17:18:56.225 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+17:20:21.084 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:20:21.608 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:20:31.903 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:20:31.903 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:20:31.903 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:20:31.913 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:20:32.017 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:20:32.024 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:20:32.354 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:20:33.356 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:20:33.436 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:20:33.558 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:20:38.214 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:20:38.729 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:20:42.219 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:20:42.289 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:20:45.389 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:20:45.390 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:20:59.859 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 072281
+17:21:00.206 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:21:00.208 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:21:05.211 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:21:06.296 [main] INFO  SignUp.SignUp_Test - Selecting product category
+17:21:09.565 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+17:21:11.744 [main] INFO  SignUp.SignUp_Test - Entering location address
+17:21:16.886 [main] INFO  SignUp.SignUp_Test - Entering website address
+17:21:18.061 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+17:21:20.245 [main] INFO  SignUp.SignUp_Test - Scrolling 
+17:21:22.363 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+17:21:25.432 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+17:21:26.511 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+17:21:28.587 [main] INFO  SignUp.SignUp_Test - Scrolling 
+17:21:29.605 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+17:21:30.892 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+17:21:35.024 [main] INFO  SignUp.SignUp_Test - Entering email address
+17:21:36.213 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+17:21:39.649 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+17:21:40.734 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+17:21:41.829 [main] INFO  SignUp.SignUp_Test - Uploading logo
+17:21:41.870 [main] INFO  SignUp.SignUp_Test - Closing  overlay popup
+17:21:51.980 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:22:08.039 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+17:22:08.308 [main] INFO  SignUp.SignUp_Test - Closing the browser
+17:22:08.454 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+17:29:10.975 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:29:11.528 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:29:15.771 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:29:15.772 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:29:15.772 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:29:15.793 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:29:15.913 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:29:15.920 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:29:17.282 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:29:18.283 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:29:18.365 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:29:18.502 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:29:24.602 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:29:24.869 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:29:26.498 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:29:26.562 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:29:29.673 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:29:29.675 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:29:44.393 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+17:29:44.784 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:29:44.790 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:29:51.651 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:29:52.308 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:29:55.922 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+17:29:55.923 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+17:29:55.923 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+17:29:55.933 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+17:29:56.034 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+17:29:56.039 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+17:29:56.564 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+17:29:57.566 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+17:29:57.774 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+17:29:57.901 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+17:30:02.355 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+17:30:02.624 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+17:30:06.552 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+17:30:06.617 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+17:30:09.713 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+17:30:09.715 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+17:30:23.823 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 
+17:30:24.261 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+17:30:24.266 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+17:30:29.284 [main] INFO  SignUp.SignUp_Test - Entering company name
+17:30:39.388 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+17:30:55.455 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+17:30:55.724 [main] INFO  SignUp.SignUp_Test - Closing the browser
+17:30:55.874 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+13:29:35.781 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
+13:29:36.220 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.222 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+13:29:36.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.227 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+13:29:36.239 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+13:29:36.240 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.240 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.242 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.242 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.243 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.243 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.244 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.244 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.245 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.245 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.246 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.246 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.258 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.258 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.259 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.259 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.260 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.260 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.261 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.261 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.261 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.262 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.262 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.273 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.273 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.274 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.274 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.275 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.275 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.276 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.276 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.276 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.276 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.277 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.277 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.278 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.278 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.278 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.280 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.287 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.287 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.287 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.288 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.288 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.289 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.289 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.289 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.290 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.290 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.290 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.291 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.291 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.291 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.292 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.292 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.292 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.292 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.293 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.293 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.304 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.304 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.304 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.304 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.304 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.305 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.305 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.306 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.315 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+13:29:36.319 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+13:29:36.321 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+13:29:36.324 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+13:29:36.326 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.326 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.326 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:29:36.326 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:29:36.330 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/Music/Automation/Dazhboards/testng.xml
+
+13:29:55.922 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+13:29:56.400 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+13:30:01.705 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+13:30:01.809 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+13:30:05.308 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+13:30:05.414 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+13:30:05.417 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+13:30:07.521 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+13:30:07.739 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+13:30:07.809 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+13:30:09.025 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+13:30:09.053 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+13:30:09.054 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+13:30:11.759 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+13:30:12.662 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+13:30:22.817 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+13:30:32.891 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+15:12:00.847 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
+15:12:01.765 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.774 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+15:12:01.779 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.779 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.784 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+15:12:01.805 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+15:12:01.809 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.809 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.809 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.812 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.813 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.814 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.818 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.818 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.819 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.820 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.823 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.824 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.826 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.865 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.865 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.870 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.872 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.874 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.874 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.877 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.877 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.877 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.878 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.878 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.880 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:12:01.882 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.883 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.884 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.884 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.886 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.886 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.887 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.887 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.904 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.904 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.905 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.905 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.907 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.908 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.909 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.909 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.909 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.909 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.913 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.914 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.916 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.916 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.918 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.918 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.918 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.931 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.932 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.932 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.932 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.933 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.933 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.936 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.936 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.938 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.938 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.939 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.940 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.943 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.943 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.944 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.945 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.945 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.946 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.946 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.946 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.969 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.969 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.969 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.969 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.970 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.970 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.973 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.974 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.978 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.978 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.979 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.980 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.984 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.985 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:01.988 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:01.989 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:02.008 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 18 ms.
+15:12:02.019 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+15:12:02.021 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:12:02.024 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+15:12:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:12:02.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:12:02.032 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/Music/Automation/Dazhboards/testng.xml
+
+15:12:18.676 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+15:12:19.364 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+15:12:21.492 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+15:12:21.495 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+15:12:21.786 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+15:12:21.881 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+15:12:21.884 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+15:12:23.966 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+15:12:24.137 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+15:12:24.213 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+15:12:25.449 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+15:12:25.489 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+15:12:25.491 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+15:12:27.963 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+15:12:28.066 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+15:12:28.998 [main] INFO  ForgotPassword.Forgot_Password - Clicked on Reset Password link in email
+15:12:29.005 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+15:12:31.264 [main] INFO  ForgotPassword.Forgot_Password - Entered new password
+15:12:31.330 [main] INFO  ForgotPassword.Forgot_Password - Entered confirm password
+15:12:31.424 [main] INFO  ForgotPassword.Forgot_Password - Clicked submit to change password
+15:12:31.426 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+15:12:31.462 [main] INFO  ForgotPassword.Forgot_Password - Min Length Alert Text: Min Length must be 8 characters long
+15:12:31.497 [main] INFO  ForgotPassword.Forgot_Password - Confirm Password Mismatch Alert: Confirm Password is not matched with New Password
+15:12:31.497 [main] INFO  ForgotPassword.Forgot_Password - Completed validation for password alerts
+15:12:31.498 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+15:12:31.521 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+15:12:31.603 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+15:12:31.604 [main] INFO  Login.Login - Starting login process...
+15:12:41.641 [main] INFO  Login.Login - Loaded data in Extent report
+15:12:41.658 [main] INFO  Login.Login - Closing the browser
+15:12:41.734 [main] INFO  Login.Login - Browser quit process completed
+15:12:41.735 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
+15:12:41.844 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
+15:12:41.872 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+15:12:41.945 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered invalid email: thred
+15:12:41.963 [main] INFO  Login.Login_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+15:12:42.055 [main] INFO  Login.Login_Required_Field_Alerts_Test - Cleared email field
+15:12:42.179 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered email and incorrect password
+15:12:42.235 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in with wrong password
+15:12:43.036 [main] INFO  Login.Login_Required_Field_Alerts_Test - Assertion passed: Invalid credentials message displayed
+15:12:43.037 [main] INFO  Login.Login_Required_Field_Alerts_Test - If password is not matched: Invalid credentials.
+15:12:43.038 [main] INFO  Login.Login_Required_Field_Alerts_Test - Loaded data in Extent report
+15:12:43.054 [main] INFO  Login.Login_Required_Field_Alerts_Test - Closing the browser
+15:12:43.154 [main] INFO  Login.Login_Required_Field_Alerts_Test - Browser quit process completed
+15:12:45.601 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+15:12:45.601 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+15:12:45.602 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+15:12:45.617 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+15:12:45.712 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+15:12:45.714 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+15:12:46.924 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+15:12:47.925 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+15:12:48.016 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+15:12:48.125 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+15:12:56.770 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+15:12:56.931 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+15:12:59.264 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+15:12:59.322 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+15:13:02.403 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+15:13:02.405 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+15:13:16.791 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 999929
+15:13:16.921 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+15:13:16.923 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+15:13:21.923 [main] INFO  SignUp.SignUp_Test - Entering company name
+15:13:23.023 [main] INFO  SignUp.SignUp_Test - Selecting product category
+15:13:26.233 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+15:13:28.390 [main] INFO  SignUp.SignUp_Test - Entering location address
+15:13:33.529 [main] INFO  SignUp.SignUp_Test - Entering website address
+15:13:34.712 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+15:13:36.884 [main] INFO  SignUp.SignUp_Test - Scrolling 
+15:13:39.002 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+15:13:55.062 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+15:13:55.127 [main] INFO  SignUp.SignUp_Test - Closing the browser
+15:13:55.414 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+15:13:55.423 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7c07023: 0 ms
+15:14:00.378 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:14:00.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:14:03.908 [main] INFO  Login.Login - Starting login process...
+15:14:04.040 [main] INFO  Login.Login - Entered valid email
+15:14:04.125 [main] INFO  Login.Login - Entered valid password
+15:14:04.213 [main] INFO  Login.Login - Credentials entered and login button clicked.
+15:14:06.246 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
+15:14:06.248 [main] INFO  Login.Login - URL validation passed.
+15:14:06.251 [main] INFO  Login.Login - Loaded data in Extent report
+15:14:06.496 [main] INFO  Login.Login - Closing the browser
+15:14:06.608 [main] INFO  Login.Login - Browser quit process completed
