@@ -1,43 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java">
-        <classes>
-            <class name="ForgotPassword.FP_Required_Field_Alerts_Test">
-                <methods>
-                    <include name="Forgot_Password_Email_field_alerts"/>
-                </methods>
-            </class>
-            <class name="ForgotPassword.Forgot_Password">
-                <methods>
-                    <include name="Forgot_Password_Flow"/>
-                    <include name="Clicked_reset_button"/>
-                    <include name="Change_Password"/>
-                    <include name="validatePasswordAlerts"/>
-                </methods>
-            </class>
-            <class name="Login.Login">
-                <methods>
-                    <include name="login"/>
-                </methods>
-            </class>
-            <class name="Login.Login_Required_Field_Alerts_Test">
-                <methods>
-                    <include name="Email_field_alert"/>
-                    <include name="Password_fields_alert"/>
-                </methods>
-            </class>
-            <class name="SignUp.SignUp_Test">
-                <methods>
-                    <include name="Click_on_SignUp_Link"/>
-                    <include name="Filed_signup_form"/>
-                    <include name="Verify_checkbox_and_links"/>
-                    <include name="Click_on_Sign_button"/>
-                    <include name="OTP_Verification"/>
-                    <include name="Fill_company_details"/>
-                    <include name="Purchase_Plan"/>
-                </methods>
-            </class>
-        </classes>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+    <listeners>
+        <listener class-name="utilities.RetryListener"/>
+    </listeners>
+    <test name="LoginPackage">
+        <packages>
+            <package name="Login"/>
+        </packages>
     </test>
 </suite>

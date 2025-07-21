@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 21, 2025 11:48:38 am</span></a>
+<a href="#"><span class="badge badge-primary">Jul 21, 2025 01:24:45 pm</span></a>
 </li>
 </ul>
 </div>
@@ -66,7 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,360 +74,95 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Forgot_Password_Required_Field_Alerts_Test</p>
+            <p class="name">Login_Test</p>
             <p class="text-sm">
-              <span>11:48:38 am</span> / <span>00:00:06:585</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:24:45 pm</span> / <span>00:00:10:616</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Forgot_Password_Required_Field_Alerts_Test</h5>
-<span class='badge badge-success'>07.21.2025 11:48:38 am</span>
-<span class='badge badge-danger'>07.21.2025 11:48:45 am</span>
-<span class='badge badge-default'>00:00:06:585</span>
+<h5 class="test-status text-fail">Login_Test</h5>
+<span class='badge badge-success'>07.21.2025 1:24:45 pm</span>
+<span class='badge badge-danger'>07.21.2025 1:24:56 pm</span>
+<span class='badge badge-default'>00:00:10:616</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='/home/jc-raj/Music/Automation/Dazhboards/screenshots/login_2025_07_21_13.24.56.png' src="/home/jc-raj/Music/Automation/Dazhboards/screenshots/login_2025_07_21_13.24.56.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:38 am</td>
+        <td>1:24:45 pm</td>
         <td>
-          *Started Forgot_Password_Required_Field_Alerts_Test*
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:42 am</td>
-        <td>
-          Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:44 am</td>
-        <td>
-          If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+          *Started Login_Test*
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:44 am</td>
+        <td>1:24:46 pm</td>
+        <td>
+          Starting login process...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:24:46 pm</td>
+        <td>
+          Entered valid email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:24:46 pm</td>
+        <td>
+          Entered valid password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:24:46 pm</td>
+        <td>
+          Clicked on Sign in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:24:56 pm</td>
+        <td>
+          Test Failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "pos". Current url: "https://app2.dazhboards.com/login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-64-generic', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44947/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 612416dd79961a7709efde722d9c7afc
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:24:56 pm</td>
         <td>
           Loaded data in Extent report
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:45 am</td>
-        <td>
-          Browser quit process completed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Login_Required_Field_Alerts_Test</p>
-            <p class="text-sm">
-              <span>11:48:41 am</span> / <span>00:01:10:861</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Login_Required_Field_Alerts_Test</h5>
-<span class='badge badge-success'>07.21.2025 11:48:41 am</span>
-<span class='badge badge-danger'>07.21.2025 11:49:52 am</span>
-<span class='badge badge-default'>00:01:10:861</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:41 am</td>
-        <td>
-          *Started Login_Required_Field_Alerts_Test*
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          Clicked on Sign in button without entering email
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          Entered invalid email: thred
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          Entered email and incorrect password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:50 am</td>
-        <td>
-          Clicked on Sign in with wrong password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:52 am</td>
-        <td>
-          Assertion passed: Invalid credentials message displayed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:52 am</td>
-        <td>
-          If password is not matched: Invalid credentials.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:52 am</td>
-        <td>
-          Loaded data in Extent report
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">SignUp_Test</p>
-            <p class="text-sm">
-              <span>11:48:48 am</span> / <span>00:01:01:587</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">SignUp_Test</h5>
-<span class='badge badge-success'>07.21.2025 11:48:48 am</span>
-<span class='badge badge-danger'>07.21.2025 11:49:49 am</span>
-<span class='badge badge-default'>00:01:01:587</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:48 am</td>
-        <td>
-          *Started SignUp_Test*
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:48 am</td>
-        <td>
-          Produktly iframe hidden successfully
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:48 am</td>
-        <td>
-          After clicked on sign up, current URL is: https://app2.dazhboards.com/signup
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:48 am</td>
-        <td>
-          Filling_signup_form
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:49 am</td>
-        <td>
-          Filed_signup_form
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:48:50 am</td>
-        <td>
-          Verifying_checkbox_and_links
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:50 am</td>
-        <td>
-          Checkbox clicked and selected successfully
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:50 am</td>
-        <td>
-          'Terms of Use' link is visible and enabled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:58 am</td>
-        <td>
-          Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:48:58 am</td>
-        <td>
-          'Privacy Policy' link is visible and enabled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:00 am</td>
-        <td>
-          Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:00 am</td>
-        <td>
-          Clicking on Signup button
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:04 am</td>
-        <td>
-          Sign Up successful, redirected to: https://app2.dazhboards.com/otppage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:04 am</td>
-        <td>
-          OTP Verification started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:18 am</td>
-        <td>
-          Extracted OTP: 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:18 am</td>
-        <td>
-          OTP submitted successfully.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:18 am</td>
-        <td>
-          Started Fill_company_details
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:23 am</td>
-        <td>
-          Entering company name
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:33 am</td>
-        <td>
-          Purchase_Plan started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:49 am</td>
-        <td>
-          Loaded data in Extent report
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:49:49 am</td>
-        <td>
-          Closing the browser
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:49:49 am</td>
-        <td>
-          Browser quit process completed
         </td>
       </tr>
   </tbody>
@@ -449,25 +184,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 21, 2025 11:48:38 am</h3>
+<h3>Jul 21, 2025 01:24:45 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 21, 2025 11:49:52 am</h3>
+<h3>Jul 21, 2025 01:24:56 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>3</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -483,12 +218,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>3</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='100%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -506,10 +241,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='45%'><b>17</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>20</b> others
+<small data-tooltip='14%'><b>1</b> events failed,
+<b data-tooltip='%'>6</b> others
 </small>
 </div>
 </div>
@@ -525,7 +260,7 @@
 </div></div>
 <script>
 var timeline = {
-"Forgot_Password_Required_Field_Alerts_Test":6.585,"Login_Required_Field_Alerts_Test":70.861,"SignUp_Test":61.587
+"Login_Test":10.616
 };
 </script>
 <div class="row">
@@ -552,8 +287,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 3,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -569,11 +304,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 17,
-failEvents: 0,
+passEvents: 0,
+failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 20
+infoEvents: 6
 };
 </script>        </div>
       </div>

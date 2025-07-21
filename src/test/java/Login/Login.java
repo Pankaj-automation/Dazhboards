@@ -11,6 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import utilities.AllureEnvWriter;
 import utilities.Screenshot;
 import utilities.StartupCode;
 
@@ -25,6 +26,7 @@ public class Login extends StartupCode {
     @BeforeTest
     @Step("Setup and Launch Browser")
     public void Start() throws InterruptedException {
+        AllureEnvWriter.createEnvFile();
         driver = setup1();
         test = extent.createTest("Login_Test");
         test.info("*Started Login_Test*");
@@ -69,7 +71,7 @@ public class Login extends StartupCode {
         if (result.getStatus() == ITestResult.FAILURE) {
             String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
             test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
-            Allure.addAttachment("Screenshot on Failure", new FileInputStream(screenshotPath));
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             test.pass("Test Passed");
         }

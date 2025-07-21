@@ -1,5 +1,6 @@
 package Login;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -9,20 +10,28 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import utilities.AllureEnvWriter;
 import utilities.StartupCode;
 
 import java.time.Duration;
 
+@Epic("Login")
+@Feature("Validation Messages")
 public class Login_Required_Field_Alerts_Test extends StartupCode {
 
     @BeforeTest
+    @Step("Setup and Launch Browser")
+
     public void Start() throws InterruptedException {
+        AllureEnvWriter.createEnvFile();
         driver = setup1();
         test = extent.createTest("Login_Required_Field_Alerts_Test");
         test.info("*Started Login_Required_Field_Alerts_Test*");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, description = "Email field validation alerts")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Blank and Invalid Email")
     public void Email_field_alert() throws InterruptedException {
 
         logger.info("Test started: Email_field_alert");
@@ -47,7 +56,9 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
         test.pass("If user try to enter invalid email format: " + validationMessage1);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, description = "Password mismatch alert")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Wrong password login attempt")
     public void Password_fields_alert() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
