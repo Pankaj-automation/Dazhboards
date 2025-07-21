@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.StartupCode;
 
@@ -14,7 +14,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 
 public class Forgot_Password extends StartupCode {
-    @BeforeTest
+    @BeforeClass
     public void Start() throws InterruptedException {
         driver = setup1();
         test = extent.createTest("Forgot_Password");

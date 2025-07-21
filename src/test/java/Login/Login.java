@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.AllureEnvWriter;
 import utilities.Screenshot;
@@ -23,7 +23,7 @@ import java.time.Duration;
 @Feature("Login Functionality")
 public class Login extends StartupCode {
 
-    @BeforeTest
+    @BeforeClass
     @Step("Setup and Launch Browser")
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();

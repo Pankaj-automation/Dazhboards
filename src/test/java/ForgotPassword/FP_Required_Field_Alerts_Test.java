@@ -5,14 +5,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.StartupCode;
 
 public class FP_Required_Field_Alerts_Test extends StartupCode {
 
-    @BeforeTest
+    @BeforeClass
     public void Start() throws InterruptedException {
         driver = setup1();
         test = extent.createTest("Forgot_Password_Required_Field_Alerts_Test");

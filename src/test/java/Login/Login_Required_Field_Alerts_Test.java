@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.AllureEnvWriter;
 import utilities.StartupCode;
@@ -19,7 +19,7 @@ import java.time.Duration;
 @Feature("Validation Messages")
 public class Login_Required_Field_Alerts_Test extends StartupCode {
 
-    @BeforeTest
+    @BeforeClass
     @Step("Setup and Launch Browser")
 
     public void Start() throws InterruptedException {
