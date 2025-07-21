@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.8'
+        maven 'Maven 3.8.9'     // Make sure this matches what's configured in Jenkins
         jdk 'JDK 17'
     }
 
@@ -17,6 +17,7 @@ pipeline {
             steps {
                 sh 'mvn clean test'
             }
+
         }
 
         stage('Generate Allure Report') {
