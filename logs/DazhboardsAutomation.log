@@ -4935,3 +4935,75 @@ OTP Email
 16:43:03.708 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
 16:43:04.010 [main] INFO  SignUp.SignUp_Test - Closing the browser
 16:43:04.142 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+16:45:04.630 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+16:45:04.633 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+16:45:04.633 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+16:45:14.570 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:45:16.673 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
+16:45:16.723 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
+16:45:16.972 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Closing the browser
+16:45:17.108 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Browser quit process completed
+16:45:20.627 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+16:45:20.627 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+16:45:20.627 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+16:45:20.635 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+16:45:20.734 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+16:45:20.740 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+16:45:21.899 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+16:45:22.902 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+16:45:22.981 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+16:45:23.113 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+16:45:31.032 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+16:45:31.279 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+16:45:33.183 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+16:45:33.291 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+16:45:36.499 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+16:45:36.502 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+16:45:46.940 [main] INFO  SignUp.SignUp_Test - Found email subject: 17:15
+Dazhboards
+OTP Email
+16:45:50.207 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 429523
+16:45:50.616 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+16:45:50.621 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+16:45:55.623 [main] INFO  SignUp.SignUp_Test - Entering company name
+16:45:56.709 [main] INFO  SignUp.SignUp_Test - Selecting product category
+16:45:59.935 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+16:46:02.120 [main] INFO  SignUp.SignUp_Test - Entering location address
+16:46:07.312 [main] INFO  SignUp.SignUp_Test - Entering website address
+16:46:08.498 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+16:46:10.700 [main] INFO  SignUp.SignUp_Test - Scrolling 
+16:46:12.811 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+16:46:15.854 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+16:46:16.930 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+16:46:19.004 [main] INFO  SignUp.SignUp_Test - Scrolling 
+16:46:20.026 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+16:46:21.282 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+16:46:25.420 [main] INFO  SignUp.SignUp_Test - Entering email address
+16:46:26.588 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+16:46:29.977 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+16:46:31.058 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+16:46:32.152 [main] INFO  SignUp.SignUp_Test - Uploading logo
+16:46:32.194 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+16:46:37.287 [main] INFO  SignUp.SignUp_Test - Clicked on Save button
+16:46:37.291 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+16:46:45.754 [main] INFO  SignUp.SignUp_Test - Waiting for 'Get Started' button
+16:46:45.827 [main] INFO  SignUp.SignUp_Test - 'Get Started' button clicked
+16:46:45.836 [main] INFO  SignUp.SignUp_Test - URL after plan purchase: https://app2.dazhboards.com/plans
+16:46:45.836 [main] INFO  SignUp.SignUp_Test - URL assertion passed
+16:46:45.837 [main] INFO  SignUp.SignUp_Test - *****Plan Purchased*****
+16:46:48.841 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+16:46:48.904 [main] INFO  SignUp.SignUp_Test - Closing the browser
+16:46:49.101 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+16:46:52.956 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
+16:46:53.057 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
+16:46:53.098 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+16:46:53.181 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered invalid email: thred
+16:46:53.187 [main] INFO  Login.Login_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'thred' is missing an '@'.
+16:46:53.253 [main] INFO  Login.Login_Required_Field_Alerts_Test - Cleared email field
+16:46:53.399 [main] INFO  Login.Login_Required_Field_Alerts_Test - Entered email and incorrect password
+16:46:53.455 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in with wrong password
+16:46:54.265 [main] INFO  Login.Login_Required_Field_Alerts_Test - Assertion passed: Invalid credentials message displayed
+16:46:54.265 [main] INFO  Login.Login_Required_Field_Alerts_Test - If password is not matched: Invalid credentials.
+16:46:54.266 [main] INFO  Login.Login_Required_Field_Alerts_Test - Loaded data in Extent report
+16:46:54.305 [main] INFO  Login.Login_Required_Field_Alerts_Test - Closing the browser
+16:46:54.414 [main] INFO  Login.Login_Required_Field_Alerts_Test - Browser quit process completed
