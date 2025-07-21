@@ -1,0 +1,23 @@
+{
+  "uuid": "6c9da66b-15a2-421a-88d1-9b7d32f031c9",
+  "name": "ForgotPassword.FP_Required_Field_Alerts_Test",
+  "children": [
+    "58f65a88-6a10-48bc-a9a1-425df1f160d5"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "name": "QuitBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1753078724709,
+      "stop": 1753078725284
+    }
+  ],
+  "start": 1753078714397,
+  "stop": 1753078792642
+}
