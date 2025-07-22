@@ -1,5 +1,6 @@
 package ForgotPassword;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -7,21 +8,29 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utilities.AllureEnvWriter;
 import utilities.StartupCode;
 
 import java.time.Duration;
 import java.util.ArrayList;
 
+@Epic("Authentication")
+@Feature("Forgot Password Flow")
+@Listeners({io.qameta.allure.testng.AllureTestNg.class})
 public class Forgot_Password extends StartupCode {
     @BeforeClass
     public void Start() throws InterruptedException {
+        AllureEnvWriter.createEnvFile();
         driver = setup1();
         test = extent.createTest("Forgot_Password");
         test.info("*Started Forgot_Password*");
     }
 
     @Test(priority = 1)
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Initiate forgot password with email")
     public void Forgot_Password_Flow() throws InterruptedException {
         logger.info("Started Forgot Password Flow");
         test.info("Started Forgot Password Flow");
@@ -58,6 +67,8 @@ public class Forgot_Password extends StartupCode {
     }
 
     @Test(priority = 2)
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Access Yopmail and click reset link")
     public void Clicked_reset_button() {
         logger.info("Started: Clicking Reset Password button in Yopmail");
         test.info("Started: Clicking Reset Password button in Yopmail");
@@ -89,6 +100,8 @@ public class Forgot_Password extends StartupCode {
     }
 
     @Test(priority = 3)
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Enter and submit new password")
     public void Change_Password() {
         logger.info("Started Change Password process");
         test.info("Started Change Password process");
@@ -115,6 +128,8 @@ public class Forgot_Password extends StartupCode {
     }
 
     @Test(priority = 4)
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Validate incorrect password alerts")
     public void validatePasswordAlerts() {
         logger.info("Started validation for password alerts");
         test.info("Started validation for password alerts");

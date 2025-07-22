@@ -12,23 +12,28 @@ public class AllureEnvWriter {
             props.setProperty("Browser", "Chrome");
             props.setProperty("Browser.Version", "124");
             props.setProperty("Environment", "Staging");
+            props.setProperty("Test URL", "https://app2.dazhboards.com/");
+            props.setProperty("Quality Engineer", "Pankaj");
             props.setProperty("OS", System.getProperty("os.name"));
             props.setProperty("Java.Version", System.getProperty("java.version"));
 
             File allureResultsDir = new File("allure-results");
             if (!allureResultsDir.exists()) {
-                allureResultsDir.mkdirs(); // create allure-results if it doesn't exist
+                boolean created = allureResultsDir.mkdirs();
+                if (!created) {
+                    System.err.println("❌ Failed to create allure-results directory.");
+                    return;
+                }
             }
 
-            FileWriter writer = new FileWriter("allure-results/environment.properties");
-            props.store(writer, "Allure Environment Properties");
-            writer.close();
-
-            System.out.println("✔️ Allure environment.properties file created.");
+            File envFile = new File(allureResultsDir, "environment.properties");
+            try (FileWriter writer = new FileWriter(envFile)) {
+                props.store(writer, "Allure Environment Properties");
+                System.out.println("✔️ Allure environment.properties file created at " + envFile.getAbsolutePath());
+            }
 
         } catch (IOException e) {
             System.err.println("❌ Failed to create environment.properties: " + e.getMessage());
         }
     }
 }
-

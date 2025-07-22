@@ -2,7 +2,7 @@ package SignUp;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import io.qameta.allure.Allure;
+import io.qameta.allure.*;
 import net.datafaker.Faker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,6 +26,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Epic("Sign Up")
+@Feature("Complete Flow of Signup")
 public class SignUp_Test {
     WebDriver driver;
     Reuseable reuse;
@@ -54,6 +56,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 1)
+    @Story("Navigate to signup")
+    @Description("User clicks on the SignUp link on homepage")
+    @Severity(SeverityLevel.NORMAL)
     public void Click_on_SignUp_Link() throws IOException, InterruptedException {
         test = extent.createTest("SignUp_Test");
         test.info("*Started SignUp_Test*");
@@ -81,6 +86,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 2)
+    @Story("Fill signup form")
+    @Description("User fills all required fields in signup form")
+    @Severity(SeverityLevel.CRITICAL)
     public void Filed_signup_form() throws IOException, InterruptedException {
         logger.info("*****Filling_signup_form*****");
         test.info("Filling_signup_form");
@@ -98,6 +106,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 3)
+    @Story("Verify terms and privacy checkbox")
+    @Description("Check the terms and conditions checkbox and verify privacy policy links")
+    @Severity(SeverityLevel.MINOR)
     public void Verify_checkbox_and_links() throws IOException, InterruptedException {
         logger.info("*****Verifying_checkbox_and_links*****");
         test.info("Verifying_checkbox_and_links");
@@ -151,6 +162,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 4)
+    @Story("Submit signup")
+    @Description("Click on sign up button to submit the form")
+    @Severity(SeverityLevel.CRITICAL)
     public void Click_on_Sign_button() throws IOException, InterruptedException {
         logger.info("*****Clicking on Signup button*****");
         test.info("Clicking on Signup button");
@@ -165,21 +179,21 @@ public class SignUp_Test {
     }
 
     @Test(priority = 5)
+    @Story("Verify OTP flow")
+    @Description("Enter and verify OTP received via email or SMS")
+    @Severity(SeverityLevel.BLOCKER)
     public void OTP_Verification() throws IOException, InterruptedException {
         logger.info("*****Starting OTP Verification*****");
         test.info("OTP Verification started");
-// Open new tab and go to Yopmail
         ((JavascriptExecutor) driver).executeScript("window.open('https://yopmail.com/en/', '_blank');");
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
 
-// Enter email and open inbox
         driver.findElement(By.xpath("//input[@id='login']")).sendKeys(email);
         Thread.sleep(1000);
         driver.findElement(By.xpath("//i[@class='material-icons-outlined f36']")).click(); // Check inbox
         Thread.sleep(5000); // Wait for inbox to load
 
-// STEP 1: Switch to inbox iframe to select the correct message
         driver.switchTo().frame("ifinbox");
 
         List<WebElement> emailList = driver.findElements(By.xpath("//div[@class='m']"));
@@ -192,7 +206,6 @@ public class SignUp_Test {
             System.out.println("Email " + (i + 1) + " Subject: " + subject);
             logger.info("Found email subject: " + subject);
 
-            // ✅ Change this to your actual OTP email subject
             if (subject.toLowerCase().contains("otp email")) {
                 emailItem.click(); // Click the correct OTP email
                 otpEmailFound = true;
@@ -214,13 +227,10 @@ public class SignUp_Test {
             throw new RuntimeException("❌ OTP email not found. Browser closed.");
         }
 
-// Wait for the correct email to load
         Thread.sleep(3000);
 
-// STEP 2: Switch to the email content iframe
         driver.switchTo().frame("ifmail");
 
-// Extract the OTP from the body
         String emailBody = driver.findElement(By.tagName("body")).getText();
         System.out.println("Email Body: " + emailBody);
 
@@ -235,11 +245,9 @@ public class SignUp_Test {
         logger.info("Extracted OTP: " + otpCode);
         test.info("Extracted OTP: " + otpCode);
 
-// Switch back to registration window
         driver.switchTo().defaultContent();
         driver.switchTo().window(tabs.get(0));
 
-// Enter OTP into the form
         driver.findElement(By.xpath("//input[@placeholder='Please enter verification code']")).sendKeys(otpCode);
         driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
 
@@ -248,6 +256,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 6)
+    @Story("Complete profile")
+    @Description("User fills in company information after signup")
+    @Severity(SeverityLevel.NORMAL)
     public void Fill_company_details() throws IOException, InterruptedException {
         logger.info("*****Started Fill_company_details*****");
         test.info("Started Fill_company_details");
@@ -453,6 +464,9 @@ public class SignUp_Test {
     }
 
     @Test(priority = 7)
+    @Story("Select a plan")
+    @Description("User purchases a plan after signup")
+    @Severity(SeverityLevel.CRITICAL)
     public void Purchase_Plan() throws IOException, InterruptedException {
         logger.info("*****Starting Purchase_Plan*****");
         test.info("Purchase_Plan started");

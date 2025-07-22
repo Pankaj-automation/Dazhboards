@@ -1,25 +1,36 @@
 package ForgotPassword;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import utilities.AllureEnvWriter;
 import utilities.StartupCode;
 
+@Epic("Forgot Password Feature")
+@Feature("Required Field Validation")
+@Listeners({io.qameta.allure.testng.AllureTestNg.class})
 public class FP_Required_Field_Alerts_Test extends StartupCode {
 
     @BeforeClass
     public void Start() throws InterruptedException {
+        AllureEnvWriter.createEnvFile();
+
         driver = setup1();
         test = extent.createTest("Forgot_Password_Required_Field_Alerts_Test");
         test.info("*Started Forgot_Password_Required_Field_Alerts_Test*");
     }
 
     @Test(priority = 1)
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Verify alerts on Forgot Password form")
+    @Description("Validates email field required and format alerts on the Forgot Password page.")
     public void Forgot_Password_Email_field_alerts() throws InterruptedException {
         driver.findElement(By.xpath("//a[normalize-space()='Forgot Password?']")).click();
         driver.findElement(By.xpath("//button[normalize-space()='Send Recovery Email']")).click();
