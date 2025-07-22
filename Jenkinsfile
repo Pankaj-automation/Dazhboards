@@ -52,7 +52,6 @@ pipeline {
                 allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
             }
         }
-
         stage('Publish HTML Report') {
             steps {
                 echo "🌐 Publishing Extent/HTML Report..."
@@ -61,8 +60,8 @@ pipeline {
                     keepAll: true,
                     reportDir: 'Dazhboards/test-output',
                     reportFiles: 'dazhboardsExtentReport.html',
-                    reportName: 'HTML Report',
-                    reportTitles: 'Test Execution Summary'])
+                    reportName: 'Dazhboards HTML Report',
+                    reportTitles: 'Dazhboards HTML Report'])
             }
         }
     }
