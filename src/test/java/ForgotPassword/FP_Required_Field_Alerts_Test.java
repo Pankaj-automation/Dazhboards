@@ -5,13 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import utilities.AllureEnvWriter;
+import utilities.Screenshot;
 import utilities.StartupCode;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 @Epic("Forgot Password Feature")
 @Feature("Required Field Validation")
@@ -56,6 +58,17 @@ public class FP_Required_Field_Alerts_Test extends StartupCode {
         logger.info("If user try to enter invalid email format: " + validationMessage1);
         test.pass("If user try to enter invalid email format: " + validationMessage1);
 
+    }
+
+    @AfterMethod
+    public void Takescreenshot(ITestResult result) throws IOException {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
+            test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            test.pass("Test Passed");
+        }
     }
 
     @AfterClass

@@ -11,7 +11,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.Extentreportmanager;
@@ -93,12 +95,18 @@ public class SignUp_Test {
         logger.info("*****Filling_signup_form*****");
         test.info("Filling_signup_form");
 
-        driver.findElement(By.xpath("//input[@placeholder='Email Address']")).sendKeys(email);
+        WebElement Email = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
+        Email.sendKeys(email);
+        System.out.println(email);
+        logger.info(email);
+        test.pass(email);
         driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys(firstName);
         driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys(lastName);
         WebElement Password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         Password.sendKeys(password);
         System.out.println(password);
+        logger.info(password);
+        test.pass(password);
         logger.info("*****Filed_signup_form*****");
         test.pass("Filed_signup_form");
         Thread.sleep(1000);
@@ -203,26 +211,22 @@ public class SignUp_Test {
             WebElement emailItem = emailList.get(i);
             String subject = emailItem.getText().trim();
 
-            System.out.println("Email " + (i + 1) + " Subject: " + subject);
+            // System.out.println("Email " + (i + 1) + " Subject: " + subject);
             logger.info("Found email subject: " + subject);
 
             if (subject.toLowerCase().contains("otp email")) {
-                emailItem.click(); // Click the correct OTP email
+                emailItem.click();
                 otpEmailFound = true;
                 break;
             }
 
         }
-
         driver.switchTo().defaultContent();
-
         if (!otpEmailFound) {
             test.fail("❌ OTP email not found in inbox");
             logger.error("❌ OTP email not found in inbox");
-
             String screenshotPath = Screenshot.takeScreenshot(driver, "OTP_Email_Not_Found");
             Allure.addAttachment("OTP Email Not Found", "image/png", new FileInputStream(screenshotPath), ".png");
-
             driver.quit();
             throw new RuntimeException("❌ OTP email not found. Browser closed.");
         }
@@ -232,7 +236,7 @@ public class SignUp_Test {
         driver.switchTo().frame("ifmail");
 
         String emailBody = driver.findElement(By.tagName("body")).getText();
-        System.out.println("Email Body: " + emailBody);
+        //   System.out.println("Email Body: " + emailBody);
 
         Pattern pattern = Pattern.compile("\\b(\\d{6})\\b"); // Match 6-digit code
         Matcher matcher = pattern.matcher(emailBody);
@@ -336,8 +340,13 @@ public class SignUp_Test {
         js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
         Thread.sleep(1000);
 
-        WebElement dropdownTrigger3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='headlessui-listbox-button-:r5:']")));
-        dropdownTrigger3.click();
+        WebElement dropdownTrigger3 = wait.until(ExpectedConditions.elementToBeClickable(By.id("headlessui-listbox-button-:r5:")));
+        try {
+            dropdownTrigger3.click();
+        } catch (ElementClickInterceptedException e) {
+            //  System.out.println("Click intercepted — using JS click instead. Reason: " + e.getMessage());
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", dropdownTrigger3);
+        }
         Thread.sleep(1000);
         Actions actions = new Actions(driver);
         logger.info("Navigating dropdown using ARROW_DOWN");
@@ -427,18 +436,22 @@ public class SignUp_Test {
         uploadInput.sendKeys("/home/jc-raj/Music/Automation/Dazhboards/test-output/pexels-18393328-6470943.jpg");
         System.out.println("✔ Logo uploaded");
         test.pass("Logo uploaded successfully");
+
         /*logger.info("Closing overlay popup");
         test.info("Closing overlay popup");
+
         try {
             WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(
                     By.xpath("//*[contains(@id,'produktly-checklist-beacon-iframe')]")));
 
             driver.switchTo().frame(iframe);
-            logger.info("Switched to overlay iframe");
-            test.info("Switched to overlay iframe");
+            logger.info("Switching to overlay iframe");
+            test.info("Switching to overlay iframe");
+
             WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(
                     By.xpath("//button[@aria-label='Close checklist beacon']//*[name()='svg']")));
             closeBtn.click();
+
             logger.info("Overlay popup closed");
             test.pass("Overlay popup closed");
             driver.switchTo().defaultContent();
@@ -450,13 +463,23 @@ public class SignUp_Test {
             logger.warn("Unexpected error while handling overlay: " + e.getMessage());
             test.warning("Unexpected overlay issue: " + e.getMessage());
             driver.switchTo().defaultContent();
-        }*/
+        }
+
         System.out.println("✔ Overlay Popup closed");
         logger.info("Overlay popup closed successfully");
         test.pass("Overlay popup closed successfully");
+
+        Thread.sleep(3000); // reduce wait to avoid unnecessary delay
+*/
+
+        logger.info("Clicking on Save button");
+        test.info("Clicking on Save button");
+        WebElement saveBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//button[normalize-space()='Save']")));
+        Thread.sleep(1000);
+        wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
         Thread.sleep(5000);
-        WebElement saveBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Save']")));
-        saveBtn.click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", saveBtn);
         logger.info("Clicked on Save button");
         test.pass("Clicked on Save button");
 
@@ -550,6 +573,17 @@ public class SignUp_Test {
         System.out.println("Assertion passed: URL contains '" + expectedSubstring + "'");
         logger.info("*****Plan Purchased*****");
         test.info("Plan Purchased");
+    }
+
+    @AfterMethod
+    public void Takescreenshot(ITestResult result) throws IOException {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
+            test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            test.pass("Test Passed");
+        }
     }
 
     @AfterClass

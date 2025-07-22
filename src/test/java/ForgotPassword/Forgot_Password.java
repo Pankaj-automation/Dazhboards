@@ -6,13 +6,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import utilities.AllureEnvWriter;
+import utilities.Screenshot;
 import utilities.StartupCode;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 
@@ -154,6 +155,16 @@ public class Forgot_Password extends StartupCode {
         test.info("Completed validation for password alerts");
     }
 
+    @AfterMethod
+    public void Takescreenshot(ITestResult result) throws IOException {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
+            test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            test.pass("Test Passed");
+        }
+    }
 
     @AfterClass
     public void QuitBrowser() throws InterruptedException {

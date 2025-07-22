@@ -7,12 +7,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.AllureEnvWriter;
+import utilities.Screenshot;
 import utilities.StartupCode;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
 
 @Epic("Login")
@@ -89,6 +94,16 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
         test.pass("If password is not matched: " + actualText);
     }
 
+    @AfterMethod
+    public void Takescreenshot(ITestResult result) throws IOException {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
+            test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            test.pass("Test Passed");
+        }
+    }
 
     @AfterClass
     public void QuitBrowser() {
