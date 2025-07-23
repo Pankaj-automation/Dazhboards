@@ -21,14 +21,13 @@ import java.time.Duration;
 
 @Epic("Login Module")
 @Feature("Login Functionality")
-public class Login extends StartupCode {
+public class Login_Test extends StartupCode {
 
     @BeforeClass
     @Step("Setup and Launch Browser")
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();
         driver = setup1();
-        test = extent.createTest("Login_Test");
         test.info("*Started Login_Test*");
     }
 
@@ -79,19 +78,8 @@ public class Login extends StartupCode {
 
     @AfterClass
     public void QuitBrowser() {
-        logger.info("Loaded data in Extent report");
-        test.info("Loaded data in Extent report");
 
-        extent.flush();
-
-        if (driver != null) {
-            logger.info("Closing the browser");
-            driver.quit();
-        } else {
-            logger.warn("Driver was null, browser not closed");
-        }
-
-        logger.info("Browser quit process completed");
-        test.pass("Browser quit process completed");
+        quitDriver();
+        finalizeReport();
     }
 }

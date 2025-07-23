@@ -19,7 +19,7 @@
                     <include name="validatePasswordAlerts"/>
                 </methods>
             </class>
-            <class name="Login.Login">
+            <class name="Login.Login_Test">
                 <methods>
                     <include name="login"/>
                 </methods>

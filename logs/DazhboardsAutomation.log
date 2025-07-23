@@ -1662,15 +1662,15 @@
 16:01:47.115 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 16:01:47.134 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 16:01:47.233 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-16:01:47.237 [main] INFO  Login.Login - Starting login process...
-16:01:47.394 [main] INFO  Login.Login - Entered valid email
-16:01:47.477 [main] INFO  Login.Login - Entered valid password
-16:01:47.558 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:01:49.586 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:01:49.586 [main] INFO  Login.Login - URL validation passed.
-16:01:49.587 [main] INFO  Login.Login - Loaded data in Extent report
-16:01:49.597 [main] INFO  Login.Login - Closing the browser
-16:01:49.696 [main] INFO  Login.Login - Browser quit process completed
+16:01:47.237 [main] INFO  Login.Login_Test - Starting login process...
+16:01:47.394 [main] INFO  Login.Login_Test - Entered valid email
+16:01:47.477 [main] INFO  Login.Login_Test - Entered valid password
+16:01:47.558 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:01:49.586 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:01:49.586 [main] INFO  Login.Login_Test - URL validation passed.
+16:01:49.587 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:01:49.597 [main] INFO  Login.Login_Test - Closing the browser
+16:01:49.696 [main] INFO  Login.Login_Test - Browser quit process completed
 16:01:49.697 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 16:01:49.799 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 16:01:49.830 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -1908,15 +1908,15 @@
 16:54:51.496 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-16:54:54.727 [main] INFO  Login.Login - Starting login process...
-16:54:54.869 [main] INFO  Login.Login - Entered valid email
-16:54:54.953 [main] INFO  Login.Login - Entered valid password
-16:54:55.039 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:54:57.585 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:54:57.587 [main] INFO  Login.Login - URL validation passed.
-16:54:57.591 [main] INFO  Login.Login - Loaded data in Extent report
-16:54:57.959 [main] INFO  Login.Login - Closing the browser
-16:54:58.059 [main] INFO  Login.Login - Browser quit process completed
+16:54:54.727 [main] INFO  Login.Login_Test - Starting login process...
+16:54:54.869 [main] INFO  Login.Login_Test - Entered valid email
+16:54:54.953 [main] INFO  Login.Login_Test - Entered valid password
+16:54:55.039 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:54:57.585 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:54:57.587 [main] INFO  Login.Login_Test - URL validation passed.
+16:54:57.591 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:54:57.959 [main] INFO  Login.Login_Test - Closing the browser
+16:54:58.059 [main] INFO  Login.Login_Test - Browser quit process completed
 16:55:51.245 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 16:55:51.849 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
@@ -2267,15 +2267,15 @@
 17:10:24.922 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 17:10:24.942 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 17:10:25.028 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-17:10:25.029 [main] INFO  Login.Login - Starting login process...
-17:10:25.148 [main] INFO  Login.Login - Entered valid email
-17:10:25.228 [main] INFO  Login.Login - Entered valid password
-17:10:25.311 [main] INFO  Login.Login - Credentials entered and login button clicked.
-17:10:27.862 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-17:10:27.863 [main] INFO  Login.Login - URL validation passed.
-17:10:27.866 [main] INFO  Login.Login - Loaded data in Extent report
-17:10:27.875 [main] INFO  Login.Login - Closing the browser
-17:10:27.982 [main] INFO  Login.Login - Browser quit process completed
+17:10:25.029 [main] INFO  Login.Login_Test - Starting login process...
+17:10:25.148 [main] INFO  Login.Login_Test - Entered valid email
+17:10:25.228 [main] INFO  Login.Login_Test - Entered valid password
+17:10:25.311 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:10:27.862 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+17:10:27.863 [main] INFO  Login.Login_Test - URL validation passed.
+17:10:27.866 [main] INFO  Login.Login_Test - Loaded data in Extent report
+17:10:27.875 [main] INFO  Login.Login_Test - Closing the browser
+17:10:27.982 [main] INFO  Login.Login_Test - Browser quit process completed
 17:10:27.983 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 17:10:28.087 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 17:10:28.129 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -2742,10 +2742,10 @@
 15:12:31.498 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 15:12:31.521 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 15:12:31.603 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-15:12:31.604 [main] INFO  Login.Login - Starting login process...
-15:12:41.641 [main] INFO  Login.Login - Loaded data in Extent report
-15:12:41.658 [main] INFO  Login.Login - Closing the browser
-15:12:41.734 [main] INFO  Login.Login - Browser quit process completed
+15:12:31.604 [main] INFO  Login.Login_Test - Starting login process...
+15:12:41.641 [main] INFO  Login.Login_Test - Loaded data in Extent report
+15:12:41.658 [main] INFO  Login.Login_Test - Closing the browser
+15:12:41.734 [main] INFO  Login.Login_Test - Browser quit process completed
 15:12:41.735 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 15:12:41.844 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 15:12:41.872 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -2794,28 +2794,28 @@
 15:14:00.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-15:14:03.908 [main] INFO  Login.Login - Starting login process...
-15:14:04.040 [main] INFO  Login.Login - Entered valid email
-15:14:04.125 [main] INFO  Login.Login - Entered valid password
-15:14:04.213 [main] INFO  Login.Login - Credentials entered and login button clicked.
-15:14:06.246 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-15:14:06.248 [main] INFO  Login.Login - URL validation passed.
-15:14:06.251 [main] INFO  Login.Login - Loaded data in Extent report
-15:14:06.496 [main] INFO  Login.Login - Closing the browser
-15:14:06.608 [main] INFO  Login.Login - Browser quit process completed
+15:14:03.908 [main] INFO  Login.Login_Test - Starting login process...
+15:14:04.040 [main] INFO  Login.Login_Test - Entered valid email
+15:14:04.125 [main] INFO  Login.Login_Test - Entered valid password
+15:14:04.213 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:14:06.246 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:14:06.248 [main] INFO  Login.Login_Test - URL validation passed.
+15:14:06.251 [main] INFO  Login.Login_Test - Loaded data in Extent report
+15:14:06.496 [main] INFO  Login.Login_Test - Closing the browser
+15:14:06.608 [main] INFO  Login.Login_Test - Browser quit process completed
 11:25:21.348 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 11:25:21.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-11:25:30.766 [main] INFO  Login.Login - Starting login process...
-11:25:30.898 [main] INFO  Login.Login - Entered valid email
-11:25:30.980 [main] INFO  Login.Login - Entered valid password
-11:25:31.073 [main] INFO  Login.Login - Credentials entered and login button clicked.
-11:25:33.111 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-11:25:33.113 [main] INFO  Login.Login - URL validation passed.
-11:25:33.176 [main] INFO  Login.Login - Loaded data in Extent report
-11:25:33.434 [main] INFO  Login.Login - Closing the browser
-11:25:33.538 [main] INFO  Login.Login - Browser quit process completed
+11:25:30.766 [main] INFO  Login.Login_Test - Starting login process...
+11:25:30.898 [main] INFO  Login.Login_Test - Entered valid email
+11:25:30.980 [main] INFO  Login.Login_Test - Entered valid password
+11:25:31.073 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:25:33.111 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:25:33.113 [main] INFO  Login.Login_Test - URL validation passed.
+11:25:33.176 [main] INFO  Login.Login_Test - Loaded data in Extent report
+11:25:33.434 [main] INFO  Login.Login_Test - Closing the browser
+11:25:33.538 [main] INFO  Login.Login_Test - Browser quit process completed
 11:26:19.095 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
 11:26:21.208 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
 11:26:21.259 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
@@ -2862,28 +2862,28 @@
 11:43:54.914 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-11:44:02.166 [main] INFO  Login.Login - Starting login process...
-11:44:02.323 [main] INFO  Login.Login - Entered valid email
-11:44:02.408 [main] INFO  Login.Login - Entered valid password
-11:44:02.508 [main] INFO  Login.Login - Credentials entered and login button clicked.
-11:44:04.544 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-11:44:04.546 [main] INFO  Login.Login - URL validation passed.
-11:44:04.614 [main] INFO  Login.Login - Loaded data in Extent report
-11:44:04.906 [main] INFO  Login.Login - Closing the browser
-11:44:05.085 [main] INFO  Login.Login - Browser quit process completed
+11:44:02.166 [main] INFO  Login.Login_Test - Starting login process...
+11:44:02.323 [main] INFO  Login.Login_Test - Entered valid email
+11:44:02.408 [main] INFO  Login.Login_Test - Entered valid password
+11:44:02.508 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:44:04.544 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:44:04.546 [main] INFO  Login.Login_Test - URL validation passed.
+11:44:04.614 [main] INFO  Login.Login_Test - Loaded data in Extent report
+11:44:04.906 [main] INFO  Login.Login_Test - Closing the browser
+11:44:05.085 [main] INFO  Login.Login_Test - Browser quit process completed
 11:47:43.189 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 11:47:43.887 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-11:47:47.578 [main] INFO  Login.Login - Starting login process...
-11:47:47.718 [main] INFO  Login.Login - Entered valid email
-11:47:47.825 [main] INFO  Login.Login - Entered valid password
-11:47:47.917 [main] INFO  Login.Login - Credentials entered and login button clicked.
-11:47:50.457 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-11:47:50.459 [main] INFO  Login.Login - URL validation passed.
-11:47:50.527 [main] INFO  Login.Login - Loaded data in Extent report
-11:47:50.818 [main] INFO  Login.Login - Closing the browser
-11:47:50.946 [main] INFO  Login.Login - Browser quit process completed
+11:47:47.578 [main] INFO  Login.Login_Test - Starting login process...
+11:47:47.718 [main] INFO  Login.Login_Test - Entered valid email
+11:47:47.825 [main] INFO  Login.Login_Test - Entered valid password
+11:47:47.917 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:47:50.457 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:47:50.459 [main] INFO  Login.Login_Test - URL validation passed.
+11:47:50.527 [main] INFO  Login.Login_Test - Loaded data in Extent report
+11:47:50.818 [main] INFO  Login.Login_Test - Closing the browser
+11:47:50.946 [main] INFO  Login.Login_Test - Browser quit process completed
 11:48:42.478 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
 11:48:44.631 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - If user try to enter invalid email format: Please include an '@' in the email address. 'loop' is missing an '@'.
 11:48:44.709 [main] INFO  ForgotPassword.FP_Required_Field_Alerts_Test - Loaded data in Extent report
@@ -3105,15 +3105,15 @@
 12:36:03.924 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 12:36:03.950 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 12:36:04.058 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-12:36:04.063 [main] INFO  Login.Login - Starting login process...
-12:36:04.179 [main] INFO  Login.Login - Entered valid email
-12:36:04.264 [main] INFO  Login.Login - Entered valid password
-12:36:04.350 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:36:06.885 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:36:06.885 [main] INFO  Login.Login - URL validation passed.
-12:36:06.901 [main] INFO  Login.Login - Loaded data in Extent report
-12:36:06.911 [main] INFO  Login.Login - Closing the browser
-12:36:07.004 [main] INFO  Login.Login - Browser quit process completed
+12:36:04.063 [main] INFO  Login.Login_Test - Starting login process...
+12:36:04.179 [main] INFO  Login.Login_Test - Entered valid email
+12:36:04.264 [main] INFO  Login.Login_Test - Entered valid password
+12:36:04.350 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:36:06.885 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:36:06.885 [main] INFO  Login.Login_Test - URL validation passed.
+12:36:06.901 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:36:06.911 [main] INFO  Login.Login_Test - Closing the browser
+12:36:07.004 [main] INFO  Login.Login_Test - Browser quit process completed
 12:36:07.006 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 12:36:07.108 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 12:36:07.141 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -3162,102 +3162,102 @@
 12:37:53.112 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-12:37:56.841 [main] INFO  Login.Login - Starting login process...
-12:37:56.976 [main] INFO  Login.Login - Entered valid email
-12:37:57.291 [main] INFO  Login.Login - Entered valid password
-12:37:57.392 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:37:59.434 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:37:59.436 [main] INFO  Login.Login - URL validation passed.
-12:37:59.496 [main] INFO  Login.Login - Loaded data in Extent report
-12:37:59.740 [main] INFO  Login.Login - Closing the browser
-12:37:59.848 [main] INFO  Login.Login - Browser quit process completed
+12:37:56.841 [main] INFO  Login.Login_Test - Starting login process...
+12:37:56.976 [main] INFO  Login.Login_Test - Entered valid email
+12:37:57.291 [main] INFO  Login.Login_Test - Entered valid password
+12:37:57.392 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:37:59.434 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:37:59.436 [main] INFO  Login.Login_Test - URL validation passed.
+12:37:59.496 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:37:59.740 [main] INFO  Login.Login_Test - Closing the browser
+12:37:59.848 [main] INFO  Login.Login_Test - Browser quit process completed
 12:39:11.776 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 12:39:11.779 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 12:39:11.780 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-12:39:15.224 [main] INFO  Login.Login - Starting login process...
-12:39:15.360 [main] INFO  Login.Login - Entered valid email
-12:39:15.460 [main] INFO  Login.Login - Entered valid password
-12:39:15.561 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:39:17.598 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:39:17.600 [main] INFO  Login.Login - URL validation passed.
-12:39:17.660 [main] INFO  Login.Login - Loaded data in Extent report
-12:39:17.913 [main] INFO  Login.Login - Closing the browser
-12:39:18.027 [main] INFO  Login.Login - Browser quit process completed
+12:39:15.224 [main] INFO  Login.Login_Test - Starting login process...
+12:39:15.360 [main] INFO  Login.Login_Test - Entered valid email
+12:39:15.460 [main] INFO  Login.Login_Test - Entered valid password
+12:39:15.561 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:39:17.598 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:39:17.600 [main] INFO  Login.Login_Test - URL validation passed.
+12:39:17.660 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:39:17.913 [main] INFO  Login.Login_Test - Closing the browser
+12:39:18.027 [main] INFO  Login.Login_Test - Browser quit process completed
 12:42:56.193 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 12:42:56.196 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 12:42:56.197 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-12:43:02.747 [main] INFO  Login.Login - Starting login process...
-12:43:02.910 [main] INFO  Login.Login - Entered valid email
-12:43:02.998 [main] INFO  Login.Login - Entered valid password
-12:43:03.095 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:43:05.129 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:43:05.131 [main] INFO  Login.Login - URL validation passed.
-12:43:05.185 [main] INFO  Login.Login - Loaded data in Extent report
-12:43:05.439 [main] INFO  Login.Login - Closing the browser
-12:43:05.549 [main] INFO  Login.Login - Browser quit process completed
+12:43:02.747 [main] INFO  Login.Login_Test - Starting login process...
+12:43:02.910 [main] INFO  Login.Login_Test - Entered valid email
+12:43:02.998 [main] INFO  Login.Login_Test - Entered valid password
+12:43:03.095 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:43:05.129 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:43:05.131 [main] INFO  Login.Login_Test - URL validation passed.
+12:43:05.185 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:43:05.439 [main] INFO  Login.Login_Test - Closing the browser
+12:43:05.549 [main] INFO  Login.Login_Test - Browser quit process completed
 12:48:59.389 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 12:49:00.020 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-12:49:09.695 [main] INFO  Login.Login - Starting login process...
-12:49:09.841 [main] INFO  Login.Login - Entered valid email
-12:49:09.937 [main] INFO  Login.Login - Entered valid password
-12:49:10.026 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:49:12.565 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:49:12.567 [main] INFO  Login.Login - URL validation passed.
-12:49:12.632 [main] INFO  Login.Login - Loaded data in Extent report
-12:49:13.055 [main] INFO  Login.Login - Closing the browser
-12:49:13.148 [main] INFO  Login.Login - Browser quit process completed
+12:49:09.695 [main] INFO  Login.Login_Test - Starting login process...
+12:49:09.841 [main] INFO  Login.Login_Test - Entered valid email
+12:49:09.937 [main] INFO  Login.Login_Test - Entered valid password
+12:49:10.026 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:49:12.565 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:49:12.567 [main] INFO  Login.Login_Test - URL validation passed.
+12:49:12.632 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:49:13.055 [main] INFO  Login.Login_Test - Closing the browser
+12:49:13.148 [main] INFO  Login.Login_Test - Browser quit process completed
 12:51:54.325 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 12:51:54.951 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-12:51:58.529 [main] INFO  Login.Login - Starting login process...
-12:51:58.703 [main] INFO  Login.Login - Entered valid email
-12:51:58.796 [main] INFO  Login.Login - Entered valid password
-12:51:59.069 [main] INFO  Login.Login - Credentials entered and login button clicked.
-12:52:01.216 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-12:52:01.219 [main] INFO  Login.Login - URL validation passed.
-12:52:01.297 [main] INFO  Login.Login - Loaded data in Extent report
-12:52:01.609 [main] INFO  Login.Login - Closing the browser
-12:52:01.712 [main] INFO  Login.Login - Browser quit process completed
+12:51:58.529 [main] INFO  Login.Login_Test - Starting login process...
+12:51:58.703 [main] INFO  Login.Login_Test - Entered valid email
+12:51:58.796 [main] INFO  Login.Login_Test - Entered valid password
+12:51:59.069 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:52:01.216 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:52:01.219 [main] INFO  Login.Login_Test - URL validation passed.
+12:52:01.297 [main] INFO  Login.Login_Test - Loaded data in Extent report
+12:52:01.609 [main] INFO  Login.Login_Test - Closing the browser
+12:52:01.712 [main] INFO  Login.Login_Test - Browser quit process completed
 13:01:24.901 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 13:01:24.904 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 13:01:24.904 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-13:01:32.296 [main] INFO  Login.Login - Starting login process...
-13:01:32.641 [main] INFO  Login.Login - Entered valid email
-13:01:32.832 [main] INFO  Login.Login - Entered valid password
-13:01:32.959 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:01:35.498 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-13:01:35.500 [main] INFO  Login.Login - URL validation passed.
-13:01:35.597 [main] INFO  Login.Login - Loaded data in Extent report
-13:01:36.018 [main] INFO  Login.Login - Closing the browser
-13:01:36.177 [main] INFO  Login.Login - Browser quit process completed
+13:01:32.296 [main] INFO  Login.Login_Test - Starting login process...
+13:01:32.641 [main] INFO  Login.Login_Test - Entered valid email
+13:01:32.832 [main] INFO  Login.Login_Test - Entered valid password
+13:01:32.959 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:01:35.498 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:01:35.500 [main] INFO  Login.Login_Test - URL validation passed.
+13:01:35.597 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:01:36.018 [main] INFO  Login.Login_Test - Closing the browser
+13:01:36.177 [main] INFO  Login.Login_Test - Browser quit process completed
 13:03:34.975 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 13:03:34.978 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
 13:03:34.979 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-13:03:38.863 [main] INFO  Login.Login - Starting login process...
-13:03:39.005 [main] INFO  Login.Login - Entered valid email
-13:03:39.095 [main] INFO  Login.Login - Entered valid password
-13:03:39.182 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:03:41.720 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-13:03:41.722 [main] INFO  Login.Login - URL validation passed.
-13:03:41.784 [main] INFO  Login.Login - Loaded data in Extent report
-13:03:42.039 [main] INFO  Login.Login - Closing the browser
-13:03:42.134 [main] INFO  Login.Login - Browser quit process completed
+13:03:38.863 [main] INFO  Login.Login_Test - Starting login process...
+13:03:39.005 [main] INFO  Login.Login_Test - Entered valid email
+13:03:39.095 [main] INFO  Login.Login_Test - Entered valid password
+13:03:39.182 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:03:41.720 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:03:41.722 [main] INFO  Login.Login_Test - URL validation passed.
+13:03:41.784 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:03:42.039 [main] INFO  Login.Login_Test - Closing the browser
+13:03:42.134 [main] INFO  Login.Login_Test - Browser quit process completed
 13:05:18.754 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
 13:05:19.467 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-13:05:28.067 [main] INFO  Login.Login - Starting login process...
-13:05:28.201 [main] INFO  Login.Login - Entered valid email
-13:05:28.315 [main] INFO  Login.Login - Entered valid password
-13:05:28.431 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:05:30.969 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-13:05:30.971 [main] INFO  Login.Login - URL validation passed.
-13:05:31.032 [main] INFO  Login.Login - Loaded data in Extent report
-13:05:31.362 [main] INFO  Login.Login - Closing the browser
-13:05:31.474 [main] INFO  Login.Login - Browser quit process completed
+13:05:28.067 [main] INFO  Login.Login_Test - Starting login process...
+13:05:28.201 [main] INFO  Login.Login_Test - Entered valid email
+13:05:28.315 [main] INFO  Login.Login_Test - Entered valid password
+13:05:28.431 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:05:30.969 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:05:30.971 [main] INFO  Login.Login_Test - URL validation passed.
+13:05:31.032 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:05:31.362 [main] INFO  Login.Login_Test - Closing the browser
+13:05:31.474 [main] INFO  Login.Login_Test - Browser quit process completed
 13:05:31.480 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 13:05:31.600 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 13:05:31.631 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -3299,21 +3299,21 @@
 13:16:06.097 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/Music/Automation/Dazhboards/testng.xml
 
-13:16:16.011 [main] INFO  Login.Login - Starting login process...
-13:16:16.165 [main] INFO  Login.Login - Entered valid email
-13:16:16.276 [main] INFO  Login.Login - Entered valid password
-13:16:16.371 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:16:26.594 [main] INFO  Login.Login - Starting login process...
-13:16:26.708 [main] INFO  Login.Login - Entered valid email
-13:16:26.803 [main] INFO  Login.Login - Entered valid password
-13:16:26.908 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:16:37.086 [main] INFO  Login.Login - Starting login process...
-13:16:37.244 [main] INFO  Login.Login - Entered valid email
-13:16:37.361 [main] INFO  Login.Login - Entered valid password
-13:16:37.444 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:16:47.679 [main] INFO  Login.Login - Loaded data in Extent report
-13:16:47.933 [main] INFO  Login.Login - Closing the browser
-13:16:48.048 [main] INFO  Login.Login - Browser quit process completed
+13:16:16.011 [main] INFO  Login.Login_Test - Starting login process...
+13:16:16.165 [main] INFO  Login.Login_Test - Entered valid email
+13:16:16.276 [main] INFO  Login.Login_Test - Entered valid password
+13:16:16.371 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:16:26.594 [main] INFO  Login.Login_Test - Starting login process...
+13:16:26.708 [main] INFO  Login.Login_Test - Entered valid email
+13:16:26.803 [main] INFO  Login.Login_Test - Entered valid password
+13:16:26.908 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:16:37.086 [main] INFO  Login.Login_Test - Starting login process...
+13:16:37.244 [main] INFO  Login.Login_Test - Entered valid email
+13:16:37.361 [main] INFO  Login.Login_Test - Entered valid password
+13:16:37.444 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:16:47.679 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:16:47.933 [main] INFO  Login.Login_Test - Closing the browser
+13:16:48.048 [main] INFO  Login.Login_Test - Browser quit process completed
 13:16:48.053 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 13:16:48.158 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 13:16:48.191 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -3331,13 +3331,13 @@
 13:24:42.658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
 
-13:24:46.031 [main] INFO  Login.Login - Starting login process...
-13:24:46.175 [main] INFO  Login.Login - Entered valid email
-13:24:46.260 [main] INFO  Login.Login - Entered valid password
-13:24:46.347 [main] INFO  Login.Login - Credentials entered and login button clicked.
-13:24:56.600 [main] INFO  Login.Login - Loaded data in Extent report
-13:24:56.831 [main] INFO  Login.Login - Closing the browser
-13:24:56.933 [main] INFO  Login.Login - Browser quit process completed
+13:24:46.031 [main] INFO  Login.Login_Test - Starting login process...
+13:24:46.175 [main] INFO  Login.Login_Test - Entered valid email
+13:24:46.260 [main] INFO  Login.Login_Test - Entered valid password
+13:24:46.347 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:24:56.600 [main] INFO  Login.Login_Test - Loaded data in Extent report
+13:24:56.831 [main] INFO  Login.Login_Test - Closing the browser
+13:24:56.933 [main] INFO  Login.Login_Test - Browser quit process completed
 15:22:04.035 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/Music/Automation/Dazhboards/testng.xml"
 15:22:04.738 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 15:22:04.742 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
@@ -3476,9 +3476,9 @@
 15:22:40.969 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 15:22:40.995 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 15:22:41.014 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-15:22:41.019 [main] INFO  Login.Login - Starting login process...
-15:22:41.044 [main] INFO  Login.Login - Starting login process...
-15:22:41.056 [main] INFO  Login.Login - Starting login process...
+15:22:41.019 [main] INFO  Login.Login_Test - Starting login process...
+15:22:41.044 [main] INFO  Login.Login_Test - Starting login process...
+15:22:41.056 [main] INFO  Login.Login_Test - Starting login process...
 15:22:41.090 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 15:22:41.113 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 15:22:41.126 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
@@ -3660,15 +3660,15 @@
 15:26:28.045 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 15:26:28.068 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 15:26:28.166 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-15:26:31.519 [main] INFO  Login.Login - Starting login process...
-15:26:31.638 [main] INFO  Login.Login - Entered valid email
-15:26:31.733 [main] INFO  Login.Login - Entered valid password
-15:26:32.005 [main] INFO  Login.Login - Credentials entered and login button clicked.
-15:26:34.537 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-15:26:34.537 [main] INFO  Login.Login - URL validation passed.
-15:26:34.548 [main] INFO  Login.Login - Loaded data in Extent report
-15:26:34.566 [main] INFO  Login.Login - Closing the browser
-15:26:34.642 [main] INFO  Login.Login - Browser quit process completed
+15:26:31.519 [main] INFO  Login.Login_Test - Starting login process...
+15:26:31.638 [main] INFO  Login.Login_Test - Entered valid email
+15:26:31.733 [main] INFO  Login.Login_Test - Entered valid password
+15:26:32.005 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:26:34.537 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:26:34.537 [main] INFO  Login.Login_Test - URL validation passed.
+15:26:34.548 [main] INFO  Login.Login_Test - Loaded data in Extent report
+15:26:34.566 [main] INFO  Login.Login_Test - Closing the browser
+15:26:34.642 [main] INFO  Login.Login_Test - Browser quit process completed
 15:26:37.799 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 15:26:37.906 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 15:26:37.941 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -4391,24 +4391,24 @@
 16:01:02.944 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 16:01:02.964 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 16:01:03.074 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-16:01:13.786 [main] INFO  Login.Login - Starting login process...
-16:01:13.919 [main] INFO  Login.Login - Entered valid email
-16:01:14.013 [main] INFO  Login.Login - Entered valid password
-16:01:14.125 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:01:15.159 [main] INFO  Login.Login - Starting login process...
-16:01:15.330 [main] INFO  Login.Login - Entered valid email
-16:01:15.417 [main] INFO  Login.Login - Entered valid password
-16:01:15.504 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:01:16.161 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:01:16.161 [main] INFO  Login.Login - URL validation passed.
-16:01:16.175 [main] INFO  Login.Login - Loaded data in Extent report
-16:01:16.193 [main] INFO  Login.Login - Closing the browser
-16:01:16.274 [main] INFO  Login.Login - Browser quit process completed
-16:01:17.540 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:01:17.541 [main] INFO  Login.Login - URL validation passed.
-16:01:17.564 [main] INFO  Login.Login - Loaded data in Extent report
-16:01:17.594 [main] INFO  Login.Login - Closing the browser
-16:01:17.711 [main] INFO  Login.Login - Browser quit process completed
+16:01:13.786 [main] INFO  Login.Login_Test - Starting login process...
+16:01:13.919 [main] INFO  Login.Login_Test - Entered valid email
+16:01:14.013 [main] INFO  Login.Login_Test - Entered valid password
+16:01:14.125 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:01:15.159 [main] INFO  Login.Login_Test - Starting login process...
+16:01:15.330 [main] INFO  Login.Login_Test - Entered valid email
+16:01:15.417 [main] INFO  Login.Login_Test - Entered valid password
+16:01:15.504 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:01:16.161 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:01:16.161 [main] INFO  Login.Login_Test - URL validation passed.
+16:01:16.175 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:01:16.193 [main] INFO  Login.Login_Test - Closing the browser
+16:01:16.274 [main] INFO  Login.Login_Test - Browser quit process completed
+16:01:17.540 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:01:17.541 [main] INFO  Login.Login_Test - URL validation passed.
+16:01:17.564 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:01:17.594 [main] INFO  Login.Login_Test - Closing the browser
+16:01:17.711 [main] INFO  Login.Login_Test - Browser quit process completed
 16:01:20.496 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 16:01:20.598 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 16:01:20.632 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -4715,15 +4715,15 @@
 16:26:35.554 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 16:26:35.579 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 16:26:35.663 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-16:26:38.250 [main] INFO  Login.Login - Starting login process...
-16:26:38.366 [main] INFO  Login.Login - Entered valid email
-16:26:38.458 [main] INFO  Login.Login - Entered valid password
-16:26:38.542 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:26:40.573 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:26:40.573 [main] INFO  Login.Login - URL validation passed.
-16:26:40.584 [main] INFO  Login.Login - Loaded data in Extent report
-16:26:40.601 [main] INFO  Login.Login - Closing the browser
-16:26:40.703 [main] INFO  Login.Login - Browser quit process completed
+16:26:38.250 [main] INFO  Login.Login_Test - Starting login process...
+16:26:38.366 [main] INFO  Login.Login_Test - Entered valid email
+16:26:38.458 [main] INFO  Login.Login_Test - Entered valid password
+16:26:38.542 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:26:40.573 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:26:40.573 [main] INFO  Login.Login_Test - URL validation passed.
+16:26:40.584 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:26:40.601 [main] INFO  Login.Login_Test - Closing the browser
+16:26:40.703 [main] INFO  Login.Login_Test - Browser quit process completed
 16:26:43.171 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 16:26:43.269 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 16:26:43.296 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -5652,15 +5652,15 @@ OTP Email
 16:00:57.666 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
 16:00:57.689 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
 16:00:57.787 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
-16:01:00.260 [main] INFO  Login.Login - Starting login process...
-16:01:00.378 [main] INFO  Login.Login - Entered valid email
-16:01:00.472 [main] INFO  Login.Login - Entered valid password
-16:01:00.558 [main] INFO  Login.Login - Credentials entered and login button clicked.
-16:01:02.590 [main] INFO  Login.Login - Current URL after login: https://app2.dazhboards.com/pos
-16:01:02.591 [main] INFO  Login.Login - URL validation passed.
-16:01:02.593 [main] INFO  Login.Login - Loaded data in Extent report
-16:01:02.605 [main] INFO  Login.Login - Closing the browser
-16:01:02.697 [main] INFO  Login.Login - Browser quit process completed
+16:01:00.260 [main] INFO  Login.Login_Test - Starting login process...
+16:01:00.378 [main] INFO  Login.Login_Test - Entered valid email
+16:01:00.472 [main] INFO  Login.Login_Test - Entered valid password
+16:01:00.558 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+16:01:02.590 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+16:01:02.591 [main] INFO  Login.Login_Test - URL validation passed.
+16:01:02.593 [main] INFO  Login.Login_Test - Loaded data in Extent report
+16:01:02.605 [main] INFO  Login.Login_Test - Closing the browser
+16:01:02.697 [main] INFO  Login.Login_Test - Browser quit process completed
 16:01:05.231 [main] INFO  Login.Login_Required_Field_Alerts_Test - Test started: Email_field_alert
 16:01:05.334 [main] INFO  Login.Login_Required_Field_Alerts_Test - Clicked on Sign in button without entering email
 16:01:05.369 [main] INFO  Login.Login_Required_Field_Alerts_Test - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
@@ -6293,3 +6293,637 @@ OTP Email
 17:02:00.426 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
 17:02:00.723 [main] INFO  SignUp.SignUp_Test - Closing the browser
 17:02:00.837 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+18:29:16.760 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:29:17.408 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:29:30.497 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+18:29:32.574 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+18:29:33.073 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+18:29:33.147 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+18:29:33.689 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+18:29:33.731 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+18:29:33.832 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+18:29:36.259 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+18:29:36.956 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+18:29:57.098 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+18:30:07.202 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+18:30:17.282 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+18:30:17.535 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+18:30:17.646 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+18:43:16.578 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:43:17.247 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:43:20.668 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+18:43:22.753 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+18:43:22.916 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+18:43:22.986 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+18:43:24.031 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+18:43:24.061 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+18:43:24.136 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+18:43:26.667 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+18:43:27.414 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+18:43:47.604 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+18:43:57.760 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+18:44:08.182 [main] INFO  ForgotPassword.Forgot_Password - ✅ Extent report Loaded.
+18:44:08.182 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+18:44:08.182 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+18:44:08.278 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+18:49:51.875 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:49:52.534 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:52:23.833 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:52:24.481 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:54:20.805 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:54:21.491 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:54:24.931 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+18:54:27.016 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+18:54:27.191 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+18:54:27.265 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+18:54:27.803 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+18:54:27.842 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+18:54:27.933 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+18:54:30.749 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+18:54:30.860 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+18:54:51.034 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+18:55:01.173 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+18:55:11.530 [main] INFO  ForgotPassword.Forgot_Password - ✅ Extent report Loaded.
+18:55:11.530 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+18:55:11.531 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+18:55:11.650 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+18:56:13.210 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:56:13.873 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:01:24.069 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+19:01:24.744 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:01:30.749 [main] INFO  ForgotPassword.Forgot_Password - Started Forgot Password Flow
+19:01:32.830 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Forgot Password?'
+19:01:32.994 [main] INFO  ForgotPassword.Forgot_Password - Entered email for password recovery
+19:01:33.068 [main] INFO  ForgotPassword.Forgot_Password - Clicked on 'Send Recovery Email'
+19:01:34.131 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
+19:01:34.160 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
+19:01:34.230 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+19:01:36.595 [main] INFO  ForgotPassword.Forgot_Password - Entered Yopmail inbox name
+19:01:37.328 [main] INFO  ForgotPassword.Forgot_Password - Clicked on inbox refresh icon
+19:01:57.466 [main] INFO  ForgotPassword.Forgot_Password - Started Change Password process
+19:02:07.574 [main] INFO  ForgotPassword.Forgot_Password - Started validation for password alerts
+19:02:17.912 [main] INFO  ForgotPassword.Forgot_Password - ✅ Extent report Loaded.
+19:02:17.912 [main] INFO  ForgotPassword.Forgot_Password - Loaded data in Extent report
+19:02:17.912 [main] INFO  ForgotPassword.Forgot_Password - Closing the browser
+19:02:18.026 [main] INFO  ForgotPassword.Forgot_Password - Browser quit process completed
+19:03:20.597 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+19:03:21.468 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:03:24.970 [main] INFO  Login.Login_Test - Starting login process...
+19:03:25.305 [main] INFO  Login.Login_Test - Entered valid email
+19:03:25.440 [main] INFO  Login.Login_Test - Entered valid password
+19:03:25.559 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+19:03:27.629 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+19:03:27.633 [main] INFO  Login.Login_Test - URL validation passed.
+19:03:27.724 [main] INFO  Login.Login_Test - Loaded data in Extent report
+19:03:28.050 [main] INFO  Login.Login_Test - Closing the browser
+19:03:28.161 [main] INFO  Login.Login_Test - Browser quit process completed
+19:04:09.113 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+19:04:10.041 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:04:13.434 [main] INFO  Login.Login_Test - Starting login process...
+19:04:13.846 [main] INFO  Login.Login_Test - Entered valid email
+19:04:13.955 [main] INFO  Login.Login_Test - Entered valid password
+19:04:14.046 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+19:04:16.090 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+19:04:16.092 [main] INFO  Login.Login_Test - URL validation passed.
+19:04:16.161 [main] INFO  Login.Login_Test - Loaded data in Extent report
+19:04:16.473 [main] INFO  Login.Login_Test - Closing the browser
+19:04:16.567 [main] INFO  Login.Login_Test - Browser quit process completed
+10:29:46.335 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:29:46.981 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:29:56.529 [main] INFO  Login.Login_Test - Starting login process...
+10:29:56.679 [main] INFO  Login.Login_Test - Entered valid email
+10:29:56.764 [main] INFO  Login.Login_Test - Entered valid password
+10:29:56.860 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+10:29:58.892 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+10:29:58.895 [main] INFO  Login.Login_Test - URL validation passed.
+10:29:59.346 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+10:29:59.346 [main] INFO  Login.Login_Test - Loaded data in Extent report
+10:29:59.346 [main] INFO  Login.Login_Test - Closing the browser
+10:29:59.453 [main] INFO  Login.Login_Test - Browser quit process completed
+10:32:14.165 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:32:14.800 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:32:18.085 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+10:32:18.085 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+10:32:18.085 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+10:32:18.098 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+10:32:18.198 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+10:32:18.267 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+10:32:19.050 [main] INFO  SignUp.SignUp_Test - philip@yopmail.com
+10:32:19.236 [main] INFO  SignUp.SignUp_Test - matthewA51%%
+10:32:19.237 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+10:32:20.245 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+10:32:20.331 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+10:32:20.476 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+10:33:37.556 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:33:38.192 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:33:41.191 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+10:33:41.192 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+10:33:41.192 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+10:33:41.205 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+10:33:41.315 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+10:33:41.395 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+10:33:41.722 [main] INFO  SignUp.SignUp_Test - latasha@yopmail.com
+10:33:41.905 [main] INFO  SignUp.SignUp_Test - kamiA51%%
+10:33:41.905 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+10:33:42.915 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+10:34:27.298 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:34:28.068 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:34:31.222 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+10:34:31.223 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+10:34:31.223 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+10:34:31.234 [main] INFO  SignUp.SignUp_Test - Produktly iframe hidden successfully
+10:34:31.352 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+10:34:31.418 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+10:34:31.535 [main] INFO  SignUp.SignUp_Test - dylan@yopmail.com
+10:34:31.885 [main] INFO  SignUp.SignUp_Test - sherrylA51%%
+10:34:31.886 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+10:34:32.893 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+10:34:32.979 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+10:34:33.099 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+10:34:40.511 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+10:34:40.889 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+10:34:42.655 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+10:34:42.719 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+10:34:45.801 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+10:34:45.806 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+10:34:55.011 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:04
+Dazhboards
+OTP Email
+10:34:58.252 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 043444
+10:34:58.377 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+10:34:58.386 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+10:35:03.388 [main] INFO  SignUp.SignUp_Test - Entering company name
+10:35:04.468 [main] INFO  SignUp.SignUp_Test - Selecting product category
+10:35:07.877 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+10:35:10.051 [main] INFO  SignUp.SignUp_Test - Entering location address
+10:35:15.193 [main] INFO  SignUp.SignUp_Test - Entering website address
+10:35:16.385 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+10:35:18.563 [main] INFO  SignUp.SignUp_Test - Scrolling 
+10:35:21.708 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+10:35:24.752 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+10:35:25.826 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+10:35:27.901 [main] INFO  SignUp.SignUp_Test - Scrolling 
+10:35:28.919 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+10:35:30.194 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+10:35:34.335 [main] INFO  SignUp.SignUp_Test - Entering email address
+10:35:35.514 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+10:35:38.902 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+10:35:39.993 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+10:35:41.064 [main] INFO  SignUp.SignUp_Test - Uploading logo
+10:35:41.106 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+10:35:47.167 [main] INFO  SignUp.SignUp_Test - Clicked on Save button
+10:35:47.178 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+10:35:55.199 [main] INFO  SignUp.SignUp_Test - Waiting for 'Get Started' button
+10:35:55.274 [main] INFO  SignUp.SignUp_Test - 'Get Started' button clicked
+10:35:55.281 [main] INFO  SignUp.SignUp_Test - URL after plan purchase: https://app2.dazhboards.com/plans
+10:35:55.281 [main] INFO  SignUp.SignUp_Test - URL assertion passed
+10:35:55.281 [main] INFO  SignUp.SignUp_Test - *****Plan Purchased*****
+10:39:41.206 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:39:41.850 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:41:34.396 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:41:35.079 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:44:39.125 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:44:39.788 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:47:14.884 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:47:15.549 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:48:55.481 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:48:56.138 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:48:59.309 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+10:48:59.310 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+10:48:59.310 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+10:48:59.321 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+10:48:59.505 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+10:48:59.598 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+10:48:59.711 [main] INFO  SignUp.SignUp_Test - buster@yopmail.com
+10:48:59.899 [main] INFO  SignUp.SignUp_Test - letitiaA51%%
+10:48:59.899 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+10:49:00.906 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+10:49:00.991 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+10:49:01.106 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+10:49:08.516 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+10:49:08.683 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+10:49:10.638 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+10:49:10.703 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+10:49:13.790 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+10:49:13.797 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+10:49:23.130 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:19
+Dazhboards
+OTP Email
+10:49:26.445 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 772634
+10:49:26.586 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+10:49:26.599 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+10:49:31.606 [main] INFO  SignUp.SignUp_Test - Entering company name
+10:49:32.794 [main] INFO  SignUp.SignUp_Test - Selecting product category
+10:49:36.057 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+10:49:38.305 [main] INFO  SignUp.SignUp_Test - Entering location address
+10:49:43.444 [main] INFO  SignUp.SignUp_Test - Entering website address
+10:49:44.648 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+10:49:46.836 [main] INFO  SignUp.SignUp_Test - Scrolling 
+10:49:49.978 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+10:49:53.022 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+10:49:54.105 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+10:49:56.180 [main] INFO  SignUp.SignUp_Test - Scrolling 
+10:49:57.197 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+10:49:58.505 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+10:50:02.650 [main] INFO  SignUp.SignUp_Test - Entering email address
+10:50:03.837 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+10:50:07.232 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+10:50:08.325 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+10:50:09.397 [main] INFO  SignUp.SignUp_Test - Uploading logo
+10:50:09.439 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+10:50:15.492 [main] INFO  SignUp.SignUp_Test - Clicked on Save button
+10:50:15.498 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+10:50:23.519 [main] INFO  SignUp.SignUp_Test - Waiting for 'Get Started' button
+10:50:23.588 [main] INFO  SignUp.SignUp_Test - 'Get Started' button clicked
+10:50:23.593 [main] INFO  SignUp.SignUp_Test - URL after plan purchase: https://app2.dazhboards.com/plans
+10:50:23.594 [main] INFO  SignUp.SignUp_Test - URL assertion passed
+10:50:23.594 [main] INFO  SignUp.SignUp_Test - *****Plan Purchased*****
+10:50:23.598 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+10:50:23.881 [main] INFO  SignUp.SignUp_Test - Closing the browser
+10:50:24.004 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:01:21.686 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:01:22.489 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:01:26.498 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:01:26.499 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:01:26.499 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:01:26.510 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:01:26.822 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:01:26.898 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+11:01:26.994 [main] INFO  SignUp.SignUp_Test - cruz@yopmail.com
+11:01:27.179 [main] INFO  SignUp.SignUp_Test - jenetteA51%%
+11:01:27.179 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+11:01:28.206 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+11:01:28.905 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+11:01:29.018 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+11:01:37.970 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+11:01:38.354 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+11:01:40.288 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+11:01:40.369 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+11:01:43.478 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+11:01:43.484 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+11:01:53.024 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:31
+Dazhboards
+OTP Email
+11:01:56.275 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 055738
+11:01:56.406 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+11:01:56.411 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+11:02:01.414 [main] INFO  SignUp.SignUp_Test - Entering company name
+11:02:02.507 [main] INFO  SignUp.SignUp_Test - Selecting product category
+11:02:05.731 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+11:02:07.905 [main] INFO  SignUp.SignUp_Test - Entering location address
+11:02:13.035 [main] INFO  SignUp.SignUp_Test - Entering website address
+11:02:14.222 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+11:02:16.414 [main] INFO  SignUp.SignUp_Test - Scrolling 
+11:02:19.563 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+11:02:22.612 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+11:02:23.692 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+11:02:25.778 [main] INFO  SignUp.SignUp_Test - Scrolling 
+11:02:26.797 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+11:02:28.117 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+11:02:32.337 [main] INFO  SignUp.SignUp_Test - Entering email address
+11:02:33.548 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+11:02:36.946 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+11:02:38.032 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+11:02:39.107 [main] INFO  SignUp.SignUp_Test - Uploading logo
+11:02:39.149 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+11:02:45.213 [main] INFO  SignUp.SignUp_Test - Clicked on Save button
+11:02:45.219 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+11:02:53.349 [main] INFO  SignUp.SignUp_Test - Waiting for 'Get Started' button
+11:02:53.434 [main] INFO  SignUp.SignUp_Test - 'Get Started' button clicked
+11:02:53.440 [main] INFO  SignUp.SignUp_Test - URL after plan purchase: https://app2.dazhboards.com/plans
+11:02:53.440 [main] INFO  SignUp.SignUp_Test - URL assertion passed
+11:02:53.440 [main] INFO  SignUp.SignUp_Test - *****Plan Purchased*****
+11:02:53.444 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:02:53.779 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:02:53.914 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:04:09.363 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:04:10.012 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:04:13.132 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:04:13.133 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:04:13.133 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:04:13.153 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:04:13.313 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:04:13.382 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+11:04:13.485 [main] INFO  SignUp.SignUp_Test - zachary@yopmail.com
+11:04:13.662 [main] INFO  SignUp.SignUp_Test - jordanA51%%
+11:04:13.662 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+11:04:14.669 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+11:04:14.752 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+11:04:14.870 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+11:04:22.325 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+11:04:22.491 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+11:04:24.446 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+11:04:24.510 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+11:05:14.570 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:05:15.852 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:05:20.796 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:05:20.798 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:05:20.798 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:05:20.832 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:05:21.070 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:05:21.212 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:05:21.870 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:05:21.984 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:06:05.839 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:06:07.184 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:06:12.000 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:06:12.001 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:06:12.001 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:06:12.034 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:06:12.291 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:06:12.406 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:06:12.970 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:06:13.122 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:07:29.025 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:07:29.629 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:07:32.966 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:07:32.966 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:07:32.966 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:07:32.976 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:07:33.078 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:07:33.144 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:07:33.423 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:07:33.510 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:10:55.298 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:10:55.925 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:10:59.316 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:10:59.316 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:10:59.317 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:10:59.330 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:10:59.670 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:10:59.723 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:10:59.985 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:11:00.078 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:11:49.640 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:11:50.259 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:11:53.528 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:11:53.528 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:11:53.528 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:11:53.538 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:11:53.664 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:11:53.713 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:11:53.962 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:11:54.062 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:12:26.207 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:12:26.828 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:12:29.945 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:12:29.945 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:12:29.945 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:12:29.964 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:12:30.077 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:12:30.131 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:12:30.373 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:12:30.459 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:13:05.142 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:13:05.750 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:13:08.798 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:13:08.798 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:13:08.799 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:13:08.811 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:13:08.947 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:13:08.996 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:13:09.307 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:13:09.408 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:13:38.789 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:13:39.422 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:13:42.727 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:13:42.727 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:13:42.728 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:13:42.751 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:13:42.865 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:13:42.922 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:13:43.194 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:13:43.288 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:14:16.739 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:14:17.386 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:14:20.528 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:14:20.528 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:14:20.528 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:14:20.538 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:14:20.817 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:14:20.875 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:14:21.121 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:14:21.320 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:14:37.515 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:14:38.152 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:14:41.361 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:14:41.361 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:14:41.361 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:14:41.377 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:14:41.480 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:14:41.535 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:14:41.798 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:14:41.883 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:20:29.027 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:20:29.636 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:20:32.851 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:20:32.851 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:20:32.852 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:20:32.864 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:20:33.005 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:20:33.059 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:20:33.293 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:20:33.381 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:21:38.471 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:21:39.101 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:21:42.314 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:21:42.314 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:21:42.314 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:21:42.325 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:21:42.443 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:21:42.500 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:21:42.500 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:21:42.823 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:22:18.361 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:22:18.982 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:22:22.170 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:22:22.171 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:22:22.171 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:22:22.181 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:22:22.297 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:22:22.349 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:22:22.350 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:22:22.429 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:38:15.232 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:38:15.911 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:38:20.051 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:38:20.051 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:38:20.051 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:38:20.066 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:38:20.217 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:38:20.280 [main] INFO  SignUp.SignUp_Test - Loaded data in Extent report
+11:38:20.280 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:38:20.364 [main] INFO  SignUp.SignUp_Test - Browser quit process completed
+11:38:58.321 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:38:58.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:39:01.907 [main] INFO  Login.Login_Test - Starting login process...
+11:39:02.219 [main] INFO  Login.Login_Test - Entered valid email
+11:39:02.304 [main] INFO  Login.Login_Test - Entered valid password
+11:39:02.386 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:39:04.418 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:39:04.420 [main] INFO  Login.Login_Test - URL validation passed.
+11:39:04.482 [main] INFO  Login.Login_Test - Closing the browser
+11:39:04.571 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+11:40:36.924 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:40:37.560 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:40:40.559 [main] INFO  Login.Login_Test - Starting login process...
+11:40:40.708 [main] INFO  Login.Login_Test - Entered valid email
+11:40:40.793 [main] INFO  Login.Login_Test - Entered valid password
+11:40:40.881 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:40:42.914 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:40:42.916 [main] INFO  Login.Login_Test - URL validation passed.
+11:40:42.982 [main] INFO  Login.Login_Test - Closing the browser
+11:40:43.062 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+11:42:34.364 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:42:34.978 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:42:38.271 [main] INFO  Login.Login_Test - Starting login process...
+11:42:38.592 [main] INFO  Login.Login_Test - Entered valid email
+11:42:38.678 [main] INFO  Login.Login_Test - Entered valid password
+11:42:38.763 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:42:40.795 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:42:40.797 [main] INFO  Login.Login_Test - URL validation passed.
+11:42:40.856 [main] INFO  Login.Login_Test - Closing the browser
+11:42:40.940 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+11:54:50.750 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:54:51.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:54:54.749 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+11:54:54.750 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+11:54:54.750 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+11:54:54.763 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+11:54:54.883 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+11:54:54.956 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+11:54:55.284 [main] INFO  SignUp.SignUp_Test - randell@yopmail.com
+11:54:55.480 [main] INFO  SignUp.SignUp_Test - kaitlinA51%%
+11:54:55.481 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+11:54:56.487 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+11:54:56.574 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+11:54:56.691 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+11:55:04.200 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+11:55:04.374 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+11:55:06.303 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+11:55:06.366 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+11:55:09.452 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+11:55:09.458 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+11:55:18.625 [main] INFO  SignUp.SignUp_Test - Found email subject: 12:25
+Dazhboards
+Setup Your Dazhboard Now
+11:55:18.634 [main] INFO  SignUp.SignUp_Test - Found email subject: 12:25
+Dazhboards
+OTP Email
+11:55:21.878 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 823945
+11:55:22.010 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+11:55:22.020 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+11:55:27.023 [main] INFO  SignUp.SignUp_Test - Entering company name
+11:55:28.137 [main] INFO  SignUp.SignUp_Test - Selecting product category
+11:55:31.366 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+11:55:33.540 [main] INFO  SignUp.SignUp_Test - Entering location address
+11:55:38.674 [main] INFO  SignUp.SignUp_Test - Entering website address
+11:55:39.865 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+11:55:42.067 [main] INFO  SignUp.SignUp_Test - Scrolling 
+11:55:45.214 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+11:55:48.259 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+11:55:49.335 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+11:55:51.408 [main] INFO  SignUp.SignUp_Test - Scrolling 
+11:55:52.425 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+11:55:53.711 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+11:55:57.863 [main] INFO  SignUp.SignUp_Test - Entering email address
+11:55:59.058 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+11:56:02.444 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+11:56:03.526 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+11:56:04.600 [main] INFO  SignUp.SignUp_Test - Uploading logo
+11:56:04.641 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+11:56:04.671 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+11:56:14.982 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+11:56:14.983 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+11:56:17.983 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+11:56:28.122 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+11:56:41.226 [main] INFO  SignUp.SignUp_Test - Closing the browser
+11:56:41.338 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+12:10:54.502 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:10:55.257 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:10:58.824 [main] INFO  Login.Login_Test - Starting login process...
+12:10:58.965 [main] INFO  Login.Login_Test - Entered valid email
+12:10:59.054 [main] INFO  Login.Login_Test - Entered valid password
+12:10:59.140 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+12:11:01.678 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+12:11:01.680 [main] INFO  Login.Login_Test - URL validation passed.
+12:11:01.737 [main] INFO  Login.Login_Test - Closing the browser
+12:11:01.844 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.

@@ -23,9 +23,7 @@ public class FP_Required_Field_Alerts_Test extends StartupCode {
     @BeforeClass
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();
-
         driver = setup1();
-        test = extent.createTest("Forgot_Password_Required_Field_Alerts_Test");
         test.info("*Started Forgot_Password_Required_Field_Alerts_Test*");
     }
 
@@ -36,7 +34,6 @@ public class FP_Required_Field_Alerts_Test extends StartupCode {
     public void Forgot_Password_Email_field_alerts() throws InterruptedException {
         driver.findElement(By.xpath("//a[normalize-space()='Forgot Password?']")).click();
         driver.findElement(By.xpath("//button[normalize-space()='Send Recovery Email']")).click();
-
         WebElement roleSelect = driver.findElement(By.xpath("//input[@placeholder='Email*']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         String validationMessage = (String) js.executeScript("return arguments[0].validationMessage;", roleSelect);
@@ -73,20 +70,8 @@ public class FP_Required_Field_Alerts_Test extends StartupCode {
 
     @AfterClass
     public void QuitBrowser() {
-        logger.info("Loaded data in Extent report");
-        test.info("Loaded data in Extent report");
-
-        extent.flush();
-
-        if (driver != null) {
-            logger.info("Closing the browser");
-            driver.quit();
-        } else {
-            logger.warn("Driver was null, browser not closed");
-        }
-
-        logger.info("Browser quit process completed");
-        test.pass("Browser quit process completed");
+        finalizeReport();
+        quitDriver();
     }
 }
 

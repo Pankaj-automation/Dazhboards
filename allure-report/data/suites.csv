@@ -6,4 +6,4 @@
 "","1825","Filed_signup_form","Surefire suite","Mon Jul 21 13:15:27 IST 2025","passed","Mon Jul 21 13:15:29 IST 2025","SignUp.SignUp_Test","Surefire test","SignUp.SignUp_Test","Filed_signup_form"
 "","2672","Forgot_Password_Email_field_alerts","Surefire suite","Mon Jul 21 13:15:15 IST 2025","passed","Mon Jul 21 13:15:17 IST 2025","ForgotPassword.FP_Required_Field_Alerts_Test","Surefire test","ForgotPassword.FP_Required_Field_Alerts_Test","Forgot_Password_Email_field_alerts"
 "","93","Click_on_SignUp_Link","Surefire suite","Mon Jul 21 13:15:27 IST 2025","passed","Mon Jul 21 13:15:27 IST 2025","SignUp.SignUp_Test","Surefire test","SignUp.SignUp_Test","Click_on_SignUp_Link"
-"Verify that a user can successfully log in with valid credentials","10437","Login with valid credentials","Default Suite","Mon Jul 21 13:24:46 IST 2025","broken","Mon Jul 21 13:24:56 IST 2025","Login.Login","Dazhboards","Login.Login","login"
+"Verify that a user can successfully log in with valid credentials","10437","Login with valid credentials","Default Suite","Mon Jul 21 13:24:46 IST 2025","broken","Mon Jul 21 13:24:56 IST 2025","Login.Login_Test","Dazhboards","Login.Login_Test","login"

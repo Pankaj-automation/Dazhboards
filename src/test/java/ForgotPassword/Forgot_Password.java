@@ -25,7 +25,6 @@ public class Forgot_Password extends StartupCode {
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();
         driver = setup1();
-        test = extent.createTest("Forgot_Password");
         test.info("*Started Forgot_Password*");
     }
 
@@ -33,6 +32,7 @@ public class Forgot_Password extends StartupCode {
     @Severity(SeverityLevel.CRITICAL)
     @Story("Initiate forgot password with email")
     public void Forgot_Password_Flow() throws InterruptedException {
+
         logger.info("Started Forgot Password Flow");
         test.info("Started Forgot Password Flow");
         System.out.println("Started Forgot Password Flow");
@@ -168,19 +168,8 @@ public class Forgot_Password extends StartupCode {
 
     @AfterClass
     public void QuitBrowser() throws InterruptedException {
-        logger.info("Loaded data in Extent report");
-        test.info("Loaded data in Extent report");
-        extent.flush();
-
-        if (driver != null) {
-            logger.info("Closing the browser");
-            driver.quit();
-        } else {
-            logger.warn("Driver was null, browser not closed");
-        }
-
-        logger.info("Browser quit process completed");
-        test.pass("Browser quit process completed");
+        quitDriver();
+        finalizeReport();
     }
 }
 

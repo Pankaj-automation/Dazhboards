@@ -1,11 +1,6 @@
 package SignUp;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import io.qameta.allure.*;
-import net.datafaker.Faker;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,9 +11,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import utilities.Extentreportmanager;
-import utilities.Reuseable;
+import utilities.AllureEnvWriter;
 import utilities.Screenshot;
+import utilities.StartupCode;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -30,31 +25,14 @@ import java.util.regex.Pattern;
 
 @Epic("Sign Up")
 @Feature("Complete Flow of Signup")
-public class SignUp_Test {
-    WebDriver driver;
-    Reuseable reuse;
-    Logger logger;
-    ExtentReports extent;
-    ExtentTest test;
-    Faker fakedata;
-    Reuseable data = new Reuseable();
-    String firstName = data.FirstName();
-    String lastName = data.LastName();
-    String email = data.Email();
-    String password = data.Password();
-    String zipCode = data.ZipCode();
-    String phoneNumber = data.PhoneNumber();
-    String website = data.Website();
+public class SignUp_Test extends StartupCode {
 
     @BeforeClass
-    public void setup() throws InterruptedException {
-        reuse = new Reuseable();
-        driver = reuse.Reuseable1();
-        Thread.sleep(1000);
-        driver.manage().window().maximize();
-        logger = LogManager.getLogger(this.getClass());
-        extent = Extentreportmanager.getExtentReports();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    @Step("Setup and Launch Browser")
+    public void Start() throws InterruptedException {
+        AllureEnvWriter.createEnvFile();
+        driver = setup1();
+        test.info("*Started Login_Test*");
     }
 
     @Test(priority = 1)
@@ -62,7 +40,6 @@ public class SignUp_Test {
     @Description("User clicks on the SignUp link on homepage")
     @Severity(SeverityLevel.NORMAL)
     public void Click_on_SignUp_Link() throws IOException, InterruptedException {
-        test = extent.createTest("SignUp_Test");
         test.info("*Started SignUp_Test*");
         logger.info("*SignUp_Test Initialized*");
         logger.info("*****Opening Browser*****");
@@ -70,8 +47,8 @@ public class SignUp_Test {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         try {
             ((JavascriptExecutor) driver).executeScript("let iframe = document.getElementById('produktly-checklist-beacon-iframe505');" + "if(iframe) iframe.style.display='none';");
-            logger.info("Produktly iframe hidden successfully");
-            test.info("Produktly iframe hidden successfully");
+            logger.info("iframe hidden successfully");
+            test.info("iframe hidden successfully");
         } catch (Exception e) {
             logger.warn("Could not hide iframe: " + e.getMessage());
             test.warning("Could not hide iframe: " + e.getMessage());
@@ -437,19 +414,17 @@ public class SignUp_Test {
         System.out.println("✔ Logo uploaded");
         test.pass("Logo uploaded successfully");
 
-        /*logger.info("Closing overlay popup");
+        logger.info("Closing overlay popup");
         test.info("Closing overlay popup");
 
         try {
-            WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(
-                    By.xpath("//*[contains(@id,'produktly-checklist-beacon-iframe')]")));
+            WebElement iframe = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(@id,'produktly-checklist-beacon-iframe')]")));
 
             driver.switchTo().frame(iframe);
             logger.info("Switching to overlay iframe");
             test.info("Switching to overlay iframe");
 
-            WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//button[@aria-label='Close checklist beacon']//*[name()='svg']")));
+            WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@aria-label='Close checklist beacon']//*[name()='svg']")));
             closeBtn.click();
 
             logger.info("Overlay popup closed");
@@ -470,12 +445,11 @@ public class SignUp_Test {
         test.pass("Overlay popup closed successfully");
 
         Thread.sleep(3000); // reduce wait to avoid unnecessary delay
-*/
+
 
         logger.info("Clicking on Save button");
         test.info("Clicking on Save button");
-        WebElement saveBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//button[normalize-space()='Save']")));
+        WebElement saveBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[normalize-space()='Save']")));
         Thread.sleep(1000);
         wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
         Thread.sleep(5000);
@@ -511,7 +485,7 @@ public class SignUp_Test {
         test.pass("'Get Started' button clicked");
         System.out.println("'Get Started' button clicked");
 
-       /* WebElement clickonpaynow = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='flex gap-2 items-center']//button[1]")));
+        WebElement clickonpaynow = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='flex gap-2 items-center']//button[1]")));
         clickonpaynow.click();
         logger.info("'Pay Now' button clicked");
         test.pass("'Pay Now' button clicked");
@@ -560,7 +534,8 @@ public class SignUp_Test {
         test.info("Clicking submit button");
         WebElement clicksubmit = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='SubmitButton-IconContainer']")));
         clicksubmit.click();
-*/
+
+
         String currentURL = driver.getCurrentUrl();
         System.out.println("URL after purchase: " + currentURL);
         logger.info("URL after plan purchase: " + currentURL);
@@ -588,29 +563,15 @@ public class SignUp_Test {
 
     @AfterClass
     public void QuitBrowser() throws IOException, InterruptedException {
-        Thread.sleep(3000);
-        logger.info("Loaded data in Extent report");
-        test.info("Loaded data in Extent report");
-        System.out.println("Loaded data in Extent report...");
-        extent.flush();
-        if (driver != null) {
-            logger.info("Closing the browser");
-            test.info("Closing the browser");
-            System.out.println("Closing the browser...");
-            driver.quit();
-        } else {
-            logger.warn("Driver was null, browser not closed");
-            test.warning("Driver was null, browser not closed");
-            System.out.println("Driver is null — nothing to quit.");
-        }
-
-        logger.info("Browser quit process completed");
-        test.pass("Browser quit process completed");
-        System.out.println("Browser quit process completed.");
+        quitDriver();
+        finalizeReport();
     }
 
-
 }
+
+
+
+
 
 
 

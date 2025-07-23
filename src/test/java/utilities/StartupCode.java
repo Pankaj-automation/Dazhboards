@@ -11,12 +11,13 @@ import java.time.Duration;
 
 public class StartupCode {
 
-    protected WebDriver driver;            // 🔁 changed to protected
-    protected Reuseable reuse;             // optional
-    protected Logger logger;               // 🔁 changed to protected
-    protected ExtentReports extent;        // 🔁 changed to protected
-    protected ExtentTest test;             // 🔁 changed to protected
-    protected Faker fakedata;              // optional
+
+    protected WebDriver driver;
+    protected Reuseable reuse;
+    protected Logger logger;
+    protected ExtentReports extent;
+    protected ExtentTest test;
+    protected Faker fakedata;
 
     Reuseable data = new Reuseable();
     protected String firstName = data.FirstName();
@@ -32,9 +33,32 @@ public class StartupCode {
         driver = reuse.Reuseable1();
         Thread.sleep(1000);
         driver.manage().window().maximize();
+
         logger = LogManager.getLogger(this.getClass());
         extent = Extentreportmanager.getExtentReports();
+
+        String testClassName = this.getClass().getSimpleName();
+        test = extent.createTest(testClassName);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
         return driver;
+    }
+
+    public void finalizeReport() {
+
+        logger.info("✅ Extent report Loaded.");
+        test.info("✅ Extent report Loaded.");
+        extent.flush();
+    }
+
+    public void quitDriver() {
+        if (driver != null) {
+            logger.info("Closing the browser");
+            test.info("Closing the browser");
+            driver.quit();
+        } else {
+            logger.warn("Driver is null. Nothing to quit.");
+        }
+        test.pass("Browser quit process completed");
     }
 }

@@ -30,7 +30,6 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();
         driver = setup1();
-        test = extent.createTest("Login_Required_Field_Alerts_Test");
         test.info("*Started Login_Required_Field_Alerts_Test*");
     }
 
@@ -38,7 +37,6 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
     @Severity(SeverityLevel.CRITICAL)
     @Story("Blank and Invalid Email")
     public void Email_field_alert() throws InterruptedException {
-
         logger.info("Test started: Email_field_alert");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement companyInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Sign in']")));
@@ -107,19 +105,7 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
 
     @AfterClass
     public void QuitBrowser() {
-        logger.info("Loaded data in Extent report");
-        test.info("Loaded data in Extent report");
-
-        extent.flush();
-
-        if (driver != null) {
-            logger.info("Closing the browser");
-            driver.quit();
-        } else {
-            logger.warn("Driver was null, browser not closed");
-        }
-
-        logger.info("Browser quit process completed");
-        test.pass("Browser quit process completed");
+        quitDriver();
+        finalizeReport();
     }
 }
