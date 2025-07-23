@@ -449,10 +449,11 @@ public class SignUp_Test extends StartupCode {
 
         logger.info("Clicking on Save button");
         test.info("Clicking on Save button");
+        Thread.sleep(1000);
         WebElement saveBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[normalize-space()='Save']")));
         Thread.sleep(1000);
         wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", saveBtn);
         logger.info("Clicked on Save button");
         test.pass("Clicked on Save button");

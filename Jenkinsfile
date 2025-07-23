@@ -55,13 +55,14 @@ pipeline {
         stage('Publish HTML Report') {
             steps {
                 echo "🌐 Publishing Extent/HTML Report..."
-                publishHTML([allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'Dazhboards/test-output',
-                    reportFiles: 'dazhboardsExtentReport.html',
-                    reportName: 'Dazhboards HTML Report',
-                    reportTitles: 'Dazhboards HTML Report'])
+                publishHTML([
+                  reportDir: 'Dazhboards/test-output',
+                  reportFiles: 'dazhboardsExtentReport.html',
+                  reportName: 'Dazhboards HTML Report',
+                  keepAll: true,
+                  alwaysLinkToLastBuild: true,
+                  allowMissing: false
+                ])
             }
         }
     }
