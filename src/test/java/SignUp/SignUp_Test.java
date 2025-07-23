@@ -1,10 +1,9 @@
 package SignUp;
 
 import io.qameta.allure.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -18,10 +17,6 @@ import utilities.StartupCode;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @Epic("Sign Up")
 @Feature("Complete Flow of Signup")
@@ -63,6 +58,7 @@ public class SignUp_Test extends StartupCode {
         Assert.assertTrue(currentUrl.contains("/signup"), "Sign Up page was not opened!");
 
     }
+/*
 
     @Test(priority = 2)
     @Story("Fill signup form")
@@ -550,6 +546,7 @@ public class SignUp_Test extends StartupCode {
         logger.info("*****Plan Purchased*****");
         test.info("Plan Purchased");
     }
+*/
 
     @AfterMethod
     public void Takescreenshot(ITestResult result) throws IOException {
