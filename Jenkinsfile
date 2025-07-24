@@ -66,6 +66,22 @@ pipeline {
             }
         }
 
+        stage('Prepare Extent Report for Jenkins') {
+            steps {
+                echo "🛠️ Renaming timestamped Extent report to a fixed name..."
+                sh '''
+                    mkdir -p test-output
+                    latest_report=$(ls -t test-output/ExtentReport-*.html 2>/dev/null | head -n 1)
+                    if [ -f "$latest_report" ]; then
+                        cp "$latest_report" test-output/dazhboardsExtentReport.html
+                        echo "✅ Copied $latest_report to test-output/dazhboardsExtentReport.html"
+                    else
+                        echo "⚠️ No Extent report found to copy."
+                    fi
+                '''
+            }
+        }
+
         stage('Publish HTML Report') {
             when {
                 expression { fileExists("${EXTENT_REPORT_DIR}/${EXTENT_REPORT_FILE}") }
