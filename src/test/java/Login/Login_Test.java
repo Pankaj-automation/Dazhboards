@@ -28,7 +28,7 @@ public class Login_Test extends StartupCode {
     public void Start() throws InterruptedException {
         AllureEnvWriter.createEnvFile();
         driver = setup1();
-        test.info("*Started Login_Test*");
+        test.info("*Started Log2222in_Test*");
     }
 
     @Test(priority = 1, description = "Login with valid credentials")

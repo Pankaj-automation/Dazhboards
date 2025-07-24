@@ -60,9 +60,9 @@ pipeline {
                     allowMissing: false,
                                         alwaysLinkToLastBuild: true,
                                         keepAll: true,
-                                        reportDir: 'test-output',
-                                        reportFiles: 'dazhboardsExtentReport.html',
-                                        reportName: 'Dazhboards HTML Report'
+                                        reportDir: 'test-output/extent-report',
+                                        reportFiles: 'index.html',
+                                        reportName: 'Dazhboardsrrr Extent Report'
                                         ])
             }
 }
