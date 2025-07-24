@@ -43,25 +43,26 @@ pipeline {
             echo "📜 Dumping Surefire output to Jenkins console log..."
             sh 'cat target/surefire-reports/*.txt || true'
         }}
-        stage('Generate Allure Report') {
-            when {
-                expression { fileExists('target/allure-results') }
-            }
-            steps {
-                echo "🧪 Generating Allure report..."
-                allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
-            }
-        }
+     stage('Generate Allure Report') {
+         when {
+             expression { fileExists('target/allure-results') }
+         }
+         steps {
+             echo "🧪 Generating Allure report..."
+             allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
+         }
+     }
+
         stage('Publish HTML Report') {
             steps {
                 echo "🌐 Publishing Extent/HTML Report..."
-                publishHTML([allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'Dazhboards/test-output',
-                    reportFiles: 'dazhboardsExtentReport.html',
-                    reportName: 'Dazhboards HTML Report',
-                    reportTitles: 'Dazhboards HTML Report'])
+                publishHTML([
+                    allowMissing: false,
+                                        alwaysLinkToLastBuild: true,
+                                        keepAll: true,
+                                        reportDir: 'test-output',
+                                        reportFiles: 'dazhboardsExtentReport.html',
+                                        reportName: 'Dazhboards HTML Report'
             }
         }
     }
