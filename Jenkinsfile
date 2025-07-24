@@ -63,8 +63,9 @@ pipeline {
                                         reportDir: 'test-output',
                                         reportFiles: 'dazhboardsExtentReport.html',
                                         reportName: 'Dazhboards HTML Report'
+                                        ])
             }
-        }
+
     }
 
     post {
