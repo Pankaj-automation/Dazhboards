@@ -8,6 +8,9 @@ pipeline {
 
     environment {
         MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
+          ALLURE_RESULTS = "allure-results"
+                EXTENT_REPORT_DIR = "test-output"
+                EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
     }
 
     stages {
@@ -43,26 +46,35 @@ pipeline {
             echo "📜 Dumping Surefire output to Jenkins console log..."
             sh 'cat target/surefire-reports/*.txt || true'
         }}
+          stage('Clean Empty Allure Files') {
+                    steps {
+                        echo "🧼 Cleaning empty JSONs in Allure results..."
+                        sh "find ${allure-results} -name '*.json' -size 0 -delete || true"
+                    }
+                }
      stage('Generate Allure Report') {
          when {
-             expression { fileExists('target/allure-results') }
+             expression { fileExists('allure-results') }
          }
          steps {
              echo "🧪 Generating Allure report..."
-             allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
+             allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
          }
      }
 
         stage('Publish HTML Report') {
+         when {
+                        expression { fileExists("${test-output}/${dazhboardsExtentReport}") }
+                    }
             steps {
                 echo "🌐 Publishing Extent/HTML Report..."
                 publishHTML([
                     allowMissing: false,
                                         alwaysLinkToLastBuild: true,
                                         keepAll: true,
-                                        reportDir: 'test-output/extent-report',
-                                        reportFiles: 'index.html',
-                                        reportName: 'Dazhboardsrrr Extent Report'
+                                        reportDir: 'test-output',
+                                        reportFiles: 'dazhboardsExtentReport',
+                                        reportName: 'Dazhboards Extent Report'
                                         ])
             }
 }
