@@ -65,7 +65,7 @@ pipeline {
                                         reportName: 'Dazhboards HTML Report'
                                         ])
             }
-
+}
     }
 
     post {
