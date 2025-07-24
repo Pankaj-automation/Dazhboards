@@ -4,7 +4,7 @@ pipeline {
     tools {
         maven 'mvn'
         jdk 'jdk'
-        allure 'allure'
+        allure 'Allure'
     }
 
     environment {
