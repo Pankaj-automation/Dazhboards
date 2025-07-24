@@ -7105,3 +7105,39 @@ Setup Your Dazhboard Now
 PackageX Receive
 A New Item has Arrived for You
 13:09:08.340 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+10:55:06.500 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:55:07.164 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:55:11.697 [main] INFO  Login.Login_Test - Starting login process...
+10:55:11.855 [main] INFO  Login.Login_Test - Entered valid email
+10:55:11.964 [main] INFO  Login.Login_Test - Entered valid password
+10:55:12.054 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+10:55:14.088 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+10:55:14.091 [main] INFO  Login.Login_Test - URL validation passed.
+10:55:14.160 [main] INFO  Login.Login_Test - Closing the browser
+10:55:14.249 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+10:58:57.354 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+10:58:58.146 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+10:59:01.480 [main] INFO  Login.Login_Test - Starting login process...
+10:59:01.736 [main] INFO  Login.Login_Test - Entered valid email
+10:59:01.857 [main] INFO  Login.Login_Test - Entered valid password
+10:59:01.956 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+10:59:03.991 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+10:59:03.993 [main] INFO  Login.Login_Test - URL validation passed.
+10:59:04.058 [main] INFO  Login.Login_Test - Closing the browser
+10:59:04.142 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+11:01:41.278 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+11:01:42.075 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+11:01:45.468 [main] INFO  Login.Login_Test - Starting login process...
+11:01:45.612 [main] INFO  Login.Login_Test - Entered valid email
+11:01:45.707 [main] INFO  Login.Login_Test - Entered valid password
+11:01:45.799 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+11:01:47.833 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+11:01:47.835 [main] INFO  Login.Login_Test - URL validation passed.
+11:01:47.895 [main] INFO  Login.Login_Test - Closing the browser
+11:01:47.976 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.

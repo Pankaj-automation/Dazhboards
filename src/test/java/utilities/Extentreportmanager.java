@@ -12,8 +12,10 @@ public class Extentreportmanager {
 
     public static ExtentReports getExtentReports() {
         if (extent == null) {
-            new File("Dazhboards/test-output").mkdirs();
-            ExtentSparkReporter spark = new ExtentSparkReporter("test-output/dazhboardsExtentReport.html");
+            new File("test-output/").mkdirs();
+            ExtentSparkReporter spark = new ExtentSparkReporter("test-output/dazhboardsExtentReport");
+            spark.config().setReportName("Dazhboards Test Report");
+            spark.config().setDocumentTitle("Dazhboards Automation Suite");
             extent = new ExtentReports();
             extent.attachReporter(spark);
             extent.setSystemInfo("OS", System.getProperty("os.name"));
