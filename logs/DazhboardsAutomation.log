@@ -7297,3 +7297,779 @@ A New Item has Arrived for You
 11:28:52.090 [main] INFO  ForgotPassword.Forgot_Password - Popup Message: Reset password link sent to your email.
 11:28:52.119 [main] INFO  ForgotPassword.Forgot_Password - Clicked OK on popup
 11:28:52.126 [main] INFO  ForgotPassword.Forgot_Password - Started: Clicking Reset Password button in Yopmail
+12:44:26.438 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:44:27.097 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:44:31.014 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+12:44:31.015 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+12:44:31.015 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+12:44:31.028 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+12:44:31.151 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+12:44:31.223 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+12:44:31.943 [main] INFO  SignUp.SignUp_Test - jaimie@yopmail.com
+12:44:32.129 [main] INFO  SignUp.SignUp_Test - marcelinoA51%%
+12:44:32.130 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+12:44:33.137 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+12:44:33.217 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+12:44:33.342 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+12:44:40.720 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+12:44:40.888 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+12:44:42.829 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+12:44:42.893 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+12:44:45.978 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+12:44:45.983 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+12:44:55.222 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:14
+Dazhboards
+Setup Your Dazhboard Now
+12:44:55.231 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:14
+Dazhboards
+OTP Email
+12:44:58.486 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 351127
+12:44:58.620 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+12:44:58.629 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+12:45:03.633 [main] INFO  SignUp.SignUp_Test - Entering company name
+12:45:04.725 [main] INFO  SignUp.SignUp_Test - Selecting product category
+12:45:07.954 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+12:45:10.129 [main] INFO  SignUp.SignUp_Test - Entering location address
+12:45:15.271 [main] INFO  SignUp.SignUp_Test - Entering website address
+12:45:16.451 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+12:45:18.647 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:45:21.792 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+12:45:24.837 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+12:45:25.913 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+12:45:27.985 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:45:29.002 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+12:45:30.270 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+12:45:34.409 [main] INFO  SignUp.SignUp_Test - Entering email address
+12:45:35.588 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+12:45:38.983 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+12:45:40.062 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+12:45:41.143 [main] INFO  SignUp.SignUp_Test - Uploading logo
+12:45:41.187 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+12:45:41.214 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+12:45:51.517 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+12:45:51.517 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+12:45:54.518 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+12:46:05.648 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+12:46:18.723 [main] INFO  SignUp.SignUp_Test - Closing the browser
+12:46:18.847 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+12:49:48.705 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:49:49.434 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:49:52.802 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+12:49:52.803 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+12:49:52.803 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+12:49:52.815 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+12:49:52.950 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+12:49:53.021 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+12:49:53.116 [main] INFO  SignUp.SignUp_Test - hosea@yopmail.com
+12:49:53.302 [main] INFO  SignUp.SignUp_Test - rivaA51%%
+12:49:53.302 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+12:49:54.309 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+12:49:54.400 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+12:49:54.671 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+12:50:01.544 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+12:50:01.712 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+12:50:03.912 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+12:50:03.975 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+12:50:07.059 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+12:50:07.064 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+12:50:16.346 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:20
+Dazhboards
+Setup Your Dazhboard Now
+12:50:16.356 [main] INFO  SignUp.SignUp_Test - Found email subject: 17:39
+Instagram
+ro.bertscott***, see guppiekisses, sofiatjernqvist and more in your feed
+12:50:16.359 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+12:53:30.259 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:53:31.359 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:53:34.660 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+12:53:34.660 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+12:53:34.660 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+12:53:34.674 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+12:53:34.806 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+12:53:34.875 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+12:53:35.157 [main] INFO  SignUp.SignUp_Test - nathaniel@yopmail.com
+12:53:35.360 [main] INFO  SignUp.SignUp_Test - christineA51%%
+12:53:35.360 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+12:53:36.386 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+12:53:36.682 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+12:53:36.899 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+12:53:44.551 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+12:53:45.265 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+12:53:47.185 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+12:53:47.251 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+12:53:50.348 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+12:53:50.363 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+12:53:59.858 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:23
+Dazhboards
+OTP Email
+12:54:03.115 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 400503
+12:54:03.251 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+12:54:03.258 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+12:54:08.261 [main] INFO  SignUp.SignUp_Test - Entering company name
+12:54:09.369 [main] INFO  SignUp.SignUp_Test - Selecting product category
+12:54:12.607 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+12:54:14.791 [main] INFO  SignUp.SignUp_Test - Entering location address
+12:54:19.957 [main] INFO  SignUp.SignUp_Test - Entering website address
+12:54:21.121 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+12:54:23.301 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:54:26.449 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+12:54:29.494 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+12:54:30.573 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+12:54:32.651 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:54:33.670 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+12:54:34.980 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+12:54:39.113 [main] INFO  SignUp.SignUp_Test - Entering email address
+12:54:40.324 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+12:54:43.729 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+12:54:44.811 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+12:54:45.885 [main] INFO  SignUp.SignUp_Test - Uploading logo
+12:54:45.927 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+12:54:45.955 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+12:54:56.281 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+12:54:56.281 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+12:55:08.385 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+12:55:21.491 [main] INFO  SignUp.SignUp_Test - Closing the browser
+12:55:21.598 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+12:55:43.615 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+12:55:44.286 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+12:55:48.247 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+12:55:48.247 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+12:55:48.247 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+12:55:48.260 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+12:55:48.399 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+12:55:48.471 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+12:55:48.595 [main] INFO  SignUp.SignUp_Test - michel@yopmail.com
+12:55:48.964 [main] INFO  SignUp.SignUp_Test - simonA51%%
+12:55:48.965 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+12:55:49.981 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+12:55:50.081 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+12:55:50.210 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+12:55:59.874 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+12:56:00.133 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+12:56:02.927 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+12:56:03.102 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+12:56:06.285 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+12:56:06.291 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+12:56:14.544 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:26
+Dazhboards
+OTP Email
+12:56:17.827 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 768755
+12:56:18.260 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+12:56:18.278 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+12:56:23.283 [main] INFO  SignUp.SignUp_Test - Entering company name
+12:56:24.392 [main] INFO  SignUp.SignUp_Test - Selecting product category
+12:56:27.632 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+12:56:29.833 [main] INFO  SignUp.SignUp_Test - Entering location address
+12:56:35.064 [main] INFO  SignUp.SignUp_Test - Entering website address
+12:56:36.255 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+12:56:38.454 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:56:40.569 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+12:56:43.614 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+12:56:44.692 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+12:56:46.853 [main] INFO  SignUp.SignUp_Test - Scrolling 
+12:56:47.908 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+12:56:49.203 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+12:56:53.340 [main] INFO  SignUp.SignUp_Test - Entering email address
+12:56:54.530 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+12:56:57.925 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+12:56:59.017 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+12:57:00.095 [main] INFO  SignUp.SignUp_Test - Uploading logo
+12:57:00.137 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+12:57:00.166 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+12:57:10.580 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+12:57:10.581 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+13:03:37.371 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:03:38.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:03:41.805 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+13:03:41.805 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+13:03:41.806 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+13:03:41.817 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+13:03:42.129 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+13:03:42.204 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+13:03:42.330 [main] INFO  SignUp.SignUp_Test - taneka@yopmail.com
+13:03:42.524 [main] INFO  SignUp.SignUp_Test - mylesA51%%
+13:03:42.525 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+13:03:43.531 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+13:03:43.615 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+13:03:43.745 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+13:03:53.357 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+13:03:53.608 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+13:03:56.128 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+13:03:56.306 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+13:03:59.554 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+13:03:59.560 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+13:04:09.747 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:34
+Dazhboards
+OTP Email
+13:04:13.133 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 616225
+13:04:13.467 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+13:04:13.475 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+13:04:18.479 [main] INFO  SignUp.SignUp_Test - Entering company name
+13:04:19.567 [main] INFO  SignUp.SignUp_Test - Selecting product category
+13:04:22.794 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+13:04:24.977 [main] INFO  SignUp.SignUp_Test - Entering location address
+13:04:30.165 [main] INFO  SignUp.SignUp_Test - Entering website address
+13:04:31.328 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+13:04:33.521 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:04:35.635 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+13:04:38.680 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+13:04:39.893 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+13:04:42.010 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:04:43.030 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+13:04:44.312 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+13:04:48.461 [main] INFO  SignUp.SignUp_Test - Entering email address
+13:04:49.649 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+13:04:53.063 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+13:04:54.147 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+13:04:55.234 [main] INFO  SignUp.SignUp_Test - Uploading logo
+13:04:55.346 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+13:04:55.437 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+13:05:05.790 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+13:05:05.790 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+13:05:07.790 [main] INFO  SignUp.SignUp_Test - Clicking on Save button
+13:05:38.436 [main] ERROR SignUp.SignUp_Test - ❌ Failed to click on Save button after image upload
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Save'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-64-generic', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37681}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37681/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c2780f2826edabe86548e877c220961
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.34.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.34.0.jar:?]
+	at SignUp.SignUp_Test.Fill_company_details(SignUp_Test.java:456) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+13:05:38.558 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+13:05:51.708 [main] INFO  SignUp.SignUp_Test - Closing the browser
+13:05:51.839 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+13:11:59.102 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:11:59.774 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:12:03.005 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+13:12:03.007 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+13:12:03.007 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+13:12:03.022 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+13:12:03.190 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+13:12:03.256 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+13:12:03.358 [main] INFO  SignUp.SignUp_Test - jon@yopmail.com
+13:12:03.550 [main] INFO  SignUp.SignUp_Test - lenA51%%
+13:12:03.551 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+13:12:04.558 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+13:12:04.644 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+13:12:04.760 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+13:12:12.206 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+13:12:12.380 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+13:12:14.433 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+13:12:14.499 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+13:12:17.581 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+13:12:17.586 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+13:12:26.633 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:42
+Dazhboards
+Setup Your Dazhboard Now
+13:12:26.641 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:42
+Dazhboards
+OTP Email
+13:12:29.886 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 285535
+13:12:30.018 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+13:12:30.025 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+13:12:35.028 [main] INFO  SignUp.SignUp_Test - Entering company name
+13:12:36.115 [main] INFO  SignUp.SignUp_Test - Selecting product category
+13:12:39.346 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+13:12:41.535 [main] INFO  SignUp.SignUp_Test - Entering location address
+13:12:46.679 [main] INFO  SignUp.SignUp_Test - Entering website address
+13:12:47.879 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+13:12:50.089 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:12:53.232 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+13:12:56.277 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+13:12:57.354 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+13:12:59.426 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:13:00.446 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+13:13:01.740 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+13:13:05.874 [main] INFO  SignUp.SignUp_Test - Entering email address
+13:13:07.038 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+13:13:10.445 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+13:13:11.531 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+13:13:12.603 [main] INFO  SignUp.SignUp_Test - Uploading logo
+13:13:12.645 [main] INFO  SignUp.SignUp_Test - Closing overlay popup
+13:13:12.673 [main] INFO  SignUp.SignUp_Test - Switching to overlay iframe
+13:13:22.989 [main] INFO  SignUp.SignUp_Test - Overlay iframe not found, continuing without closing
+13:13:22.989 [main] INFO  SignUp.SignUp_Test - Overlay popup closed successfully
+13:13:35.091 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+13:13:48.196 [main] INFO  SignUp.SignUp_Test - Closing the browser
+13:13:48.301 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+13:16:18.977 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:16:19.659 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:16:26.873 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+13:16:26.874 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+13:16:26.874 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+13:16:26.884 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+13:16:26.972 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+13:16:27.047 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+13:16:27.666 [main] INFO  SignUp.SignUp_Test - vicenta@yopmail.com
+13:16:27.855 [main] INFO  SignUp.SignUp_Test - thanhA51%%
+13:16:27.856 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+13:16:28.863 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+13:16:28.944 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+13:16:29.059 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+13:16:37.093 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+13:16:37.260 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+13:16:39.198 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+13:16:39.264 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+13:16:42.350 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+13:16:42.356 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+13:16:51.821 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:46
+Dazhboards
+OTP Email
+13:16:55.058 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 626218
+13:16:55.194 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+13:16:55.201 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+13:17:00.204 [main] INFO  SignUp.SignUp_Test - Entering company name
+13:17:01.293 [main] INFO  SignUp.SignUp_Test - Selecting product category
+13:17:04.524 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+13:17:06.700 [main] INFO  SignUp.SignUp_Test - Entering location address
+13:17:11.836 [main] INFO  SignUp.SignUp_Test - Entering website address
+13:17:13.003 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+13:17:15.192 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:17:18.338 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+13:17:21.384 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+13:17:22.466 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+13:17:24.541 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:17:25.559 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+13:17:26.838 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+13:17:30.974 [main] INFO  SignUp.SignUp_Test - Entering email address
+13:17:32.169 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+13:17:35.565 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+13:17:36.659 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+13:17:37.732 [main] INFO  SignUp.SignUp_Test - Uploading logo
+13:17:42.775 [main] WARN  SignUp.SignUp_Test - ⚠️ pencho click ho ja
+13:17:43.930 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+13:17:57.019 [main] INFO  SignUp.SignUp_Test - Closing the browser
+13:17:57.120 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+13:18:40.378 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:18:41.045 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:18:44.216 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+13:18:44.217 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+13:18:44.217 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+13:18:44.227 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+13:18:44.337 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+13:18:44.425 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+13:18:44.664 [main] INFO  SignUp.SignUp_Test - drew@yopmail.com
+13:18:44.857 [main] INFO  SignUp.SignUp_Test - brittA51%%
+13:18:44.858 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+13:18:45.865 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+13:18:45.948 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+13:18:46.070 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+13:18:53.561 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+13:18:53.736 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+13:18:55.693 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+13:18:55.758 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+13:18:58.840 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+13:18:58.851 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+13:19:08.521 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:48
+Dazhboards
+OTP Email
+13:19:11.861 [main] INFO  SignUp.SignUp_Test - Extracted OTP: 659250
+13:19:12.033 [main] INFO  SignUp.SignUp_Test - OTP submitted successfully.
+13:19:12.040 [main] INFO  SignUp.SignUp_Test - *****Started Fill_company_details*****
+13:19:17.045 [main] INFO  SignUp.SignUp_Test - Entering company name
+13:19:18.130 [main] INFO  SignUp.SignUp_Test - Selecting product category
+13:19:21.375 [main] INFO  SignUp.SignUp_Test - Entering Business Number
+13:19:23.594 [main] INFO  SignUp.SignUp_Test - Entering location address
+13:19:28.807 [main] INFO  SignUp.SignUp_Test - Entering website address
+13:19:29.970 [main] INFO  SignUp.SignUp_Test - Entering Contact number
+13:19:32.152 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:19:35.294 [main] INFO  SignUp.SignUp_Test - Navigating dropdown using ARROW_DOWN
+13:19:38.365 [main] INFO  SignUp.SignUp_Test - Clicking Per/Pax checkbox
+13:19:39.445 [main] INFO  SignUp.SignUp_Test - Clicking SMS radio/checkbox
+13:19:41.519 [main] INFO  SignUp.SignUp_Test - Scrolling 
+13:19:42.536 [main] INFO  SignUp.SignUp_Test - Entering contact person details
+13:19:43.815 [main] INFO  SignUp.SignUp_Test - Selecting department from dropdown
+13:19:47.956 [main] INFO  SignUp.SignUp_Test - Entering email address
+13:19:49.138 [main] INFO  SignUp.SignUp_Test - Selecting country from flag dropdown
+13:19:52.566 [main] INFO  SignUp.SignUp_Test - Clicking Add Contact Person
+13:19:53.658 [main] INFO  SignUp.SignUp_Test - Deleting contact person entry
+13:19:59.735 [main] WARN  SignUp.SignUp_Test - ⚠️ pencho click ho ja
+13:20:00.888 [main] INFO  SignUp.SignUp_Test - *****Starting Purchase_Plan*****
+13:20:13.978 [main] INFO  SignUp.SignUp_Test - Closing the browser
+13:20:14.085 [main] INFO  SignUp.SignUp_Test - ✅ Extent report Loaded.
+13:27:17.200 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:27:17.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:27:21.130 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+13:27:21.131 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+13:27:21.131 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+13:27:21.141 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+13:27:21.279 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+13:27:21.350 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+13:27:21.627 [main] INFO  SignUp.SignUp_Test - oren@yopmail.com
+13:27:21.810 [main] INFO  SignUp.SignUp_Test - davisA51%%
+13:27:21.810 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+13:27:22.817 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+13:27:22.905 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+13:27:23.030 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+13:27:30.887 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+13:27:31.057 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+13:27:32.994 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+13:27:33.057 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+13:27:36.141 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+13:27:36.147 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+13:27:45.709 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:57
+Dazhboards
+Setup Your Dazhboard Now
+13:27:45.718 [main] INFO  SignUp.SignUp_Test - Found email subject: 10:40
+じゃらんnet編集部
+*泊*食*万円以下の宿特集！[近畿・北陸版]
+13:27:45.728 [main] INFO  SignUp.SignUp_Test - Found email subject: 10:39
+[リクルートID]PR情報
+「*世帯*回限りでごめんなさい」カゴメの絶品野菜ジュースがモニター価格に
+13:27:45.737 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:17
+Instagram
+orenz***, voir nolanthcsoldier, bar_gat et d’autres dans votre fil
+13:27:45.747 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:45
+Owner3062353027369590 1
+Appraisal initiative integrity
+13:27:45.756 [main] INFO  SignUp.SignUp_Test - Found email subject: 12:02
+[リクルートID]PR情報
+【支払いがピンチ！】今すぐ申込めるカードローン特集
+13:27:45.767 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:33
+Las Vegas South Premium Outlets®
+Score Big for Back-to-School!
+13:27:45.776 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:49
+[リクルートID]PR情報
+【化粧水*.*ヵ月分をお得にお試し！】アテニアの美白(※*)×シワ改善スキンケア
+13:27:45.785 [main] INFO  SignUp.SignUp_Test - Found email subject: 10:44
+[リクルートID]PR情報
+【Amazonギフト券*,***円もらえる】ガスの無料比較
+13:27:45.795 [main] INFO  SignUp.SignUp_Test - Found email subject: 10:48
+[リクルートID]PR情報
+免疫と内臓脂肪に関するアンケートのお願い
+13:27:45.804 [main] INFO  SignUp.SignUp_Test - Found email subject: 9:37
+Instagram
+Nouvelle connexion à Instagram depuis Chrome Mobile sur Apple iPhone
+13:27:45.813 [main] INFO  SignUp.SignUp_Test - Found email subject: 9:32
+Instagram
+Nouvelle connexion à Instagram depuis Mobile Safari sur Apple iPhone
+13:27:45.822 [main] INFO  SignUp.SignUp_Test - Found email subject: 18:08
+Las Vegas South Premium Outlets®
+Your Summer Wardrobe Starts Here ☀️
+13:27:45.832 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:08
+[リクルートID]PR情報
+【大塚製薬のシミ対策美容液】***円でお得な『**日間お試しセット』の情報をお届け♪
+13:27:45.841 [main] INFO  SignUp.SignUp_Test - Found email subject: 8:16
+Sandy @ Rhino News
+Rhino Plugin News - July
+13:27:45.844 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+14:22:54.617 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:22:55.386 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:22:59.947 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+14:22:59.947 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+14:22:59.947 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+14:22:59.983 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+14:23:00.205 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+14:23:00.343 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+14:23:00.541 [main] INFO  SignUp.SignUp_Test - abram@yopmail.com
+14:23:00.830 [main] INFO  SignUp.SignUp_Test - lorettaA51%%
+14:23:00.831 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+14:23:01.841 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+14:23:01.956 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+14:23:02.119 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+14:23:08.250 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+14:23:08.415 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+14:23:11.371 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+14:23:11.568 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+14:23:14.728 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+14:23:14.748 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+14:23:24.529 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:53
+Dazhboards
+Setup Your Dazhboard Now
+14:23:24.563 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:38
+Zillow
+* Rental Results for 'My Saved Search'
+14:23:24.593 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:32
+Zillow
+** Rental Results for 'My Saved Search'
+14:23:24.636 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:10
+Zillow
+** Results for 'Summerlin North, Las Vegas, NV'
+14:23:24.654 [main] INFO  SignUp.SignUp_Test - Found email subject: 6:42
+Zillow
+** Rental Results for 'My Saved Search'
+14:23:24.685 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:28
+Zillow
+Your Home Report for **** Teetering Rock Ave - Values, Forecast, Neighborhood Activity
+14:23:24.719 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:10
+Microsoft
+De-activation of Email account - Microsoft Community"
+14:23:24.765 [main] INFO  SignUp.SignUp_Test - Found email subject: 20:32
+Microsoft 365
+From Microsoft ***
+14:23:24.800 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:43
+KilimallKenya
+Home Improvement Sale: Up To **% Off!
+14:23:24.821 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:38
+Zillow
+* Rental Results for 'My Saved Search'
+14:23:24.843 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:36
+Zillow
+** Rental Results for 'My Saved Search'
+14:23:24.876 [main] INFO  SignUp.SignUp_Test - Found email subject: 6:53
+Zillow
+** Results for 'Summerlin North, Las Vegas, NV'
+14:23:24.909 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:16
+noreply@nsis.ru
+Электронный полис ОСАГО
+14:23:24.936 [main] INFO  SignUp.SignUp_Test - Found email subject: 13:29
+Microsoft 365
+From Microsoft ***
+14:23:24.958 [main] INFO  SignUp.SignUp_Test - Found email subject: 7:33
+Zillow
+* Rental Results for 'My Saved Search'
+14:23:24.972 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+14:23:48.596 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:23:49.246 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:23:52.238 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+14:23:52.238 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+14:23:52.238 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+14:23:52.250 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+14:23:52.385 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+14:23:52.451 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+14:23:52.766 [main] INFO  SignUp.SignUp_Test - samual@yopmail.com
+14:23:52.942 [main] INFO  SignUp.SignUp_Test - bretA51%%
+14:23:52.942 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+14:23:53.949 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+14:23:54.043 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+14:23:54.164 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+14:23:59.789 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+14:23:59.956 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+14:24:03.419 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+14:24:03.482 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+14:24:06.565 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+14:24:06.571 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+14:24:15.898 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:54
+Dazhboards
+Setup Your Dazhboard Now
+14:24:15.907 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:48
+Groupon Discount Codes
+Morrisons - £** gift card • AA Breakdown - £** gift card • Holiday Extras - **% off + more!
+14:24:15.917 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:21
+Groupon Home & Garden
+Garden essentials don’t have to be expensive
+14:24:15.925 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:21
+Groupon
+Thrush Relief Bundle Clotrimazole Cream and Fluconazole Tablets
+14:24:15.934 [main] INFO  SignUp.SignUp_Test - Found email subject: 20:01
+App Builder Team
+[Don’t Miss Out] See App Builder’s New AI Features in Action
+14:24:15.943 [main] INFO  SignUp.SignUp_Test - Found email subject: 19:28
+Groupon
+Sunday Matinee Shows or Murder Mystery Night Cabaret Supper Club
+14:24:15.952 [main] INFO  SignUp.SignUp_Test - Found email subject: 19:01
+Dev Rybbon Customer Care
+Account Activity - July **, ****
+14:24:15.961 [main] INFO  SignUp.SignUp_Test - Found email subject: 19:01
+Dev Rybbon Customer Care
+Account Activity - July **, ****
+14:24:15.970 [main] INFO  SignUp.SignUp_Test - Found email subject: 18:45
+Groupon
+Family Fun Leisure Waters for * or * Adults, * or * Childs, orCombo
+14:24:15.979 [main] INFO  SignUp.SignUp_Test - Found email subject: 18:31
+Pabbly Connect
+🚀 Claim $*** Off & Simplify Automation for Every Client!
+14:24:15.990 [main] INFO  SignUp.SignUp_Test - Found email subject: 18:20
+Dev BHN Rewards Customer Care
+Workspace Default Workspace name Activity - July **, ****
+14:24:15.998 [main] INFO  SignUp.SignUp_Test - Found email subject: 17:37
+Groupon Belfast
+Belfast’s Finest: *-Course Meal, Wine, & Scenic River Views for * or *
+14:24:16.009 [main] INFO  SignUp.SignUp_Test - Found email subject: 1:30
+Groupon
+Taylor Swift Themed **oz Stainless Steel Travel Mug
+14:24:16.017 [main] INFO  SignUp.SignUp_Test - Found email subject: 23:48
+Groupon
+Two-Course Indian Dining Experience for Two or Four
+14:24:16.026 [main] INFO  SignUp.SignUp_Test - Found email subject: 19:48
+Reveal Team
+Do More With Less: How SaaS CTOs Are Scaling BI Without Hiring
+14:24:16.029 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+14:25:47.975 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:25:48.809 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:25:52.164 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+14:25:52.164 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+14:25:52.164 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+14:25:52.187 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+14:25:52.378 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+14:25:52.482 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+14:25:52.585 [main] INFO  SignUp.SignUp_Test - mckinley@yopmail.com
+14:25:52.783 [main] INFO  SignUp.SignUp_Test - laurenaA51%%
+14:25:52.783 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+14:25:53.791 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+14:25:53.889 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+14:25:54.022 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+14:26:01.723 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+14:26:01.893 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+14:26:03.508 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+14:26:03.575 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+14:26:06.660 [main] INFO  SignUp.SignUp_Test - Sign Up button clicked, redirected to: https://app2.dazhboards.com/otppage
+14:26:06.665 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+14:26:16.109 [main] INFO  SignUp.SignUp_Test - Found email subject: 14:56
+Dazhboards
+Setup Your Dazhboard Now
+14:26:16.118 [main] INFO  SignUp.SignUp_Test - Found email subject: 11:05
+Lucky Spin Deals
+ð¶ Winolot is Live â Get Your Bonus & Start Betting Now!
+14:26:16.127 [main] INFO  SignUp.SignUp_Test - Found email subject: 10:44
+Lucky Spin Deals
+ð¶ Winolot is Live â Get Your Bonus & Start Betting Now!
+14:26:16.131 [main] ERROR SignUp.SignUp_Test - ❌ OTP email not found in inbox
+14:49:35.232 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:49:36.121 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:49:46.094 [main] INFO  SignUp.SignUp_Test - *SignUp_Test Initialized*
+14:49:46.095 [main] INFO  SignUp.SignUp_Test - *****Opening Browser*****
+14:49:46.095 [main] INFO  SignUp.SignUp_Test - *****Started SignUp*****
+14:49:46.109 [main] INFO  SignUp.SignUp_Test - iframe hidden successfully
+14:49:46.211 [main] INFO  SignUp.SignUp_Test - Current URL: https://app2.dazhboards.com/signup
+14:49:46.276 [main] INFO  SignUp.SignUp_Test - *****Filling_signup_form*****
+14:49:46.944 [main] INFO  SignUp.SignUp_Test - riva@yopmail.com
+14:49:47.193 [main] INFO  SignUp.SignUp_Test - pamelaA51%%
+14:49:47.193 [main] INFO  SignUp.SignUp_Test - *****Filed_signup_form*****
+14:49:48.210 [main] INFO  SignUp.SignUp_Test - *****Verifying_checkbox_and_links*****
+14:49:48.300 [main] INFO  SignUp.SignUp_Test - Checkbox clicked and selected successfully
+14:49:48.463 [main] INFO  SignUp.SignUp_Test - 'Terms of Use' link is visible and enabled
+14:49:54.885 [main] INFO  SignUp.SignUp_Test - Navigated to Terms of Use page: https://dazhboards.com/terms-and-conditions/
+14:49:55.065 [main] INFO  SignUp.SignUp_Test - 'Privacy Policy' link is visible and enabled
+14:49:58.569 [main] INFO  SignUp.SignUp_Test - Navigated to Privacy Policy page: https://dazhboards.com/privacy-policy/
+14:49:58.634 [main] INFO  SignUp.SignUp_Test - *****Clicking on Signup button*****
+14:50:01.823 [main] INFO  SignUp.SignUp_Test - *****Starting OTP Verification*****
+14:58:03.826 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:58:04.531 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:58:08.196 [main] INFO  Login.Login_Test - Starting login process...
+14:58:08.337 [main] INFO  Login.Login_Test - Entered valid email
+14:58:08.634 [main] INFO  Login.Login_Test - Entered valid password
+14:58:08.732 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+14:58:10.869 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+14:58:10.871 [main] INFO  Login.Login_Test - URL validation passed.
+14:58:10.947 [main] INFO  Login.Login_Test - Closing the browser
+14:58:11.046 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:13:44.612 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:13:45.267 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:13:48.556 [main] INFO  Login.Login_Test - Starting login process...
+15:13:48.682 [main] INFO  Login.Login_Test - Entered valid email
+15:13:48.935 [main] INFO  Login.Login_Test - Entered valid password
+15:13:49.026 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:13:51.068 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:13:51.070 [main] INFO  Login.Login_Test - URL validation passed.
+15:13:51.128 [main] INFO  Login.Login_Test - Closing the browser
+15:13:51.208 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:14:09.683 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:14:10.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:14:13.313 [main] INFO  Login.Login_Test - Starting login process...
+15:14:13.448 [main] INFO  Login.Login_Test - Entered valid email
+15:14:13.736 [main] INFO  Login.Login_Test - Entered valid password
+15:14:13.830 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:14:15.991 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:14:15.993 [main] INFO  Login.Login_Test - URL validation passed.
+15:14:16.053 [main] INFO  Login.Login_Test - Closing the browser
+15:14:16.140 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:23:54.022 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:23:54.619 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:24:03.634 [main] INFO  Login.Login_Test - Starting login process...
+15:24:03.816 [main] INFO  Login.Login_Test - Entered valid email
+15:24:03.906 [main] INFO  Login.Login_Test - Entered valid password
+15:24:04.004 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:24:06.041 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:24:06.043 [main] INFO  Login.Login_Test - URL validation passed.
+15:24:06.108 [main] INFO  Login.Login_Test - Closing the browser
+15:24:06.193 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:32:43.571 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:32:44.207 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:32:50.256 [main] INFO  Login.Login_Test - Starting login process...
+15:32:50.382 [main] INFO  Login.Login_Test - Entered valid email
+15:32:50.466 [main] INFO  Login.Login_Test - Entered valid password
+15:32:50.561 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:32:52.594 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:32:52.596 [main] INFO  Login.Login_Test - URL validation passed.
+15:32:52.657 [main] INFO  Login.Login_Test - Closing the browser
+15:32:52.762 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:33:26.152 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:33:26.773 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:33:29.766 [main] INFO  Login.Login_Test - Starting login process...
+15:33:29.911 [main] INFO  Login.Login_Test - Entered valid email
+15:33:30.152 [main] INFO  Login.Login_Test - Entered valid password
+15:33:30.248 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:33:32.279 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:33:32.281 [main] INFO  Login.Login_Test - URL validation passed.
+15:33:32.339 [main] INFO  Login.Login_Test - Closing the browser
+15:33:32.419 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+15:36:41.274 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+15:36:41.888 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+15:36:44.964 [main] INFO  Login.Login_Test - Starting login process...
+15:36:45.201 [main] INFO  Login.Login_Test - Entered valid email
+15:36:45.295 [main] INFO  Login.Login_Test - Entered valid password
+15:36:45.381 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+15:36:47.415 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+15:36:47.417 [main] INFO  Login.Login_Test - URL validation passed.
+15:36:47.480 [main] INFO  Login.Login_Test - Closing the browser
+15:36:47.559 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
