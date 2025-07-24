@@ -4,15 +4,17 @@ pipeline {
     tools {
         maven 'mvn'
         jdk 'jdk'
+        allure 'allure'
     }
 
     environment {
         MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
-
+        ALLURE_RESULTS = "allure-results"
+        EXTENT_REPORT_DIR = "test-output"
+        EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
     }
 
     stages {
-
         stage('Checkout') {
             steps {
                 echo "🔄 Checking out code"
@@ -39,43 +41,47 @@ pipeline {
                 junit 'target/surefire-reports/*.xml'
             }
         }
- stage('Console Output Dump') {
-        steps {
-            echo "📜 Dumping Surefire output to Jenkins console log..."
-            sh 'cat target/surefire-reports/*.txt || true'
-        }}
-          stage('Clean Empty Allure Files') {
-                    steps {
-                        echo "🧼 Cleaning empty JSONs in Allure results..."
-                        sh "find ${allure-results} -name '*.json' -size 0 -delete || true"
-                    }
-                }
-     stage('Generate Allure Report') {
-         when {
-             expression { fileExists('allure-results') }
-         }
-         steps {
-             echo "🧪 Generating Allure report..."
-             allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-         }
-     }
+
+        stage('Console Output Dump') {
+            steps {
+                echo "📜 Dumping Surefire output to Jenkins console log..."
+                sh 'cat target/surefire-reports/*.txt || true'
+            }
+        }
+
+        stage('Clean Empty Allure Files') {
+            steps {
+                echo "🧼 Cleaning empty JSONs in Allure results..."
+                sh "find ${ALLURE_RESULTS} -name '*.json' -size 0 -delete || true"
+            }
+        }
+
+        stage('Generate Allure Report') {
+            when {
+                expression { fileExists("${ALLURE_RESULTS}") }
+            }
+            steps {
+                echo "🧪 Generating Allure report..."
+                allure includeProperties: false, jdk: '', results: [[path: "${ALLURE_RESULTS}"]]
+            }
+        }
 
         stage('Publish HTML Report') {
-         when {
-                        expression { fileExists("${test-output}/${dazhboardsExtentReport}") }
-                    }
+            when {
+                expression { fileExists("${EXTENT_REPORT_DIR}/${EXTENT_REPORT_FILE}") }
+            }
             steps {
                 echo "🌐 Publishing Extent/HTML Report..."
                 publishHTML([
                     allowMissing: false,
-                                        alwaysLinkToLastBuild: true,
-                                        keepAll: true,
-                                        reportDir: 'test-output',
-                                        reportFiles: 'dazhboardsExtentReport',
-                                        reportName: 'Dazhboards Extent Report'
-                                        ])
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: "${EXTENT_REPORT_DIR}",
+                    reportFiles: "${EXTENT_REPORT_FILE}",
+                    reportName: 'Dazhboards Extent Report'
+                ])
             }
-}
+        }
     }
 
     post {
