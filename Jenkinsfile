@@ -8,9 +8,7 @@ pipeline {
 
     environment {
         MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
-          ALLURE_RESULTS = "allure-results"
-                EXTENT_REPORT_DIR = "test-output"
-                EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
+
     }
 
     stages {
