@@ -8174,3 +8174,15 @@ Lucky Spin Deals
 11:32:54.296 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
 11:33:04.539 [main] INFO  Login.Login_Test - Closing the browser
 11:33:04.648 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+13:12:44.383 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+13:12:45.373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+13:12:49.072 [main] INFO  Login.Login_Test - wwwStarting login process...
+13:12:49.343 [main] INFO  Login.Login_Test - Entered valid email
+13:12:49.459 [main] INFO  Login.Login_Test - Entered valid password
+13:12:49.558 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+13:12:51.608 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+13:12:51.610 [main] INFO  Login.Login_Test - URL validation passed.
+13:12:51.681 [main] INFO  Login.Login_Test - Closing the browser
+13:12:51.777 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.

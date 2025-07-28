@@ -98,6 +98,10 @@ pipeline {
             cleanWs()
         }
 
+        unstable {
+            echo '⚠️ Build marked as UNSTABLE (likely due to test failures).'
+        }
+
         failure {
             echo '🚨 Build failed. Check logs and test results.'
         }
