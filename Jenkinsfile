@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
+        MAVEN_OPTS = "-Dmaven.test.failure.ignore=false"
         ALLURE_RESULTS = "allure-results"
         EXTENT_REPORT_DIR = "test-output"
         EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
@@ -25,19 +25,13 @@ pipeline {
         stage('Build and Run Tests') {
             steps {
                 echo "⚙️ Building project and running tests..."
-                script {
-                    def result = sh(script: 'mvn clean test -e', returnStatus: true)
-                    if (result != 0) {
-                        echo "❌ Some tests failed, continuing to generate reports."
-                    } else {
-                        echo "✅ All tests passed."
-                    }
-                }
+                sh 'mvn clean test -e'
             }
         }
 
         stage('Publish Surefire Reports') {
             steps {
+                echo "📝 Publishing JUnit XML reports"
                 junit 'target/surefire-reports/*.xml'
             }
         }
@@ -68,7 +62,7 @@ pipeline {
 
         stage('Prepare Extent Report for Jenkins') {
             steps {
-                echo "🛠️ Renaming timestamped Extent report to a fixed name..."
+                echo "🛠️ Renaming latest Extent report to a fixed name..."
                 sh '''
                     mkdir -p test-output
                     latest_report=$(ls -t test-output/ExtentReport-*.html 2>/dev/null | head -n 1)
@@ -87,7 +81,7 @@ pipeline {
                 expression { fileExists("${EXTENT_REPORT_DIR}/${EXTENT_REPORT_FILE}") }
             }
             steps {
-                echo "🌐 Publishing Extent/HTML Report..."
+                echo "🌐 Publishing Extent HTML Report..."
                 publishHTML([
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
@@ -101,17 +95,17 @@ pipeline {
     }
 
     post {
-        always {
-            echo '🧹 Cleaning workspace...'
-            cleanWs()
+        success {
+            echo '✅ All tests passed. Build successful.'
         }
 
         failure {
-            echo '🚨 Build failed. Check logs and test results.'
+            echo '🚨 Build failed due to test failures or errors.'
         }
 
-        success {
-            echo '✅ Build completed successfully.'
+        always {
+            echo '🧹 Cleaning workspace...'
+            cleanWs()
         }
     }
 }
