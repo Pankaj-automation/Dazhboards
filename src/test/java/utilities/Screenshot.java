@@ -31,7 +31,6 @@ public class Screenshot {
         String filePath = folderPath + File.separator + testName + "_" + timestamp + ".png";
 
         try {
-            // 3) Capture and copy
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(srcFile, new File(filePath));
             System.out.println("✨ Screenshot saved to: " + filePath);
