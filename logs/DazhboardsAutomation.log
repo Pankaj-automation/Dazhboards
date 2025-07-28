@@ -8698,3 +8698,67 @@ Lucky Spin Deals
 17:20:10.306 [main] INFO  Login.Login_Test - URL validation passed.
 17:20:10.367 [main] INFO  Login.Login_Test - Closing the browser
 17:20:10.456 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:33:03.353 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:33:04.034 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:33:11.437 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:33:11.577 [main] INFO  Login.Login_Test - Entered valid email
+17:33:11.662 [main] INFO  Login.Login_Test - Entered valid password
+17:33:11.750 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:33:13.780 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+17:33:13.782 [main] INFO  Login.Login_Test - URL validation passed.
+17:33:13.842 [main] INFO  Login.Login_Test - Closing the browser
+17:33:13.929 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:33:35.467 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:33:36.186 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:33:40.359 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:33:40.752 [main] INFO  Login.Login_Test - Entered valid email
+17:33:40.879 [main] INFO  Login.Login_Test - Entered valid password
+17:33:40.984 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:33:51.341 [main] INFO  Login.Login_Test - Closing the browser
+17:33:51.470 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:39:38.103 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:39:38.732 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:39:42.214 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:39:42.350 [main] INFO  Login.Login_Test - Entered valid email
+17:39:42.587 [main] INFO  Login.Login_Test - Entered valid password
+17:39:42.685 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:39:52.944 [main] INFO  Login.Login_Test - Closing the browser
+17:39:53.030 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:42:04.435 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:42:05.084 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:42:08.162 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:42:08.327 [main] INFO  Login.Login_Test - Entered valid email
+17:42:08.426 [main] INFO  Login.Login_Test - Entered valid password
+17:42:08.573 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:42:18.838 [main] INFO  Login.Login_Test - Closing the browser
+17:42:18.927 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:43:39.470 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:43:40.188 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:43:48.900 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:43:49.094 [main] INFO  Login.Login_Test - Entered valid email
+17:43:49.183 [main] INFO  Login.Login_Test - Entered valid password
+17:43:49.273 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:43:51.311 [main] INFO  Login.Login_Test - Current URL after login: https://app2.dazhboards.com/pos
+17:43:51.313 [main] INFO  Login.Login_Test - URL validation passed.
+17:43:51.375 [main] INFO  Login.Login_Test - Closing the browser
+17:43:51.485 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+17:44:03.922 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+17:44:04.854 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+17:44:08.324 [main] INFO  Login.Login_Test - wwwStarting login process...
+17:44:08.566 [main] INFO  Login.Login_Test - Entered valid email
+17:44:08.666 [main] INFO  Login.Login_Test - Entered valid password
+17:44:08.752 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+17:44:19.007 [main] INFO  Login.Login_Test - Closing the browser
+17:44:19.105 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
