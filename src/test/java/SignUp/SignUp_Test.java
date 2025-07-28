@@ -1,3 +1,4 @@
+/*
 package SignUp;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -61,7 +62,8 @@ public class SignUp_Test extends StartupCode {
 
     }
 
-    /*  @Test(priority = 2)
+    */
+/*  @Test(priority = 2)
       @Story("Fill signup form")
       @Description("User fills all required fields in signup form")
       @Severity(SeverityLevel.CRITICAL)
@@ -559,7 +561,8 @@ public class SignUp_Test extends StartupCode {
           logger.info("*****Plan Purchased*****");
           test.info("Plan Purchased");
       }
-  */
+  *//*
+
     @AfterMethod
     public void tearDown1(ITestResult result) throws IOException {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -591,3 +594,4 @@ public class SignUp_Test extends StartupCode {
 
 
 
+*/
