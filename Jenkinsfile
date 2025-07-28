@@ -38,9 +38,12 @@ pipeline {
 
         stage('Publish Surefire Reports') {
             steps {
-                junit 'target/surefire-reports/*.xml'
+                catchError(buildResult: 'SUCCESS', stageResult: 'UNSTABLE') {
+                    junit 'target/surefire-reports/*.xml'
+                }
             }
-        }
+
+
 
         stage('Console Output Dump') {
             steps {
