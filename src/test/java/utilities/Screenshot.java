@@ -48,7 +48,7 @@ public class Screenshot extends StartupCode {
         if (result.getStatus() == ITestResult.FAILURE) {
             String screenshotPath = Screenshot.takeScreenshot(StartupCode.driver, result.getName());
             String relativePath = ".." + File.separator + "screenshots" + File.separator + new File(screenshotPath).getName();
-            test.fail("Test Failed: " + result.getThrowable(),
+            Screenshot.test.fail("Test Failed: " + result.getThrowable(),
                     MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
             Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
         } else if (result.getStatus() == ITestResult.SUCCESS) {
