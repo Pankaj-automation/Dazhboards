@@ -28,6 +28,22 @@ pipeline {
             }
         }
 
+        stage('Publish Surefire Reports') {
+            steps {
+                echo "📁 Cleaning and publishing test results..."
+
+                // Delete empty or invalid XMLs to avoid 'UNSTABLE' status
+                sh 'find target/surefire-reports -name "*.xml" -size 0 -delete || true'
+
+                // Optional: Log files being used for debugging
+                sh 'ls -lh target/surefire-reports || true'
+                sh 'find target/surefire-reports -name "*.xml" -exec head -n 5 {} \\; || true'
+
+                // Publish JUnit reports
+                junit 'target/surefire-reports/*.xml'
+            }
+        }
+
         stage('Console Output Dump') {
             steps {
                 echo "📜 Dumping Surefire output to Jenkins console log..."
