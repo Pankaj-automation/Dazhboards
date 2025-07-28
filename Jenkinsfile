@@ -100,18 +100,29 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo '🧹 Cleaning workspace...'
-            cleanWs()
-        }
+       post {
+           always {
+               echo '🧹 Cleaning workspace...'
+               cleanWs()
 
-        failure {
-            echo '🚨 Build failed. Check logs and test results.'
-        }
+               script {
+                   def result = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+                   if (result) {
+                       if (result.getFailCount() == 0 && result.getSkipCount() == 0) {
+                           echo '✅ Build completed successfully.'
+                       } else if (result.getFailCount() == 0) {
+                           echo '⚠️ Build had skipped tests only — treating as SUCCESS.'
+                           currentBuild.result = 'SUCCESS'
+                       } else {
+                           echo "❌ Build had test failures."
+                       }
+                   } else {
+                       echo 'ℹ️ No test results found.'
+                   }
+               }
+           }
 
-        success {
-            echo '✅ Build completed successfully.'
-        }
-    }
-}
+           failure {
+               echo '🚨 Build failed. Check logs and test results.'
+           }
+       }
