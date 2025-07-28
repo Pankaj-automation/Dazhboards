@@ -8,6 +8,7 @@ pipeline {
     }
 
     environment {
+        MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
         ALLURE_RESULTS = "allure-results"
         EXTENT_REPORT_DIR = "test-output"
         EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
@@ -24,22 +25,19 @@ pipeline {
         stage('Build and Run Tests') {
             steps {
                 echo "⚙️ Building project and running tests..."
-                sh 'mvn clean test -e'
+                script {
+                    def result = sh(script: 'mvn clean test -e', returnStatus: true)
+                    if (result != 0) {
+                        echo "❌ Some tests failed, continuing to generate reports."
+                    } else {
+                        echo "✅ All tests passed."
+                    }
+                }
             }
         }
 
         stage('Publish Surefire Reports') {
             steps {
-                echo "📁 Cleaning and publishing test results..."
-
-                // Delete empty or invalid XMLs to avoid 'UNSTABLE' status
-                sh 'find target/surefire-reports -name "*.xml" -size 0 -delete || true'
-
-                // Optional: Log files being used for debugging
-                sh 'ls -lh target/surefire-reports || true'
-                sh 'find target/surefire-reports -name "*.xml" -exec head -n 5 {} \\; || true'
-
-                // Publish JUnit reports
                 junit 'target/surefire-reports/*.xml'
             }
         }
