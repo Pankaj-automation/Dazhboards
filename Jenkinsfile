@@ -28,12 +28,6 @@ pipeline {
             }
         }
 
-       stage('Publish Surefire Reports') {
-           steps {
-               junit 'target/surefire-reports/*.xml'
-           }
-       }
-
         stage('Console Output Dump') {
             steps {
                 echo "📜 Dumping Surefire output to Jenkins console log..."
