@@ -2,17 +2,13 @@ package utilities;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -42,18 +38,6 @@ public class Screenshot extends StartupCode {
         }
 
         return filePath;
-    }
-
-    public static void tearDown(ITestResult result, WebDriver driver) throws IOException {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            String screenshotPath = Screenshot.takeScreenshot(StartupCode.driver, result.getName());
-            String relativePath = ".." + File.separator + "screenshots" + File.separator + new File(screenshotPath).getName();
-            Screenshot.test.fail("Test Failed: " + result.getThrowable(),
-                    MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
-            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
-        } else if (result.getStatus() == ITestResult.SUCCESS) {
-            test.pass("Test Passed");
-        }
     }
 
 

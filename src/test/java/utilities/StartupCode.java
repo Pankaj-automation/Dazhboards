@@ -13,10 +13,10 @@ public class StartupCode {
 
 
     protected static WebDriver driver;
+    protected static ExtentTest test;
     protected Reuseable reuse;
     protected Logger logger;
     protected ExtentReports extent;
-    protected ExtentTest test;
     protected Faker fakedata;
 
     Reuseable data = new Reuseable();
