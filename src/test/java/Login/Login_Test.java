@@ -48,7 +48,7 @@ public class Login_Test extends StartupCode {
         test.info("Entered valid email");
 
         WebElement passwordInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='Password']")));
-        passwordInput.sendKeys("Admine51%%!");
+        passwordInput.sendKeys("Admine5q1%%!");
         logger.info("Entered valid password");
         test.info("Entered valid password");
 
