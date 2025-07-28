@@ -80,7 +80,6 @@ public class Login_Test extends StartupCode {
         }
     }
 
-
     @AfterClass
     public void QuitBrowser() {
 
