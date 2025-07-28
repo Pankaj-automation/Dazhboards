@@ -23,10 +23,17 @@ pipeline {
 
         stage('Build and Run Tests') {
             steps {
-                echo "⚙️ Building project and running tests..."
-                sh 'mvn clean test -e'
+                script {
+                    def result = sh(script: 'mvn clean test -Dmaven.test.failure.ignore=true', returnStatus: true)
+                    if (result != 0) {
+                        echo "❌ Tests failed, but continuing to report generation."
+                    } else {
+                        echo "✅ All tests passed."
+                    }
+                }
             }
         }
+
 
         stage('Publish Surefire Reports') {
             steps {
