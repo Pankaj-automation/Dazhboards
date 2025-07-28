@@ -27,6 +27,7 @@ import java.time.Duration;
 @Feature("Validation Messages")
 public class Login_Required_Field_Alerts_Test extends StartupCode {
 
+
     @AfterMethod
     public static void tearDown(ITestResult result, WebDriver driver) throws IOException {
         if (result.getStatus() == ITestResult.FAILURE) {
