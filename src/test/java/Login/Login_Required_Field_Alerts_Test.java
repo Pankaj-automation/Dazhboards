@@ -1,6 +1,5 @@
 package Login;
 
-import com.aventstack.extentreports.MediaEntityBuilder;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,8 +16,6 @@ import utilities.AllureEnvWriter;
 import utilities.Screenshot;
 import utilities.StartupCode;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -96,15 +93,7 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
 
     @AfterMethod
     public void tearDown1(ITestResult result) throws IOException {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
-            String relativePath = ".." + File.separator + "screenshots" + File.separator + new File(screenshotPath).getName();
-            test.fail("Test Failed: " + result.getThrowable(),
-                    MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
-            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
-        } else if (result.getStatus() == ITestResult.SUCCESS) {
-            test.pass("Test Passed");
-        }
+        Screenshot.tearDown(result, driver);
     }
 
     @AfterClass

@@ -12,7 +12,7 @@ import java.time.Duration;
 public class StartupCode {
 
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected Reuseable reuse;
     protected Logger logger;
     protected ExtentReports extent;
