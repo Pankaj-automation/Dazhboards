@@ -28,12 +28,11 @@ pipeline {
             }
         }
 
-        stage('Publish Surefire Reports') {
-            steps {
-                echo '📦 Publishing Surefire XML test reports...'
-                junit 'target/surefire-reports/*.xml'
-            }
-        }
+       stage('Publish Surefire Reports') {
+           steps {
+               junit 'target/surefire-reports/*.xml'
+           }
+       }
 
         stage('Console Output Dump') {
             steps {
