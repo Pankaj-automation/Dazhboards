@@ -8,6 +8,7 @@ pipeline {
     }
 
     environment {
+        MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
         ALLURE_RESULTS = "allure-results"
         EXTENT_REPORT_DIR = "test-output"
         EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
@@ -24,14 +25,20 @@ pipeline {
         stage('Build and Run Tests') {
             steps {
                 echo "⚙️ Building project and running tests..."
-                sh 'mvn clean test -e'
+                script {
+                    def result = sh(script: 'mvn clean test -e', returnStatus: true)
+                    if (result != 0) {
+                        echo "❌ Some tests failed, continuing to generate reports."
+                    } else {
+                        echo "✅ All tests passed."
+                    }
+                }
             }
         }
 
         stage('Publish Surefire Reports') {
             steps {
-                echo "📝 Publishing JUnit XML reports"
-                junit allowEmptyResults: false, testResults: 'target/surefire-reports/*.xml'
+                junit 'target/surefire-reports/*.xml'
             }
         }
 
@@ -99,24 +106,12 @@ pipeline {
             cleanWs()
         }
 
-        success {
-            echo '✅ Build completed successfully.'
-        }
-
         failure {
             echo '🚨 Build failed. Check logs and test results.'
         }
 
-        unstable {
-            script {
-                def result = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
-                if (result && result.getFailCount() == 0) {
-                    echo "⚠️ Build is UNSTABLE due to skipped tests only. Marking as SUCCESS."
-                    currentBuild.result = 'SUCCESS'
-                } else {
-                    echo "⚠️ Build is UNSTABLE due to test failures."
-                }
-            }
+        success {
+            echo '✅ Build completed successfully.'
         }
     }
 }
