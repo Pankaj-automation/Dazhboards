@@ -8186,3 +8186,23 @@ Lucky Spin Deals
 13:12:51.610 [main] INFO  Login.Login_Test - URL validation passed.
 13:12:51.681 [main] INFO  Login.Login_Test - Closing the browser
 13:12:51.777 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+14:24:34.962 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:24:35.642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:24:39.575 [main] INFO  Login.Login_Test - wwwStarting login process...
+14:24:39.793 [main] INFO  Login.Login_Test - Entered valid email
+14:24:39.889 [main] INFO  Login.Login_Test - Entered valid password
+14:24:39.996 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+14:24:50.257 [main] INFO  Login.Login_Test - Closing the browser
+14:24:50.357 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
+14:25:49.789 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+14:25:50.563 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+14:25:53.912 [main] INFO  Login.Login_Test - wwwStarting login process...
+14:25:54.079 [main] INFO  Login.Login_Test - Entered valid email
+14:25:54.360 [main] INFO  Login.Login_Test - Entered valid password
+14:25:54.450 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+14:26:04.709 [main] INFO  Login.Login_Test - Closing the browser
+14:26:04.812 [main] INFO  Login.Login_Test - ✅ Extent report Loaded.
