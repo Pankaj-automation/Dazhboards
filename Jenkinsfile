@@ -100,37 +100,22 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo '🧹 Cleaning workspace...'
-            cleanWs()
+ post {
+     always {
+         echo '🧹 Cleaning workspace...'
+         cleanWs()
+     }
 
-            script {
-                def testResult = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
-                if (testResult) {
-                    def failed = testResult.getFailCount()
-                    def skipped = testResult.getSkipCount()
-                    def passed = testResult.getTotalCount() - failed - skipped
+     unstable {
+         echo '⚠️ Build marked as UNSTABLE (likely due to failed tests).'
+     }
 
-                    echo "Test Results => Passed: ${passed}, Failed: ${failed}, Skipped: ${skipped}"
+     failure {
+         echo '🚨 Build failed. Check logs and test results.'
+     }
 
-                    if (failed == 0 && skipped == 0) {
-                        echo '✅ All tests passed. Marking build as SUCCESS.'
-                        currentBuild.result = 'SUCCESS'
-                    } else if (failed > 0) {
-                        echo '❌ Some tests failed. Build marked as UNSTABLE or FAILED.'
-                    } else if (skipped > 0) {
-                        echo '⚠️ Some tests were skipped. Marking build as UNSTABLE.'
-                    }
-                } else {
-                    echo 'ℹ️ No test results found.'
-                }
-            }
-        }
-
-        failure {
-            echo '🚨 Build failed. Check logs and test results.'
-        }
-    }
-
+     success {
+         echo '✅ All tests passed. Build successful.'
+     }
+ }
 }
