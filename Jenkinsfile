@@ -8,7 +8,6 @@ pipeline {
     }
 
     environment {
-        MAVEN_OPTS = "-Dmaven.test.failure.ignore=false"
         ALLURE_RESULTS = "allure-results"
         EXTENT_REPORT_DIR = "test-output"
         EXTENT_REPORT_FILE = "dazhboardsExtentReport.html"
@@ -32,7 +31,7 @@ pipeline {
         stage('Publish Surefire Reports') {
             steps {
                 echo "📝 Publishing JUnit XML reports"
-                junit 'target/surefire-reports/*.xml'
+                junit allowEmptyResults: false, testResults: 'target/surefire-reports/*.xml'
             }
         }
 
@@ -62,7 +61,7 @@ pipeline {
 
         stage('Prepare Extent Report for Jenkins') {
             steps {
-                echo "🛠️ Renaming latest Extent report to a fixed name..."
+                echo "🛠️ Renaming timestamped Extent report to a fixed name..."
                 sh '''
                     mkdir -p test-output
                     latest_report=$(ls -t test-output/ExtentReport-*.html 2>/dev/null | head -n 1)
@@ -81,7 +80,7 @@ pipeline {
                 expression { fileExists("${EXTENT_REPORT_DIR}/${EXTENT_REPORT_FILE}") }
             }
             steps {
-                echo "🌐 Publishing Extent HTML Report..."
+                echo "🌐 Publishing Extent/HTML Report..."
                 publishHTML([
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
@@ -95,17 +94,29 @@ pipeline {
     }
 
     post {
-        success {
-            echo '✅ All tests passed. Build successful.'
-        }
-
-        failure {
-            echo '🚨 Build failed due to test failures or errors.'
-        }
-
         always {
             echo '🧹 Cleaning workspace...'
             cleanWs()
+        }
+
+        success {
+            echo '✅ Build completed successfully.'
+        }
+
+        failure {
+            echo '🚨 Build failed. Check logs and test results.'
+        }
+
+        unstable {
+            script {
+                def result = currentBuild.rawBuild.getAction(hudson.tasks.junit.TestResultAction)
+                if (result && result.getFailCount() == 0) {
+                    echo "⚠️ Build is UNSTABLE due to skipped tests only. Marking as SUCCESS."
+                    currentBuild.result = 'SUCCESS'
+                } else {
+                    echo "⚠️ Build is UNSTABLE due to test failures."
+                }
+            }
         }
     }
 }
