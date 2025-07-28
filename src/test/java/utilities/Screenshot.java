@@ -24,7 +24,7 @@ public class Screenshot {
     }
 
     public static String takeScreenshot(WebDriver driver, String testName) throws IOException {
-        String folderPath = System.getProperty("user.dir") + File.separator + "test-output/screenshots";
+        String folderPath = System.getProperty("user.dir") + File.separator + "screenshots";
         new File(folderPath).mkdirs();
         String timestamp = new SimpleDateFormat("yyyy_MM_dd_HH.mm.ss").format(new Date());
         String filePath = folderPath + File.separator + testName + "_" + timestamp + ".png";

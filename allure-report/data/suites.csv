@@ -1,4 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3","Start","Default Suite","Mon Jul 28 11:27:29 IST 2025","broken","Mon Jul 28 11:27:29 IST 2025","Login.Login_Test","Dazhboards","Login.Login_Test","Start"
-"Verify that a user can successfully log in with valid credentials","10632","wwwLogin with valid credentials","Default Suite","Mon Jul 28 11:32:53 IST 2025","broken","Mon Jul 28 11:33:04 IST 2025","Login.Login_Test","Dazhboards","Login.Login_Test","login"
-"","0","tearDown1","Default Suite","Mon Jul 28 11:24:10 IST 2025","broken","Mon Jul 28 11:24:10 IST 2025","Login.Login_Test","Dazhboards","Login.Login_Test","tearDown1"
+"Verify that a user can successfully log in with valid credentials","2528","wwwLogin with valid credentials","Default Suite","Mon Jul 28 17:20:07 IST 2025","passed","Mon Jul 28 17:20:10 IST 2025","Login.Login_Test","Dazhboards","Login.Login_Test","login"

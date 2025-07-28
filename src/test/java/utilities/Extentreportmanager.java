@@ -16,7 +16,7 @@ public class Extentreportmanager {
     public static ExtentReports getExtentReports() {
         if (extent == null) {
             String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-            reportPath = "test-output/ExtentReport/ExtentReport-" + timestamp + ".html";
+            reportPath = "test-output/ExtentReport-" + timestamp + ".html";
             new File("test-output").mkdirs();
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
             spark.config().setReportName("Dazhboards Test Report");
