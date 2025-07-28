@@ -8779,3 +8779,21 @@ Lucky Spin Deals
 18:15:58.555 [main] INFO  Login.Login_Test - Entered valid email
 18:15:58.661 [main] INFO  Login.Login_Test - Entered valid password
 18:15:58.746 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+18:37:04.812 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:37:05.565 [main] WARN  org.testng.internal.Configuration - Detected a static method [Login.Login_Test.tearDown()]. Static configuration methods can cause unexpected behavior.
+18:37:05.576 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:37:09.304 [main] INFO  Login.Login_Test - wwwStarting login process...
+18:37:09.429 [main] INFO  Login.Login_Test - Entered valid email
+18:37:09.520 [main] INFO  Login.Login_Test - Entered valid password
+18:37:09.753 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.
+18:38:17.647 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml"
+18:38:18.311 [main] WARN  org.testng.internal.Configuration - Detected a static method [Login.Login_Test.tearDown()]. Static configuration methods can cause unexpected behavior.
+18:38:18.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/jc-raj/.cache/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+18:38:21.548 [main] INFO  Login.Login_Test - wwwStarting login process...
+18:38:21.677 [main] INFO  Login.Login_Test - Entered valid email
+18:38:21.965 [main] INFO  Login.Login_Test - Entered valid password
+18:38:22.050 [main] INFO  Login.Login_Test - Credentials entered and login button clicked.

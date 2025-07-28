@@ -4,7 +4,6 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,19 +26,6 @@ import java.time.Duration;
 @Feature("Validation Messages")
 public class Login_Required_Field_Alerts_Test extends StartupCode {
 
-
-    @AfterMethod
-    public static void tearDown(ITestResult result, WebDriver driver) throws IOException {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            String screenshotPath = Screenshot.takeScreenshot(StartupCode.driver, result.getName());
-            String relativePath = ".." + File.separator + "screenshots" + File.separator + new File(screenshotPath).getName();
-            test.fail("Test Failed: " + result.getThrowable(),
-                    MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
-            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
-        } else if (result.getStatus() == ITestResult.SUCCESS) {
-            test.pass("Test Passed");
-        }
-    }
 
     @BeforeClass
     @Step("Setup and Launch Browser")
@@ -107,6 +93,19 @@ public class Login_Required_Field_Alerts_Test extends StartupCode {
 
         logger.info("If password is not matched: " + actualText);
         test.pass("If password is not matched: " + actualText);
+    }
+
+    @AfterMethod
+    public void tearDown1(ITestResult result) throws IOException {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            String screenshotPath = Screenshot.takeScreenshot(driver, result.getName());
+            String relativePath = ".." + File.separator + "screenshots" + File.separator + new File(screenshotPath).getName();
+            test.fail("Test Failed: " + result.getThrowable(),
+                    MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
+            Allure.addAttachment("Screenshot on Failure", "image/png", new FileInputStream(screenshotPath), ".png");
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
+            test.pass("Test Passed");
+        }
     }
 
     @AfterClass
