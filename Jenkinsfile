@@ -126,3 +126,4 @@ pipeline {
                echo '🚨 Build failed. Check logs and test results.'
            }
        }
+}
