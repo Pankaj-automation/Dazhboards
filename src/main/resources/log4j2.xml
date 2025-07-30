@@ -21,6 +21,10 @@
     </Appenders>
 
     <Loggers>
+        <Logger name="org.testng.internal.Utils" level="off" additivity="false"/>
+
+        <Logger name="io.qameta.allure.AllureLifecycle" level="off" additivity="false"/>
+
         <Root level="debug">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="File"/>

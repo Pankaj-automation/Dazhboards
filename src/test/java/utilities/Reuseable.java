@@ -19,16 +19,21 @@ public class Reuseable {
         // logger = LogManager.getLogger(this.getClass());
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
-        // Enable notification of the browser
+        options.addArguments("start-maximized");
+        options.addArguments("--disable-save-password-bubble");
+        options.addArguments("--window-size=1366,768");
+        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+        options.setExperimentalOption("useAutomationExtension", false);
         HashMap allow = new HashMap<>();
+        allow.put("credentials_enable_service", false);
+        allow.put("profile.password_manager_enabled", false);
+        options.setExperimentalOption("prefs", allow);
         allow.put("profile.default_content_setting_values.notifications", 1); // 1 = allow
         allow.put("profile.default_content_setting_values.geolocation", 1); // 1 = allow
         options.setExperimentalOption("prefs", allow);
-        // Apply preferences to ChromeOptions
-
         driver = new ChromeDriver(options);
+        // driver.manage().window().maximize();
         driver.get("https://app2.dazhboards.com/");
-        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return driver;
 
@@ -44,7 +49,7 @@ public class Reuseable {
     }
 
     public String Email() {
-        return FirstName().toLowerCase() + "@yopmail.com";
+        return FirstName() + LastName().toLowerCase() + "@yopmail.com";
     }
 
     public String Password() {
