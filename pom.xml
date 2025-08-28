@@ -146,6 +146,7 @@
                 </configuration>
             </plugin>
 
+
             <!-- Allure Report Plugin -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
