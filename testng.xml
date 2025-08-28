@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/ForgotPassword">
+        <classes>
+            <class name="ForgotPassword.Test_Cases.ForgotPassword_Fields_Alert_Test">
+                <methods>
+                    <include name="Forgot_Password_Email_field_alerts"/>
+                </methods>
+            </class>
+            <class name="ForgotPassword.Test_Cases.ForgotPassword_Test">
+                <methods>
+                    <include name="Forgot_Password_Flow"/>
+                    <include name="Clicked_reset_button"/>
+                    <include name="Change_Password"/>
+                    <include name="validatePasswordAlerts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/Login">
+        <classes>
+            <class name="Login.Test_Cases.Login_Required_Field_Alerts_Test">
+                <methods>
+                    <include name="emailFieldValidation"/>
+                    <include name="passwordValidation"/>
+                    <include name="emptyPasswordValidation"/>
+                    <include name="bothFieldsEmpty"/>
+                </methods>
+            </class>
+            <class name="Login.Test_Cases.Login_Test">
+                <methods>
+                    <include name="loginTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/SignUp">
+        <classes>
+            <class name="SignUp.Test_Cases.SignUp_FreePlan_Test">
+                <methods>
+                    <include name="clickSignUpLink"/>
+                    <include name="fillSignUpForm"/>
+                    <include name="checkTermsCheckboxAndLinks"/>
+                    <include name="submitSignUp"/>
+                    <include name="enterOtpFromEmail"/>
+                    <include name="fillCompanyDetails"/>
+                    <include name="purchasePlan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
