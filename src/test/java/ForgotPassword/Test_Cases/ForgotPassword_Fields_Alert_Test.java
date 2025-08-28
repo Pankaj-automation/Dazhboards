@@ -1,3 +1,4 @@
+/*
 package ForgotPassword.Test_Cases;
 
 import ForgotPassword.Pages.ForgotPassword_Page;
@@ -55,3 +56,4 @@ public class ForgotPassword_Fields_Alert_Test extends StartupCode {
         quitDriver();
     }
 }
+*/

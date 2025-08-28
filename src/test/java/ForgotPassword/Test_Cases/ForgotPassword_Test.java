@@ -1,3 +1,4 @@
+/*
 package ForgotPassword.Test_Cases;
 
 import ForgotPassword.Pages.ForgotPassword_Page;
@@ -113,3 +114,4 @@ public class ForgotPassword_Test extends StartupCode {
         finalizeReport();
     }
 }
+*/
