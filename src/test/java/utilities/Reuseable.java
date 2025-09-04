@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.Random;
+
 import java.time.Duration;
 import java.util.HashMap;
 
@@ -13,12 +15,13 @@ public class Reuseable {
     public WebDriver driver;
     public Logger logger;
     public Faker faker = new Faker();
+    public Random random = new Random();
 
     public WebDriver Reuseable1() {
 
         // logger = LogManager.getLogger(this.getClass());
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
+        //options.addArguments("--headless=new");
         options.addArguments("start-maximized");
         options.addArguments("--disable-save-password-bubble");
         options.addArguments("--window-size=1366,768");
@@ -66,6 +69,10 @@ public class Reuseable {
 
     public String Website() {
         return "www." + FirstName().toLowerCase() + ".com";
+    }
+
+    public int TwoDigitNumber() {
+        return random.nextInt(90) + 10;
     }
 }
 

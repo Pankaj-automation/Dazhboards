@@ -2,51 +2,33 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/ForgotPassword">
+          name="/home/jc-30/Music/Automation/Dazhboards/src/test/java/Invoicing/Invoice_Templates">
         <classes>
-            <class name="ForgotPassword.Test_Cases.ForgotPassword_Fields_Alert_Test">
+            <class name="Invoicing.Invoice_Templates.Add_Invoice_Templates_With_Product_Test">
                 <methods>
-                    <include name="Forgot_Password_Email_field_alerts"/>
+                    <include name="Login"/>
+                    <include name="Navigate_to_Invoice_Template"/>
+                    <include name="Add_Invoice_Template"/>
+                    <include name="Not_selected_Product"/>
+                    <include name="Fill_bank_details"/>
                 </methods>
             </class>
-            <class name="ForgotPassword.Test_Cases.ForgotPassword_Test">
+            <class name="Invoicing.Invoice_Templates.Add_Invoice_Templates_Without_Product_Test">
                 <methods>
-                    <include name="Forgot_Password_Flow"/>
-                    <include name="Clicked_reset_button"/>
-                    <include name="Change_Password"/>
-                    <include name="validatePasswordAlerts"/>
+                    <include name="Login"/>
+                    <include name="Navigate_to_Invoice_Template"/>
+                    <include name="Add_Invoice_Template"/>
+                    <include name="Not_selected_Product"/>
+                    <include name="Fill_bank_details"/>
                 </methods>
             </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/Login">
-        <classes>
-            <class name="Login.Test_Cases.Login_Required_Field_Alerts_Test">
+            <class name="Invoicing.Invoice_Templates.Validation_on_Invoice_Template_Test">
                 <methods>
-                    <include name="emailFieldValidation"/>
-                    <include name="passwordValidation"/>
-                    <include name="emptyPasswordValidation"/>
-                    <include name="bothFieldsEmpty"/>
-                </methods>
-            </class>
-            <class name="Login.Test_Cases.Login_Test">
-                <methods>
-                    <include name="loginTests"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="/home/jc-raj/Music/Automation/Dazhboards/src/test/java/SignUp">
-        <classes>
-            <class name="SignUp.Test_Cases.SignUp_FreePlan_Test">
-                <methods>
-                    <include name="clickSignUpLink"/>
-                    <include name="fillSignUpForm"/>
-                    <include name="checkTermsCheckboxAndLinks"/>
-                    <include name="submitSignUp"/>
-                    <include name="enterOtpFromEmail"/>
-                    <include name="fillCompanyDetails"/>
-                    <include name="purchasePlan"/>
+                    <include name="Login"/>
+                    <include name="Navigate_to_Invoice_Template"/>
+                    <include name="Add_Invoice_Template"/>
+                    <include name="Not_selected_Product"/>
+                    <include name="Fill_bank_details"/>
                 </methods>
             </class>
         </classes>

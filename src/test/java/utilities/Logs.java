@@ -37,23 +37,27 @@ public class Logs {
     public static void pass(WebDriver driver, ExtentTest test, String message) {
         Logger().info("✅ " + message);
         test.pass("✅ " + message);
+        Allure.step("✅ " + message);
         attachScreenshot(driver, test, "pass", "✅ " + message);
     }
 
     public static void fail(WebDriver driver, ExtentTest test, String message) {
         Logger().error("❌ " + message);
         test.fail("❌ " + message);
+        Allure.step("❌ " + message);
         attachScreenshot(driver, test, "fail", "❌ " + message);
     }
 
     public static void info(ExtentTest test, String message) {
         Logger().info("ℹ️ " + message);
         test.info("ℹ️ " + message);
+        Allure.step("ℹ️ " + message);
     }
 
     public static void warn(WebDriver driver, ExtentTest test, String message) {
         Logger().warn("⚠️ " + message);
         test.warning("⚠️ " + message);
+        Allure.step("⚠️ " + message);
         attachScreenshot(driver, test, "warn", "⚠️ " + message);
     }
 }

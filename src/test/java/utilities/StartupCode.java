@@ -26,7 +26,7 @@ public class StartupCode {
     protected String zipCode = data.ZipCode();
     protected String phoneNumber = data.PhoneNumber();
     protected String website = data.Website();
-
+    protected  String TwoDigitNumber = String.valueOf(data.TwoDigitNumber());
     public WebDriver setup1() throws InterruptedException {
         reuse = new Reuseable();
         driver = reuse.Reuseable1();
